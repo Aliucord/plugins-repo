@@ -20,6 +20,7 @@ if ! [ -e "$BUILDS" ]; then
 fi
 
 # Cleanup
+echo "[-] Cleaning up..."
 rm -rf "$TEMP"
 mkdir "$TEMP" "$TEMP/manifests"
 
@@ -41,7 +42,7 @@ for repo in "${repos[@]}"; do
   echo "[-] Parsing manifests..."
 
   # Extract all the download urls for published plugins
-  download_urls="$(jq '
+  download_urls="$(jq --compact-output '
     to_entries
       | map({ key: .key, value: .value.build }
       | .key as $name
@@ -49,13 +50,17 @@ for repo in "${repos[@]}"; do
       | from_entries
     ' "$updater_path")"
 
+  echo "[+] Publishing plugins: $(echo "$download_urls" | jq -r 'keys | join(" ")')"
+
   # 1. Get the names of all published plugins
-  # 2. Extract the manifest of each plugin
-  # 3. Combine all manifest infos with the corresponding download url
-  # 4. Write repo-specific manifest to disk
-  jq --compact-output --raw-output0 'keys[]' "$updater_path" \
-    | xargs -0 -I{} unzip -p "$repo_path/{}.zip" manifest.json \
-    | jq --slurp --compact-output --argjson downloadUrls "$download_urls" \
+  jq --compact-output --raw-output0 'keys[]' "$updater_path" | \
+
+    # 2. Extract the manifest of each plugin
+    xargs -0 -I{} unzip -p "$repo_path/{}.zip" manifest.json | \
+
+    # 3. Combine all manifest infos with the corresponding download url
+    # 4. Write repo-specific manifest to disk
+    jq --slurp --compact-output --argjson downloadUrls "$download_urls" \
       'map({
         name: .name,
         description: .description,
@@ -65,7 +70,10 @@ for repo in "${repos[@]}"; do
         changelog: .changelog,
       })' \
     > "$TEMP/manifests/$author_name.json"
+
+  echo "[+] Parsed all plugin manifests!"
 done
 
 # Combine all repo manifests into one
 jq --slurp --compact-output 'flatten' "$TEMP"/manifests/*.json > "$BUILDS/manifest.json"
+echo "[+] Merged all plugin manifests!"
