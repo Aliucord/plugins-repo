@@ -3,6 +3,7 @@
 set -o errexit
 set -o nounset
 set -o pipefail
+shopt -s extglob
 
 # For debugging
 if [[ "${TRACE-0}" == "1" ]]; then
@@ -67,4 +68,4 @@ for repo in "${repos[@]}"; do
 done
 
 # Combine all repo manifests into one
-jq --slurp --compact-output 'flatten' "$TEMP/manifests/*.json" > "$BUILDS/manifest.json"
+jq --slurp --compact-output 'flatten' "$TEMP"/manifests/*.json > "$BUILDS/manifest.json"
