@@ -1,0 +1,39 @@
+name: Update Manifest
+
+concurrency:
+  group: "update"
+  cancel-in-progress: true
+
+on:
+  schedule:
+    - cron: '0 21 * 11-3 *' # 1 PM PST (Nov - Mar)
+    - cron: '0 20 * 4-10 *' # 1 PM PDT (Mar - Nov)
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Checkout builds
+        uses: actions/checkout@v4
+        with:
+          ref: builds
+          fetch-depth: 1
+          path: .builds
+
+      - name: Update manifests
+        run: chmod +x ./scripts/update.sh && ./scripts/update.sh
+
+      - name: Upload changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          
+          cd $GITHUB_WORKSPACE/.builds
+          if [[ `git status --porcelain` ]]; then
+            git commit -m "Update $(date)"
+            git push
+          fi
