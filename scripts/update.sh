@@ -60,13 +60,16 @@ for repo in "${repos[@]}"; do
 
     # 3. Combine all manifest infos with the corresponding download url
     # 4. Write repo-specific manifest to disk
-    jq --slurp --compact-output --argjson downloadUrls "$download_urls" \
+    jq --slurp --compact-output \
+       --argjson downloadUrls "$download_urls" \
+       --arg repo "$repo" \
       'map({
         name: .name,
         description: .description,
         version: .version,
         authors: .authors | map(.name),
         url: $downloadUrls[.name],
+        repoUrl: "https://github.com/\($repo)",
         changelog: .changelog,
       })' \
     > "$TEMP/manifests/$author_name.json"
