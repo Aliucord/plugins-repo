@@ -5,9 +5,9 @@ concurrency:
   cancel-in-progress: true
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 21 * 11-3 *' # 1 PM PST (Nov - Mar)
-    - cron: '0 20 * 4-10 *' # 1 PM PDT (Mar - Nov)
+    - cron: '0 20 * * *' # 1 PM PDT (Mar - Nov)
 
 jobs:
   update:
