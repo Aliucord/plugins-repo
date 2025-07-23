@@ -1,0 +1,38 @@
+name: Add plugin repository
+description: As a plugin developer, add your own plugin repository to the list.
+title: "[Repository]: "
+labels: [ "add-repository" ]
+assignees:
+  - rushiiMachine
+  - Juby210
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: repository_url
+    attributes:
+      label: Repository URL
+      description: A link to your plugins repository on GitHub
+      placeholder: ex. https://github.com/Aliucord/plugins-template
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Terms
+      description: By submitting this issue, you allow your plugins to be listed in Aliucord, and if you ever abandon your plugins, you give us permission to fork and replace them.
+      options:
+        - label: I agree to the above terms
+          required: true
+  - type: checkboxes
+    attributes:
+      label: Plugin Terms
+      description: By submitting this issue, you confirm that your plugins are (1) not malicious (2) will never be malicious (3) do not break Aliucord's rules or constitute API spam.
+      options:
+        - label: I confirm
+          required: true
+  - type: textarea
+    attributes:
+      label: Extra Information
+      description: If you have any extra information, you can put it here.

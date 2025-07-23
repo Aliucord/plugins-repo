@@ -1,0 +1,73 @@
+name: Create PR to add repository
+
+on:
+  issues:
+    types: [ "opened" ]
+
+jobs:
+  pr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    if: contains(github.event.issue.labels.*.name, 'add-repository')
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+    env:
+      NEW_REPO_URL: ${{ steps.issue.outputs.issueparser_repository_url }}
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Parse issue for inputs
+        id: issue
+        uses: stefanbuck/github-issue-parser@v3
+        with:
+          template-path: .github/ISSUE_TEMPLATE/add-repository.yml
+
+      - name: Update repositories list
+        id: update
+        run: |
+          chmod +x ./scripts/add-repository.sh
+          ./scripts/add-repository.sh # $NEW_REPO set, $CLOSE_ISSUE may be set
+          
+          # Check that repo exists
+          if gh repo view "$NEW_REPO_URL" >/dev/null 2>&1; then
+            CLOSE_ISSUE=true
+          fi
+
+          if [[ -n "$CLOSE_ISSUE ]]; then
+            echo "Repository doesn't exist! Closing issue..." >&2
+            echo "exit=true" >> $GITHUB_OUTPUT
+            gh issue close $ISSUE_NUMBER \
+              --comment "Invalid or non-existing repository url! Please try opening another issue with the correct repository url!" \
+              --reason "not planned"
+          fi
+          
+          echo "NEW_REPO=$NEW_REPO" >> "$GITHUB_OUTPUT"
+
+      - name: Create PR
+        if: steps.update.outputs.exit != 'true'
+        env:
+          NEW_REPO: ${{ steps.update.outputs.NEW_REPO }}
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+
+          git checkout -b "repositories/$NEW_REPO"
+          git add ./repositories
+          if [[ `git status --porcelain` ]]; then
+            git commit -m "feat(repositories): add $NEW_REPO"
+            git push -u origin "repositories/$NEW_REPO"
+            gh pr create \
+              --base "master" \
+              --title "feat(repositories): add $NEW_REPO" \
+              --body "Repository: $NEW_REPO_URL\n\nCloses #$ISSUE_NUMBER" \ 
+          else
+            echo "No changes present! Closing issue..."
+            gh issue close $ISSUE_NUMBER \
+              --comment "This repository has already been added to the list!" \
+              --reason "not planned"
+          fi
