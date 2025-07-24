@@ -41,5 +41,7 @@ jq --raw-input --null-input --raw-output \
     | .[]' \
    < "$REPOSITORIES" \
    > "$REPOSITORIES.tmp"
-mv "$REPOSITORIES.tmp" "$REPOSITORIES"
-dos2unix "$REPOSITORIES" # Enforce LF line endings
+
+# Replace CRLF with LF
+sed 's/\r$//' < "$REPOSITORIES.tmp" > "$REPOSITORIES"
+rm "$REPOSITORIES.tmp"
