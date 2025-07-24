@@ -14,7 +14,6 @@ jobs:
       issues: write
       pull-requests: write
     env:
-      NEW_REPO_URL: ${{ steps.issue.outputs.issueparser_repository_url }}
       ISSUE_NUMBER: ${{ github.event.issue.number }}
       GH_TOKEN: ${{ github.token }}
     steps:
@@ -29,6 +28,8 @@ jobs:
 
       - name: Update repositories list
         id: update
+        env:
+          NEW_REPO_URL: ${{ steps.issue.outputs.issueparser_repository_url }}
         run: |
           chmod +x ./scripts/add-repository.sh
           ./scripts/add-repository.sh # $NEW_REPO set, $CLOSE_ISSUE may be set
@@ -52,6 +53,7 @@ jobs:
         if: steps.update.outputs.exit != 'true'
         env:
           NEW_REPO: ${{ steps.update.outputs.NEW_REPO }}
+          NEW_REPO_URL: ${{ steps.issue.outputs.issueparser_repository_url }}
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
