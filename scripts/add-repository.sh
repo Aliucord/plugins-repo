@@ -10,7 +10,7 @@ if [[ "${TRACE-0}" == "1" ]]; then
   set -o xtrace
 fi
 
-if [[ -z "$NEW_REPO_URL" ]]; then
+if [[ -z "${NEW_REPO_URL:-}" ]]; then
   echo "\$NEW_REPO_URL was not set! No repository to add to the list!" >&2
   exit 1
 fi

@@ -10,7 +10,7 @@ jobs:
     timeout-minutes: 2
     if: contains(github.event.issue.labels.*.name, 'add-repository')
     permissions:
-      contents: read
+      contents: write
       issues: write
       pull-requests: write
     env:
@@ -31,15 +31,14 @@ jobs:
         env:
           NEW_REPO_URL: ${{ steps.issue.outputs.issueparser_repository_url }}
         run: |
-          chmod +x ./scripts/add-repository.sh
-          ./scripts/add-repository.sh # $NEW_REPO set, $CLOSE_ISSUE may be set
+          source ./scripts/add-repository.sh # $NEW_REPO set, $CLOSE_ISSUE may be set
           
           # Check that repo exists
-          if gh repo view "$NEW_REPO_URL" >/dev/null 2>&1; then
+          if ! gh repo view "$NEW_REPO_URL" >/dev/null 2>&1; then
             CLOSE_ISSUE=true
           fi
 
-          if [[ -n "$CLOSE_ISSUE ]]; then
+          if [[ -n "${CLOSE_ISSUE:-}" ]]; then
             echo "Repository doesn't exist! Closing issue..." >&2
             echo "exit=true" >> $GITHUB_OUTPUT
             gh issue close $ISSUE_NUMBER \
@@ -58,6 +57,14 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
 
+          # Check that there isn't a PR already open for it
+          if git ls-remote --exit-code --heads origin "repositories/$NEW_REPO" >/dev/null; then
+            echo "Remote branch already exists! Closing issue..."
+            gh issue close $ISSUE_NUMBER \
+              --comment "This plugin repository has already been proposed to be added!" \
+              --reason "not planned"
+          fi
+
           git checkout -b "repositories/$NEW_REPO"
           git add ./repositories
           if [[ `git status --porcelain` ]]; then
@@ -66,10 +73,12 @@ jobs:
             gh pr create \
               --base "master" \
               --title "feat(repositories): add $NEW_REPO" \
-              --body "Repository: $NEW_REPO_URL\n\nCloses #$ISSUE_NUMBER" \ 
+              --body "$(echo -e "Repository: $NEW_REPO_URL\n\nCloses #$ISSUE_NUMBER")"
+            gh issue comment $ISSUE_NUMBER \
+              --body "Please wait for a maintainer to review your plugins! This may take a while."
           else
             echo "No changes present! Closing issue..."
             gh issue close $ISSUE_NUMBER \
-              --comment "This repository has already been added to the list!" \
+              --comment "This plugin repository has already been added to the list!" \
               --reason "not planned"
           fi
