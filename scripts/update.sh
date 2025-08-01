@@ -78,5 +78,7 @@ for repo in "${repos[@]}"; do
 done
 
 # Combine all repo manifests into one
+jq --slurp 'flatten' "$TEMP"/manifests/*.json > "$BUILDS/manifest.pretty.json"
 jq --slurp --compact-output 'flatten' "$TEMP"/manifests/*.json > "$BUILDS/manifest.json"
 echo "[+] Merged all plugin manifests!"
+echo "[+] Beautified manifest saved to manifest.pretty.json"
