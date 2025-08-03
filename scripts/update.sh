@@ -79,4 +79,5 @@ done
 
 # Combine all repo manifests into one
 jq --slurp --compact-output 'flatten' "$TEMP"/manifests/*.json > "$BUILDS/manifest.json"
+jq '.' "$BUILDS/manifest.json" > "$BUILDS/manifest.pretty.json"
 echo "[+] Merged all plugin manifests!"
