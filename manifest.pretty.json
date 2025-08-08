@@ -323,13 +323,13 @@
   {
     "name": "ComponentsV2Beta",
     "description": "Beta backport of ComponentsV2",
-    "version": "8.7.0",
+    "version": "8.8.0",
     "authors": [
       "Lava"
     ],
     "url": "https://raw.githubusercontent.com/LavaDesu/Awoocord/builds/ComponentsV2Beta.zip",
     "repoUrl": "https://github.com/LavaDesu/Awoocord",
-    "changelog": "TODO {fixed}\n======================\n* File component\n* SelectV2: searching\n* SelectV2: showing selected items in chat list\n\nChangelog {added marginTop}\n======================\n# 8.7.0\n* Prevent ViewRaw crash\n* Add a CV2 tag to distinguish new embeds (will not be in core)\n\n# 7.15.1\n* Fix broken reply preview >w<\n\n# 7.15.0\n* Initial release >w<"
+    "changelog": "TODO {fixed}\n======================\n* File component\n* SelectV2: searching\n* SelectV2: showing selected items in chat list\n\nChangelog {added marginTop}\n======================\n# 8.8.0\n* Fix a possible weird crash\n\n# 8.7.0\n* Prevent ViewRaw crash\n* Add a CV2 tag to distinguish new embeds (will not be in core)\n\n# 7.15.1\n* Fix broken reply preview >w<\n\n# 7.15.0\n* Initial release >w<"
   },
   {
     "name": "Scout",
