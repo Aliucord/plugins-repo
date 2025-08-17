@@ -345,13 +345,13 @@
   {
     "name": "SlashCommandsFixBeta",
     "description": "Beta backport of SlashCommandsFix",
-    "version": "7.16.2",
+    "version": "8.18.0",
     "authors": [
       "Lava"
     ],
     "url": "https://raw.githubusercontent.com/LavaDesu/Awoocord/builds/SlashCommandsFixBeta.zip",
     "repoUrl": "https://github.com/LavaDesu/Awoocord",
-    "changelog": "# 7.16.2\n* Use new props\n\n# 7.16.1\n* Prompt restarts\n\n# 7.16.0\n* Initial port >w< thanks @jedenastka"
+    "changelog": "# 8.18.0\n* Don't use custom props anymore (core has them)\n\n# 7.16.2\n* Use new props\n\n# 7.16.1\n* Prompt restarts\n\n# 7.16.0\n* Initial port >w< thanks @jedenastka"
   },
   {
     "name": "AliucordRenamer",
