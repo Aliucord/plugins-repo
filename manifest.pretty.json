@@ -802,13 +802,13 @@
   {
     "name": "Themer",
     "description": "Apply custom themes to your Discord",
-    "version": "3.6.3",
+    "version": "3.6.4",
     "authors": [
       "Vendicated"
     ],
     "url": "https://raw.githubusercontent.com/Vendicated/AliucordPlugins/builds/Themer.zip",
     "repoUrl": "https://github.com/Vendicated/AliucordPlugins",
-    "changelog": "# 3.6.3\n* Fix color theming for newer android versions\n\n# 3.6.2\n* Now prompts to switch to dark mode if using light/pureEvil theme\n\n# 3.6.1\n* Re-enabled custom fonts. They may still be unstable, so use at your own risk  "
+    "changelog": "# 3.6.4\n* Fix colour theming for some elements like user profile header and chatbox\n\n# 3.6.3\n* Fix colour theming for newer android versions\n\n# 3.6.2\n* Now prompts to switch to dark mode if using light/pureEvil theme\n\n# 3.6.1\n* Re-enabled custom fonts. They may still be unstable, so use at your own risk  "
   },
   {
     "name": "UrbanDictionary",
