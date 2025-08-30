@@ -522,6 +522,17 @@
     "changelog": "# 1.0.1\n* Hopefully no timing issues\n\n# 1.0.0\n* Initial version"
   },
   {
+    "name": "SwipeActions",
+    "description": "Adds swipe actions like swipe to reply or edit",
+    "version": "1.0.0",
+    "authors": [
+      "RazerTexz"
+    ],
+    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/builds/SwipeActions.zip",
+    "repoUrl": "https://github.com/RazerTexz/My-plugins",
+    "changelog": "# 1.0.0\n* Initial version"
+  },
+  {
     "name": "SwipeToReply",
     "description": "Swipe to quickly reply!",
     "version": "1.0.2",
