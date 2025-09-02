@@ -310,17 +310,6 @@
     "changelog": null
   },
   {
-    "name": "AlignThreads",
-    "description": "Fixes the alignment of \"Create Thread\" button in message actions",
-    "version": "1.0.1",
-    "authors": [
-      "Lava"
-    ],
-    "url": "https://raw.githubusercontent.com/LavaDesu/Awoocord/builds/AlignThreads.zip",
-    "repoUrl": "https://github.com/LavaDesu/Awoocord",
-    "changelog": "# 1.0.1\n* Also fix it in channels list actions\n\n# 1.0.0\n* Initial release >w<"
-  },
-  {
     "name": "ComponentsV2Beta",
     "description": "Beta backport of ComponentsV2",
     "version": "8.8.0",
