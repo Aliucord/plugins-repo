@@ -321,6 +321,17 @@
     "changelog": "TODO {fixed}\n======================\n* File component\n* SelectV2: searching\n* SelectV2: showing selected items in chat list\n\nChangelog {added marginTop}\n======================\n# 8.8.0\n* Fix a possible weird crash\n\n# 8.7.0\n* Prevent ViewRaw crash\n* Add a CV2 tag to distinguish new embeds (will not be in core)\n\n# 7.15.1\n* Fix broken reply preview >w<\n\n# 7.15.0\n* Initial release >w<"
   },
   {
+    "name": "RoleBlocks",
+    "description": "Coloured usernames to be a bit more pleasing on the eyes",
+    "version": "1.0.0",
+    "authors": [
+      "Lava"
+    ],
+    "url": "https://raw.githubusercontent.com/LavaDesu/Awoocord/builds/RoleBlocks.zip",
+    "repoUrl": "https://github.com/LavaDesu/Awoocord",
+    "changelog": "# 1.0.0\n* Initial release >w<"
+  },
+  {
     "name": "Scout",
     "description": "Backported and improved search functionality",
     "version": "1.1.3",
