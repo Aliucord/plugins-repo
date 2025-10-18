@@ -377,6 +377,17 @@
     "changelog": "# hi"
   },
   {
+    "name": "ForceAliucordZip",
+    "description": "Force custom builds by replacing the inner Aliucord.zip",
+    "version": "1.0.0",
+    "authors": [
+      "OmegaSunkey"
+    ],
+    "url": "https://raw.githubusercontent.com/OmegaSunkey/awesomeplugins/builds/ForceAliucordZip.zip",
+    "repoUrl": "https://github.com/OmegaSunkey/awesomeplugins",
+    "changelog": "       # 1.0.0\nRelease"
+  },
+  {
     "name": "NoticeSound",
     "description": "Get notifications in-app with sounds!",
     "version": "1.0.0",
