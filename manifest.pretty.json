@@ -1837,13 +1837,13 @@
   {
     "name": "ForwardMessages",
     "description": "Forward messages to your channel of your liking.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
       "reisxd"
     ],
     "url": "https://raw.githubusercontent.com/reisxd/AliucordPlugins/builds/ForwardMessages.zip",
     "repoUrl": "https://github.com/reisxd/AliucordPlugins",
-    "changelog": "v1.0.1\n- Changed the icon with the forward icon (mirrored)\n- Internal data processing for IDs is now different\n\nv1.0.0\n- Initial release"
+    "changelog": "v1.0.2\n- Fixed sharing being broken\n\nv1.0.1\n- Changed the icon with the forward icon (mirrored)\n- Internal data processing for IDs is now different\n\nv1.0.0\n- Initial release"
   },
   {
     "name": "1ClickDelete",
