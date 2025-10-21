@@ -366,6 +366,18 @@
     "changelog": "       # 1.0.1\n* Set text hint / texto que te dice que poner en el cuadro de texto añadido wwww"
   },
   {
+    "name": "DMTabs",
+    "description": "Switches the DM button with the Friends button and viceversa",
+    "version": "1.0.3",
+    "authors": [
+      "OmegaSunkey",
+      "razertexz"
+    ],
+    "url": "https://raw.githubusercontent.com/OmegaSunkey/awesomeplugins/builds/DMTabs.zip",
+    "repoUrl": "https://github.com/OmegaSunkey/awesomeplugins",
+    "changelog": "       # 1.0.1\nDM button now switches you to Home Tab.\n# 1.0.2\nThe home button now switches you to the last selected channel! Also fixes not showing DMs if youre on any other tab.\n# 1.0.3\nThe friends button now closes the panel back into the main screen."
+  },
+  {
     "name": "FanCopypasta",
     "description": "more stupit plugin",
     "version": "1.0.0",
