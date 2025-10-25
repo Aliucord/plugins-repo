@@ -2609,6 +2609,17 @@
     "changelog": null
   },
   {
+    "name": "FriendInvites",
+    "description": "generate, list, and remove Discord friend invites.",
+    "version": "1.0.0",
+    "authors": [
+      "wiretoscreen"
+    ],
+    "url": "https://raw.githubusercontent.com/wiretoscreen/aliupluh/builds/FriendInvites.zip",
+    "repoUrl": "https://github.com/wiretoscreen/aliupluh",
+    "changelog": "* **1.0.0**: Initial Release"
+  },
+  {
     "name": "ThemeRandomizer",
     "description": "Randomizes your theme every Aliucord launch",
     "version": "1.0.1",
