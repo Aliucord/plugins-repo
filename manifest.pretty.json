@@ -2609,6 +2609,17 @@
     "changelog": null
   },
   {
+    "name": "ThemeRandomizer",
+    "description": "Randomizes your theme every Aliucord launch",
+    "version": "1.0.1",
+    "authors": [
+      "wiretoscreen"
+    ],
+    "url": "https://raw.githubusercontent.com/wiretoscreen/aliupluh/builds/ThemeRandomizer.zip",
+    "repoUrl": "https://github.com/wiretoscreen/aliupluh",
+    "changelog": "- **1.0.1** • Fix install & Adds error messages\n- **1.0.0** • Initial Release"
+  },
+  {
     "name": "AccountSwitcher",
     "description": "Adds the ability to quickly switch accounts",
     "version": "1.4.1",
