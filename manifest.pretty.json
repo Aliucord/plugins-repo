@@ -475,7 +475,7 @@
     "authors": [
       "RazerTexz"
     ],
-    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/builds/AutoSpoilerAttachments.zip",
+    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/refs/heads/builds/AutoSpoilerAttachments.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
     "changelog": "# 1.0.0\n* Initial version"
   },
@@ -486,7 +486,7 @@
     "authors": [
       "RazerTexz"
     ],
-    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/builds/BetterFontScale.zip",
+    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/refs/heads/builds/BetterFontScale.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
     "changelog": "# 1.1.1\n* Fix font scaling\n\n# 1.0.7\n* Improved patches\n* Removed Tag font scale setting\n\n# 1.0.6\n* Added a setting for Profile Status font scale\n\n# 1.0.5\n* Added a setting for About Me font scale\n\n# 1.0.4\n* Rewrote code from Java to Kotlin (pain)\n\n# 1.0.3\n* Fixed crashes caused by entering non-numeric values in plugin settings\n\n# 1.0.2\n* Added settings for Username font scale, Tag font scale, and Game Status font scale\n\n# 1.0.1\n* Added a setting for Chatbox font scale\n\n# 1.0.0\n* Initial version"
   },
@@ -497,7 +497,7 @@
     "authors": [
       "RazerTexz"
     ],
-    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/builds/BetterPlusReacts.zip",
+    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/refs/heads/builds/BetterPlusReacts.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
     "changelog": "# 1.0.2\n* Support for custom emojis\n\n# 1.0.1\n* Support for '+++⭐' format\n\n# 1.0.0\n* Initial version"
   },
@@ -508,7 +508,7 @@
     "authors": [
       "RazerTexz"
     ],
-    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/builds/BlockThemCalls.zip",
+    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/refs/heads/builds/BlockThemCalls.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
     "changelog": "# 1.0.0\n* Initial version"
   },
@@ -519,7 +519,7 @@
     "authors": [
       "RazerTexz"
     ],
-    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/builds/CopyCodeBlocks.zip",
+    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/refs/heads/builds/CopyCodeBlocks.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
     "changelog": "# 1.0.0\n* Initial version"
   },
@@ -530,7 +530,7 @@
     "authors": [
       "RazerTexz"
     ],
-    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/builds/FullUsernames.zip",
+    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/refs/heads/builds/FullUsernames.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
     "changelog": "# 1.0.0\n* Initial version"
   },
@@ -541,7 +541,7 @@
     "authors": [
       "RazerTexz"
     ],
-    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/builds/ReadAllButton.zip",
+    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/refs/heads/builds/ReadAllButton.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
     "changelog": "# 1.0.7\n* Removed the toast\n* Prompts a restart after reading\n\n# 1.0.5\n* Added toast with channel read count\n\n# 1.0.3\n* Optimized functionality\n\n# 1.0.2\n* Improved button appearance\n\n# 1.0.1\n* Fixed some bugs\n\n# 1.0.0\n* Initial version"
   },
@@ -552,7 +552,7 @@
     "authors": [
       "RazerTexz"
     ],
-    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/builds/SaveMessageToFile.zip",
+    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/refs/heads/builds/SaveMessageToFile.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
     "changelog": "# 1.1.2\n* Fix crash\n\n# 1.1.1\n* Added 'Skip File Name Dialog' in settings tab\n\n# 1.1.0\n* Added settings tab\n\n# 1.0.0\n* Initial version"
   },
@@ -563,7 +563,7 @@
     "authors": [
       "RazerTexz"
     ],
-    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/builds/SearchScrollSaver.zip",
+    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/refs/heads/builds/SearchScrollSaver.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
     "changelog": "# 1.0.1\n* Hopefully no timing issues\n\n# 1.0.0\n* Initial version"
   },
@@ -574,7 +574,7 @@
     "authors": [
       "RazerTexz"
     ],
-    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/builds/SwipeActions.zip",
+    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/refs/heads/builds/SwipeActions.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
     "changelog": "# 1.0.0\n* Initial version"
   },
@@ -585,7 +585,7 @@
     "authors": [
       "RazerTexz"
     ],
-    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/builds/SwipeToReply.zip",
+    "url": "https://raw.githubusercontent.com/RazerTexz/My-plugins/refs/heads/builds/SwipeToReply.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
     "changelog": "# 1.0.0\n* Initial version"
   },
@@ -2809,13 +2809,13 @@
   {
     "name": "Frecents",
     "description": "Adds support for favorite GIFs, emojis, stickers, and recent items",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "authors": [
       "zt"
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/Frecents.zip",
     "repoUrl": "https://github.com/zt64/aliucord-plugins",
-    "changelog": "# 1.1.2\n- Temporarily disabled favoriting gifs sent in chat to workaround a bug preventing clicking images\n\n# 1.1.1\n- Rework emoji sorting logic as a potential fix for recent emojis not appearing\n\n# 1.1.0\n- Add support for favorite and recent emojis\n- Add support for recent stickers\n\n* Note: Using an emoji or sticker will not update the recents list. This will come in a future update.\n\n# 1.0.5\n- Fix gifs not updating in real time\n\n# 1.0.4\n- Fix preview gif sometimes not appearing\n\n# 1.0.3\n- Fix favorites icon disappearing\n\n# 1.0.2\n- Fix crash caused by having no favorites\n\n# 1.0.1\n- Fix mixup causing favorites category to not appear\n\n# 1.0.0\n- Initial release"
+    "changelog": "# 1.1.3\n- Added settings page with export debug information\n- If you are having issues with Frecents, please use this button and share the exported file with \nas much detail as possible\n\n# 1.1.2\n- Temporarily disabled favoriting gifs sent in chat to workaround a bug preventing clicking images\n\n# 1.1.1\n- Reworked emoji sorting logic as a potential fix for recent emojis not appearing\n\n# 1.1.0\n- Added support for favorite and recent emojis\n- Added support for recent stickers\n\n* Note: Using an emoji or sticker will not update the recents list. This will come in a future update.\n\n# 1.0.5\n- Fixed gifs not updating in real time\n\n# 1.0.4\n- Fixed preview gif sometimes not appearing\n\n# 1.0.3\n- Fixed favorites icon disappearing\n\n# 1.0.2\n- Fixed crash caused by having no favorites\n\n# 1.0.1\n- Fixed mixup causing favorites category to not appear\n\n# 1.0.0\n- Initial release"
   },
   {
     "name": "InviteDetails",
