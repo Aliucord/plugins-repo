@@ -559,7 +559,7 @@
   {
     "name": "SearchScrollSaver",
     "description": "Saves your scroll position when searching",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "authors": [
       "RazerTexz"
     ],
@@ -1503,7 +1503,7 @@
   {
     "name": "ReviewDB",
     "description": "Review other users and servers",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "authors": [
       "mantikafasi",
       "Ven"
