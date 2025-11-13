@@ -459,9 +459,8 @@
   {
     "name": "TwitterDownloadFix",
     "description": "Make Twitter embed images download as `jpg` instead of `jpg:large`.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "authors": [
-      "pikachugabe",
       "pikachugabe"
     ],
     "url": "https://raw.githubusercontent.com/PikachuGabe/AliuPlugins/builds/TwitterDownloadFix.zip",
