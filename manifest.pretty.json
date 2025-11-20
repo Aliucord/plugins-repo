@@ -545,6 +545,17 @@
     "changelog": "# 1.0.0\n* Initial version"
   },
   {
+    "name": "PluginWeb",
+    "description": "A quick way to search for Aliucord plugins",
+    "version": "1.0.0",
+    "authors": [
+      "RazerTexz"
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/RazerTexz/My-plugins@refs/heads/builds/PluginWeb.zip",
+    "repoUrl": "https://github.com/RazerTexz/My-plugins",
+    "changelog": "# 1.0.0\n* Initial version"
+  },
+  {
     "name": "ReadAllButton",
     "description": "Adds a button under the Home icon to read all channels",
     "version": "1.0.8",
