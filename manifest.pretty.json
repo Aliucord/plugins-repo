@@ -547,13 +547,13 @@
   {
     "name": "PluginWeb",
     "description": "A quick way to search for Aliucord plugins",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
       "RazerTexz"
     ],
     "url": "https://cdn.jsdelivr.net/gh/RazerTexz/My-plugins@refs/heads/builds/PluginWeb.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
-    "changelog": "# 1.0.1\n* Faster plugin fetching\n\n# 1.0.0\n* Initial version"
+    "changelog": "# 1.0.2\n* Fixed button position shifting due to other plugins\n\n# 1.0.1\n* Faster plugin fetching\n\n# 1.0.0\n* Initial version"
   },
   {
     "name": "ReadAllButton",
@@ -587,6 +587,17 @@
     "url": "https://cdn.jsdelivr.net/gh/RazerTexz/My-plugins@refs/heads/builds/SearchScrollSaver.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
     "changelog": "# 1.0.1\n* Hopefully no timing issues\n\n# 1.0.0\n* Initial version"
+  },
+  {
+    "name": "SimpleMessageLogger",
+    "description": "Logs deleted and edited messages. Simpler and lighter than MessageLogger",
+    "version": "1.0.3",
+    "authors": [
+      "RazerTexz"
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/RazerTexz/My-plugins@refs/heads/builds/SimpleMessageLogger.zip",
+    "repoUrl": "https://github.com/RazerTexz/My-plugins",
+    "changelog": "# 1.0.0\n* Initial version"
   },
   {
     "name": "SwipeActions",
