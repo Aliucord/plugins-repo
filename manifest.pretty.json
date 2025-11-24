@@ -622,6 +622,17 @@
     "changelog": "# 1.0.0\n* Initial version"
   },
   {
+    "name": "ThemeWeb",
+    "description": "A quick way to search for Aliucord themes",
+    "version": "1.0.0",
+    "authors": [
+      "RazerTexz"
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/RazerTexz/My-plugins@refs/heads/builds/ThemeWeb.zip",
+    "repoUrl": "https://github.com/RazerTexz/My-plugins",
+    "changelog": "# 1.0.0\n* Initial version"
+  },
+  {
     "name": "AttachmentKeyboardFix",
     "description": "Standalone version of the keyboard bugfix when using the media picker, for those that don't want to install the MediaPickerPatcher plugin.",
     "version": "1.0.3",
