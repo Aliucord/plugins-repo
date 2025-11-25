@@ -624,13 +624,13 @@
   {
     "name": "ThemeWeb",
     "description": "A quick way to search for Aliucord themes",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       "RazerTexz"
     ],
     "url": "https://cdn.jsdelivr.net/gh/RazerTexz/My-plugins@refs/heads/builds/ThemeWeb.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
-    "changelog": "# 1.0.0\n* Initial version"
+    "changelog": "# 1.0.1\n* Automatically installs Themer if missing\n\n# 1.0.0\n* Initial version"
   },
   {
     "name": "AttachmentKeyboardFix",
