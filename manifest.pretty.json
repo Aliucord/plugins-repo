@@ -547,7 +547,7 @@
   {
     "name": "PluginWeb",
     "description": "A quick way to search for Aliucord plugins",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "authors": [
       "RazerTexz"
     ],
@@ -587,6 +587,17 @@
     "url": "https://cdn.jsdelivr.net/gh/RazerTexz/My-plugins@refs/heads/builds/SearchScrollSaver.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
     "changelog": "# 1.0.1\n* Hopefully no timing issues\n\n# 1.0.0\n* Initial version"
+  },
+  {
+    "name": "SilentMessages",
+    "description": "Type '@silent' at the start of your message",
+    "version": "1.0.2",
+    "authors": [
+      "RazerTexz"
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/RazerTexz/My-plugins@refs/heads/builds/SilentMessages.zip",
+    "repoUrl": "https://github.com/RazerTexz/My-plugins",
+    "changelog": "# 1.0.1\n* Added an indicator for silent messages\n\n# 1.0.0\n* Initial version"
   },
   {
     "name": "SimpleMessageLogger",
