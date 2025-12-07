@@ -789,6 +789,17 @@
     "changelog": null
   },
   {
+    "name": "ShowBlockedMessagesAuthor",
+    "description": "Shows who sent the blocked messages in chat without opening them",
+    "version": "1.0.0",
+    "authors": [
+      "Ushie"
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/ShowBlockedMessagesAuthor.zip",
+    "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
+    "changelog": "# 1.0.0\n* Initial release\n* TODO: Support multiple authors"
+  },
+  {
     "name": "AnimateApngs",
     "description": "Makes apngs embeds animate properly",
     "version": "1.0.4",
