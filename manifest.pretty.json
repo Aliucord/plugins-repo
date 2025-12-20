@@ -789,6 +789,17 @@
     "changelog": null
   },
   {
+    "name": "PronounsInChat",
+    "description": "Shows the user pronouns in chat messages.",
+    "version": "1.0.0",
+    "authors": [
+      "Ushie"
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/PronounsInChat.zip",
+    "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
+    "changelog": null
+  },
+  {
     "name": "ShowBlockedMessagesAuthor",
     "description": "Shows who sent the blocked messages in chat without opening them",
     "version": "1.0.0",
