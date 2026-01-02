@@ -459,13 +459,13 @@
   {
     "name": "TwitterDownloadFix",
     "description": "Make Twitter embed images download as `jpg` instead of `jpg:large`.",
-    "version": "1.2.0",
+    "version": "1.3.1",
     "authors": [
       "pikachugabe"
     ],
     "url": "https://raw.githubusercontent.com/PikachuGabe/AliuPlugins/builds/TwitterDownloadFix.zip",
     "repoUrl": "https://github.com/PikachuGabe/AliuPlugins",
-    "changelog": "\n# 1.2.0\nFixed the plugin. Again.\nNow downloads directly from twitter instead of through discord's external image stuff.\n\n# 1.1.0\nFixed the plugin.\nSwitched to regex for file renaming.\nRenamed plugin at Rushii's request.\n\n# 1.0.0\nPlugin release\n\n"
+    "changelog": "\n# 1.3.1\nBluesky actually stores the files as @jpeg instead of .jpeg so changing the URL doesn't work, so I can't fix that right now. \nWill have to figure out how to change the file type after downloading instead of just changing the download URL.\n\n# 1.3.0\nAdded bluesky support because I noticed it uses `@` instead of `.` when denoting file type. Not updating plugin name as that would break the updater.\n\n# 1.2.0\nFixed the plugin. Again.\nNow downloads directly from twitter instead of through discord's external image stuff.\n\n# 1.1.0\nFixed the plugin.\nSwitched to regex for file renaming.\nRenamed plugin at Rushii's request.\n\n# 1.0.0\nPlugin release\n\n"
   },
   {
     "name": "AliucordStyleSheets",
