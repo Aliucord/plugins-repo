@@ -41,9 +41,10 @@ for repo in "${repos[@]}"; do
 
   echo "[-] Parsing manifests..."
 
-  # Extract all the download urls for published plugins
+  # Extract all the download urls for published plugins (ignoring hidden)
   download_urls="$(jq --compact-output '
     to_entries
+      | map(select(.value.hidden != true))
       | map({ key: .key, value: .value.build }
       | .key as $name
       | .value |= gsub("%s"; $name))
@@ -52,8 +53,8 @@ for repo in "${repos[@]}"; do
 
   echo "[+] Publishing plugins: $(echo "$download_urls" | jq -r 'keys | join(" ")')"
 
-  # 1. Get the names of all published plugins
-  jq --compact-output --raw-output0 'keys[]' "$updater_path" | \
+  # 1. Get the names of all published plugins (ignoring hidden)
+  jq --compact-output --raw-output0 'with_entries(select(.value.hidden != true)) | keys[]' "$updater_path" | \
 
     # 2. Extract the manifest of each plugin
     xargs -0 -I{} unzip -p "$repo_path/{}.zip" manifest.json | \
