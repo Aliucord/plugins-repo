@@ -67,7 +67,7 @@ for repo in "${repos[@]}"; do
         name: .name,
         description: .description,
         version: .version,
-        authors: .authors | map(.name),
+        authors: .authors,
         url: $downloadUrls[.name],
         repoUrl: "https://github.com/\($repo)",
         changelog: .changelog,
