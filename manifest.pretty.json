@@ -410,7 +410,7 @@
     "authors": [
       {
         "name": "LampDelivery",
-        "id": 399862294143696897,
+        "id": 650805815623680030,
         "hyperlink": true
       }
     ],
@@ -425,7 +425,7 @@
     "authors": [
       {
         "name": "LampDelivery",
-        "id": 399862294143696897,
+        "id": 650805815623680030,
         "hyperlink": true
       }
     ],
@@ -440,11 +440,26 @@
     "authors": [
       {
         "name": "LampDelivery",
-        "id": 399862294143696897,
+        "id": 650805815623680030,
         "hyperlink": true
       }
     ],
     "url": "https://cdn.jsdelivr.net/gh/LampDelivery/AliucordPlugins@refs/heads/builds/ChannelBrowserProto.zip",
+    "repoUrl": "https://github.com/LampDelivery/AliucordPlugins",
+    "changelog": null
+  },
+  {
+    "name": "CustomNameFormat",
+    "description": "Allows you to customize nickname and display names ",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "LampDelivery",
+        "id": 650805815623680030,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/LampDelivery/AliucordPlugins@refs/heads/builds/CustomNameFormat.zip",
     "repoUrl": "https://github.com/LampDelivery/AliucordPlugins",
     "changelog": null
   },
@@ -455,7 +470,7 @@
     "authors": [
       {
         "name": "LampDelivery",
-        "id": 399862294143696897,
+        "id": 650805815623680030,
         "hyperlink": true
       }
     ],
@@ -466,11 +481,11 @@
   {
     "name": "MessageTimestamps",
     "description": "Configure the message timestamps",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "authors": [
       {
         "name": "LampDelivery",
-        "id": 399862294143696897,
+        "id": 650805815623680030,
         "hyperlink": true
       }
     ],
