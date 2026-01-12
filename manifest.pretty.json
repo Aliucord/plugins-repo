@@ -434,21 +434,6 @@
     "changelog": null
   },
   {
-    "name": "ChannelBrowserProto",
-    "description": "Manage your channel list from a menu, show/hide channels and follow/unfollow categories",
-    "version": "0.1.0",
-    "authors": [
-      {
-        "name": "LampDelivery",
-        "id": 650805815623680030,
-        "hyperlink": true
-      }
-    ],
-    "url": "https://cdn.jsdelivr.net/gh/LampDelivery/AliucordPlugins@refs/heads/builds/ChannelBrowserProto.zip",
-    "repoUrl": "https://github.com/LampDelivery/AliucordPlugins",
-    "changelog": null
-  },
-  {
     "name": "CustomNameFormat",
     "description": "Allows you to customize nickname and display names ",
     "version": "1.0.0",
