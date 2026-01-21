@@ -434,6 +434,36 @@
     "changelog": null
   },
   {
+    "name": "CompactLinks",
+    "description": "Makes links compact like DiscordRN",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "LampDelivery",
+        "id": 650805815623680030,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/LampDelivery/AliucordPlugins@refs/heads/builds/CompactLinks.zip",
+    "repoUrl": "https://github.com/LampDelivery/AliucordPlugins",
+    "changelog": null
+  },
+  {
+    "name": "CopyLinks",
+    "description": "Copy channel links from the context menu",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "LampDelivery",
+        "id": 650805815623680030,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/LampDelivery/AliucordPlugins@refs/heads/builds/CopyLinks.zip",
+    "repoUrl": "https://github.com/LampDelivery/AliucordPlugins",
+    "changelog": null
+  },
+  {
     "name": "CustomNameFormat",
     "description": "Allows you to customize nickname and display names ",
     "version": "1.0.0",
@@ -445,21 +475,6 @@
       }
     ],
     "url": "https://cdn.jsdelivr.net/gh/LampDelivery/AliucordPlugins@refs/heads/builds/CustomNameFormat.zip",
-    "repoUrl": "https://github.com/LampDelivery/AliucordPlugins",
-    "changelog": null
-  },
-  {
-    "name": "MessageLinkCompact",
-    "description": "Makes message links compact like DiscordRN",
-    "version": "1.0.0",
-    "authors": [
-      {
-        "name": "LampDelivery",
-        "id": 650805815623680030,
-        "hyperlink": true
-      }
-    ],
-    "url": "https://cdn.jsdelivr.net/gh/LampDelivery/AliucordPlugins@refs/heads/builds/MessageLinkCompact.zip",
     "repoUrl": "https://github.com/LampDelivery/AliucordPlugins",
     "changelog": null
   },
