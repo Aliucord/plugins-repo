@@ -496,7 +496,7 @@
   {
     "name": "Clump",
     "description": "More lenient message grouping",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
       {
         "name": "Lava",
@@ -506,7 +506,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/LavaDesu/Awoocord@refs/heads/builds/Clump.zip",
     "repoUrl": "https://github.com/LavaDesu/Awoocord",
-    "changelog": "# 1.0.1\n* Hide blank space w.r.t attachments and embeds\n\n# 1.0.0\n* Initial release >w<"
+    "changelog": "# 1.0.2\n* Fix (inverted) webhook clumping\n\n# 1.0.1\n* Hide blank space w.r.t attachments and embeds\n\n# 1.0.0\n* Initial release >w<"
   },
   {
     "name": "ComponentsV2Beta",
@@ -3820,9 +3820,9 @@
     "version": "1.4.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/AccountSwitcher.zip",
@@ -3835,9 +3835,9 @@
     "version": "1.7.2",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/AlwaysAnimate.zip",
@@ -3850,9 +3850,9 @@
     "version": "1.0.0",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/AnonymousFiles.zip",
@@ -3865,9 +3865,9 @@
     "version": "1.0.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/AppendGifAsUrl.zip",
@@ -3880,9 +3880,9 @@
     "version": "1.4.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/AvatarMention.zip",
@@ -3895,9 +3895,9 @@
     "version": "1.3.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/BanCount.zip",
@@ -3910,9 +3910,9 @@
     "version": "1.3.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/ChannelInvites.zip",
@@ -3925,9 +3925,9 @@
     "version": "1.4.2",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/CharCounter.zip",
@@ -3937,17 +3937,17 @@
   {
     "name": "CompactMode",
     "description": "Modifies chat to have a more compact appearance, with several options to change",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/CompactMode.zip",
     "repoUrl": "https://github.com/zt64/aliucord-plugins",
-    "changelog": "# 1.5.0\n* Added support for avatar decorations\n* Added support for polls messages\n    \n# 1.4.0\n* Support guild scheduled invite messages\n    \n# 1.3.4 \n* Added a setting to disable jumbo emojis\n\n# 1.3.3\n* Fixed not working on some devices (Cynosphere)\n\n# 1.3.2\n* Fixed error causing messages to not be fully styled\n\n# 1.3.1\n* Fixed message loading text\n\n# 1.3.0\n* Styled game invites and gifts\n\n# 1.2.0\n* Styled failed messages\n* Updated description"
+    "changelog": "# 1.5.1\n* Hide avatar decos more consistently (credit to LavaDesu)\n\n# 1.5.0\n* Added support for avatar decorations\n* Added support for polls messages\n    \n# 1.4.0\n* Support guild scheduled invite messages\n    \n# 1.3.4 \n* Added a setting to disable jumbo emojis\n\n# 1.3.3\n* Fixed not working on some devices (Cynosphere)\n\n# 1.3.2\n* Fixed error causing messages to not be fully styled\n\n# 1.3.1\n* Fixed message loading text\n\n# 1.3.0\n* Styled game invites and gifts\n\n# 1.2.0\n* Styled failed messages\n* Updated description"
   },
   {
     "name": "CursorInput",
@@ -3955,9 +3955,9 @@
     "version": "1.4.2",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/CursorInput.zip",
@@ -3970,9 +3970,9 @@
     "version": "1.3.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/CustomNoticeDuration.zip",
@@ -3985,9 +3985,9 @@
     "version": "1.3.2",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/CustomStatusPresets.zip",
@@ -4000,9 +4000,9 @@
     "version": "1.2.0",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/DMCategories.zip",
@@ -4015,9 +4015,9 @@
     "version": "1.4.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/DisablePreviewsOnData.zip",
@@ -4030,9 +4030,9 @@
     "version": "1.1.2",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/FavoriteChannels.zip",
@@ -4045,9 +4045,9 @@
     "version": "1.5.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/FolderOpacity.zip",
@@ -4057,17 +4057,17 @@
   {
     "name": "Frecents",
     "description": "Adds support for favorite GIFs, emojis, stickers, and recent items",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/Frecents.zip",
     "repoUrl": "https://github.com/zt64/aliucord-plugins",
-    "changelog": "# 1.1.5\n- Fixed a potential error caused by unsupported emojis in favorites or recents.\n\n# 1.1.4\n- Fixed an issue causing non-frecents events to be parsed, resulting in errors.\n\n# 1.1.3\n- Added settings page with export debug information\n- If you are having issues with Frecents, please use this button and share the exported file with \nas much detail as possible\n\n# 1.1.2\n- Temporarily disabled favoriting gifs sent in chat to workaround a bug preventing clicking images\n\n# 1.1.1\n- Reworked emoji sorting logic as a potential fix for recent emojis not appearing\n\n# 1.1.0\n- Added support for favorite and recent emojis\n- Added support for recent stickers\n\n* Note: Using an emoji or sticker will not update the recents list. This will come in a future update.\n\n# 1.0.5\n- Fixed gifs not updating in real time\n\n# 1.0.4\n- Fixed preview gif sometimes not appearing\n\n# 1.0.3\n- Fixed favorites icon disappearing\n\n# 1.0.2\n- Fixed crash caused by having no favorites\n\n# 1.0.1\n- Fixed mixup causing favorites category to not appear\n\n# 1.0.0\n- Initial release"
+    "changelog": "# 1.1.6\n- Fix webm GIFs not showing up in favorite GIFs (credit to aubymori)\n\n# 1.1.5\n- Fixed a potential error caused by unsupported emojis in favorites or recents.\n\n# 1.1.4\n- Fixed an issue causing non-frecents events to be parsed, resulting in errors.\n\n# 1.1.3\n- Added settings page with export debug information\n- If you are having issues with Frecents, please use this button and share the exported file with \nas much detail as possible\n\n# 1.1.2\n- Temporarily disabled favoriting gifs sent in chat to workaround a bug preventing clicking images\n\n# 1.1.1\n- Reworked emoji sorting logic as a potential fix for recent emojis not appearing\n\n# 1.1.0\n- Added support for favorite and recent emojis\n- Added support for recent stickers\n\n* Note: Using an emoji or sticker will not update the recents list. This will come in a future update.\n\n# 1.0.5\n- Fixed gifs not updating in real time\n\n# 1.0.4\n- Fixed preview gif sometimes not appearing\n\n# 1.0.3\n- Fixed favorites icon disappearing\n\n# 1.0.2\n- Fixed crash caused by having no favorites\n\n# 1.0.1\n- Fixed mixup causing favorites category to not appear\n\n# 1.0.0\n- Initial release"
   },
   {
     "name": "InviteDetails",
@@ -4075,9 +4075,9 @@
     "version": "1.0.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/InviteDetails.zip",
@@ -4090,9 +4090,9 @@
     "version": "1.0.3",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/MessageWidthFix.zip",
@@ -4105,9 +4105,9 @@
     "version": "2.6.0",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/NoBurnIn.zip",
@@ -4120,9 +4120,9 @@
     "version": "1.2.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/NoLinkify.zip",
@@ -4135,9 +4135,9 @@
     "version": "1.0.2",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/PermissionsSync.zip",
@@ -4150,9 +4150,9 @@
     "version": "1.6.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/QuickStar.zip",
@@ -4165,9 +4165,9 @@
     "version": "1.5.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/RestartButton.zip",
@@ -4180,9 +4180,9 @@
     "version": "1.12.0",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/RoleColorEverywhere.zip",
@@ -4195,14 +4195,14 @@
     "version": "1.3.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       },
       {
-        "hyperlink": true,
+        "name": "Vendicated",
         "id": 343383572805058560,
-        "name": "Vendicated"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/SystemInfo.zip",
@@ -4215,9 +4215,9 @@
     "version": "1.0.0",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/SystemTheme.zip",
@@ -4230,14 +4230,14 @@
     "version": "1.4.2",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       },
       {
-        "hyperlink": true,
+        "name": "Vendicated",
         "id": 343383572805058560,
-        "name": "Vendicated"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/Token.zip",
@@ -4250,9 +4250,9 @@
     "version": "1.3.2",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/Weather.zip",
@@ -4265,9 +4265,9 @@
     "version": "1.4.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "zt",
         "id": 289556910426816513,
-        "name": "zt"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/WiderScrollbar.zip",
