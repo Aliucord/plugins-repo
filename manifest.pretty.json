@@ -494,6 +494,21 @@
     "changelog": null
   },
   {
+    "name": "Bubbles",
+    "description": "Bubbled messages",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "Lava",
+        "id": 368398754077868032,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/LavaDesu/Awoocord@refs/heads/builds/Bubbles.zip",
+    "repoUrl": "https://github.com/LavaDesu/Awoocord",
+    "changelog": "# 1.0.0\n* Initial release >w<"
+  },
+  {
     "name": "Clump",
     "description": "More lenient message grouping",
     "version": "1.0.2",
