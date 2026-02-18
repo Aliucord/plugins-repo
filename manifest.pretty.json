@@ -1847,9 +1847,24 @@
     "changelog": "TODO {fixed}\n======================\n* File component\n* SelectV2: searching\n* SelectV2: showing selected items in chat list\n\nChangelog {added marginTop}\n======================\n# 8.8.0\n* Fix a possible weird crash\n\n# 8.7.0\n* Prevent ViewRaw crash\n* Add a CV2 tag to distinguish new embeds (will not be in core)\n\n# 7.15.1\n* Fix broken reply preview >w<\n\n# 7.15.0\n* Initial release >w<"
   },
   {
+    "name": "Glance",
+    "description": "Backports DM previews",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "cilly",
+        "id": 368398754077868032,
+        "hyperlink": false
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/cillynder/Awoocord@refs/heads/builds/Glance.zip",
+    "repoUrl": "https://github.com/cillynder/Awoocord",
+    "changelog": "# 1.0.0\n* Initial release >w<"
+  },
+  {
     "name": "RoleBlocks",
     "description": "Coloured usernames to be a bit more pleasing on the eyes",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "authors": [
       {
         "name": "cilly",
@@ -1859,7 +1874,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/cillynder/Awoocord@refs/heads/builds/RoleBlocks.zip",
     "repoUrl": "https://github.com/cillynder/Awoocord",
-    "changelog": "# 1.2.0\n* Finally fixes the annoying padding issue in replies\n* Adds nice preview blocks in settings with configurable hsv bars for all your previewing needs\n* Tweaked constrast ratio a bit which may improve some colours' legibility\n* Added transparency option, alongside \"unchanged\" colour option which pairs nicely together for a translucent glass effect\n\n# 1.1.1\n* Revert incorrect spacing fix, since it just breaks replies. Proper fix soon\n\n# 1.1.0\n* Fix incorrect spacing in replies\n* Allow setting static text colours\n\n# 1.0.0\n* Initial release >w<"
+    "changelog": "# 1.2.1\n* Use correct default block colour in replies\n* Use correct default block colour in \"unchanged\" mode\n\n# 1.2.0\n* Finally fixes the annoying padding issue in replies\n* Adds nice preview blocks in settings with configurable hsv bars for all your previewing needs\n* Tweaked constrast ratio a bit which may improve some colours' legibility\n* Added transparency option, alongside \"unchanged\" colour option which pairs nicely together for a translucent glass effect\n\n# 1.1.1\n* Revert incorrect spacing fix, since it just breaks replies. Proper fix soon\n\n# 1.1.0\n* Fix incorrect spacing in replies\n* Allow setting static text colours\n\n# 1.0.0\n* Initial release >w<"
   },
   {
     "name": "Scout",
