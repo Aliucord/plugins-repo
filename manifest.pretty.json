@@ -1819,7 +1819,7 @@
   {
     "name": "Clump",
     "description": "More lenient message grouping",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "authors": [
       {
         "name": "cilly",
@@ -1829,7 +1829,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/cillynder/Awoocord@refs/heads/builds/Clump.zip",
     "repoUrl": "https://github.com/cillynder/Awoocord",
-    "changelog": "# 1.0.2\n* Fix (inverted) webhook clumping\n\n# 1.0.1\n* Hide blank space w.r.t attachments and embeds\n\n# 1.0.0\n* Initial release >w<"
+    "changelog": "# 1.0.3\n* Clump more than 6 messages together\n\n# 1.0.2\n* Fix (inverted) webhook clumping\n\n# 1.0.1\n* Hide blank space w.r.t attachments and embeds\n\n# 1.0.0\n* Initial release >w<"
   },
   {
     "name": "ComponentsV2Beta",
