@@ -4067,7 +4067,7 @@
   {
     "name": "CursorInput",
     "description": "Makes it so that emojis, mentions and others are added at the cursor position instead of the end of the message",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "authors": [
       {
         "name": "zt",
@@ -4077,7 +4077,7 @@
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/CursorInput.zip",
     "repoUrl": "https://github.com/zt64/aliucord-plugins",
-    "changelog": "# 1.4.1\n* Support Discord V112.4"
+    "changelog": "# 1.4.3\n* Fixed a bug which resulted in inserted content would be duplicated (credit to cillynder)\n    \n# 1.4.2    \n\n# 1.4.1\n* Support Discord V112.4"
   },
   {
     "name": "CustomNoticeDuration",
