@@ -921,7 +921,7 @@
   {
     "name": "SimpleMessageLogger",
     "description": "Logs deleted and edited messages. Simpler and lighter than MessageLogger",
-    "version": "1.0.9",
+    "version": "1.1.0",
     "authors": [
       {
         "name": "RazerTexz",
@@ -1139,6 +1139,21 @@
     "url": "https://raw.githubusercontent.com/TymanWasTaken/aliucord-plugins/builds/Translate.zip",
     "repoUrl": "https://github.com/TymanWasTaken/aliucord-plugins",
     "changelog": "# Version 1.3.1\n* Fix translating multiple lines of text (finally)\n# Version 1.3.0\n* Added \"show original functionality\", will show the original, untranslated message, but still keeps it cached so you can instantly re-translate it.\n# Version 1.2.4\n* Fixed translate settings crash\n# Version 1.2.3\n* Updated to support discord 101.3\n# Version 1.2.2\n* Updated for new discord/aliucord version\n# Version 1.2.1\n* Improved/added language code validation\n* Added a list of language codes to plugin settings\n# Version 1.2.0\n* Edits the message with the translated text instead of creating a new local message\n# Version 1.1.2\n* Fixed message links not having /channels/\n* Moved classes to com.aliucord.plugins.translate\n# Version 1.1.1\n* Added settings to modify the default translation language\n# Version 1.1.0\n* Add /translate to translate text from one language to another, and send it in chat by default.\n# Version 1.0.0\n* Initial release"
+  },
+  {
+    "name": "DMsToBottom",
+    "description": "Moves DMs to the bottom of the server list",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "Ushie",
+        "id": 399862294143696897,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/DMsToBottom.zip",
+    "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
+    "changelog": null
   },
   {
     "name": "HoldAuthorToCopyId",
@@ -2814,7 +2829,7 @@
   {
     "name": "FreeNitroEmojis",
     "description": "Use custom emojis without Nitro",
-    "version": "1.1.2",
+    "version": "1.2.0",
     "authors": [
       {
         "name": "nyxiereal",
@@ -2834,7 +2849,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/nyxiereal/AliucordPlugins@refs/heads/builds/FreeNitroEmojis.zip",
     "repoUrl": "https://github.com/nyxiereal/AliucordPlugins",
-    "changelog": "# 1.1.2\n- Fixed animated emojis not working\n\n# 1.1.1\n- Fixed plugin settings not working\n\n# 1.1.0\n- Added multiple format types - URL (original), markdown, extended markdown, zero-width space\n- Added support for realmojis (fake official emojis)\n\n# 1.0.0\n- Initial release\n- Added emote size customization"
+    "changelog": "# 1.2.0\n- Added support for WebP emojis (animated+static). DISABLE IF YOU ENCOUNTER ISSUES!!!\n- Removed support for zero-width space format due to it being very buggy\n- Improved wording in settings\n- Improved realmoji support\nthanks fwt for testing!\n\n# 1.1.2\n- Fixed animated emojis not working\n\n# 1.1.1\n- Fixed plugin settings not working\n\n# 1.1.0\n- Added multiple format types - URL (original), markdown, extended markdown, zero-width space\n- Added support for realmojis (fake official emojis)\n\n# 1.0.0\n- Initial release\n- Added emote size customization"
   },
   {
     "name": "ViewQuests",
