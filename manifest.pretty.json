@@ -464,6 +464,21 @@
     "changelog": null
   },
   {
+    "name": "CleanChannels",
+    "description": "Removes emojis and symbols from channel names, and more",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "LampDelivery",
+        "id": 650805815623680030,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/LampDelivery/AliucordPlugins@refs/heads/builds/CleanChannels.zip",
+    "repoUrl": "https://github.com/LampDelivery/AliucordPlugins",
+    "changelog": null
+  },
+  {
     "name": "CompactLinks",
     "description": "Makes links compact like DiscordRN",
     "version": "1.0.0",
