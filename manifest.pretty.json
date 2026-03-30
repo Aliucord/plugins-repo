@@ -466,7 +466,7 @@
   {
     "name": "CleanChannels",
     "description": "Removes emojis and symbols from channel names, and more",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "LampDelivery",
@@ -476,7 +476,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/LampDelivery/AliucordPlugins@refs/heads/builds/CleanChannels.zip",
     "repoUrl": "https://github.com/LampDelivery/AliucordPlugins",
-    "changelog": null
+    "changelog": "# 1.0.1\n* now works with threads sucessfully (doesnt remove spaces or dashes)\n* you can now whitelist a server from the menu, and show/hide this toggle in the settings\n* there is now a normalization setting which turns fancy characters into standard ones"
   },
   {
     "name": "CompactLinks",
@@ -1010,7 +1010,7 @@
   {
     "name": "CopyInsteadOfShareImages",
     "description": "Replaces the share button in the image preview with one that copies the image to the clipboard.",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "authors": [
       {
         "id": 150234173024501762,
@@ -1042,7 +1042,7 @@
   {
     "name": "MediaPickerPatcher",
     "description": "Replaces the document picker with one that opens the default gallery app. Can also long press the open file button for the original document picker.",
-    "version": "1.0.91",
+    "version": "1.1.0",
     "authors": [
       {
         "id": 150234173024501762,
@@ -1051,7 +1051,7 @@
     ],
     "url": "https://raw.githubusercontent.com/RhythmLunatic/aliucord-plugins/builds/MediaPickerPatcher.zip",
     "repoUrl": "https://github.com/RhythmLunatic/aliucord-plugins",
-    "changelog": "# 1.0.91\n* Aliucord removed Pine hooks finally so I had to fix it\n# 1.0.9\n* Allow picking more than one file if your gallery app supports it, usually by holding down an image instead of tapping.\n# 1.0.8\n* Fix for Discord 112.4 (Will break on earlier versions)\n# 1.0.7\n* Fix for Discord 105.12 (Will break on earlier versions)\n# 1.0.6\n* Fix the \"Allow All\" setting being on by default, finally"
+    "changelog": "# 1.1.0\n      * Allow selecting a file picker inside the android file browser when holding the button\n      # 1.0.91\n      * Aliucord removed Pine hooks finally so I had to fix it\n      # 1.0.9\n      * Allow picking more than one file if your gallery app supports it, usually by holding down an image instead of tapping.\n      # 1.0.8\n      * Fix for Discord 112.4 (Will break on earlier versions)\n      # 1.0.7\n      * Fix for Discord 105.12 (Will break on earlier versions)\n      # 1.0.6\n      * Fix the \"Allow All\" setting being on by default, finally"
   },
   {
     "name": "NS4NQN",
