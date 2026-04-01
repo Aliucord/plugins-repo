@@ -63,7 +63,7 @@
   {
     "name": "TimezoneSpoof",
     "description": "Spoofs your timezone. Only in Discord.",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "authors": [
       {
         "name": "furqanhun",
@@ -73,7 +73,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/furqanhun/aliucord-plugins@refs/heads/builds/TimezoneSpoof.zip",
     "repoUrl": "https://github.com/FurqanHun/aliucord-plugins",
-    "changelog": "# 0.3.0\n* Improved null safety and optimized string checks to prevent obfuscation crashes\n* Toned down UI toast messages for a cleaner, native-feeling experience\n\n# 0.2.0\n* Rebranded to TimezoneSpoof\n* Fixed UI text box hint overlapping bug\n\n# 0.1.0\n* dev release: It spoofs!"
+    "changelog": "# 0.4.0\n* Added search dropdown for timezone selection\n* Added IANA timezone validation\n\n# 0.3.0\n* Improved null safety and optimized string checks to prevent obfuscation crashes\n* Toned down UI toast messages for a cleaner, native-feeling experience\n\n# 0.2.0\n* Rebranded to TimezoneSpoof\n* Fixed UI text box hint overlapping bug\n\n# 0.1.0\n* dev release: It spoofs!"
   },
   {
     "name": "CopyFileLink",
@@ -466,7 +466,7 @@
   {
     "name": "CleanChannels",
     "description": "Removes emojis and symbols from channel names, and more",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "authors": [
       {
         "name": "LampDelivery",
@@ -476,7 +476,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/LampDelivery/AliucordPlugins@refs/heads/builds/CleanChannels.zip",
     "repoUrl": "https://github.com/LampDelivery/AliucordPlugins",
-    "changelog": "# 1.0.1\n* now works with threads sucessfully (doesnt remove spaces or dashes)\n* you can now whitelist a server from the menu, and show/hide this toggle in the settings\n* there is now a normalization setting which turns fancy characters into standard ones"
+    "changelog": "# 1.0.4\n* Fixed unintentionally applying to usernames \n\n# 1.0.3\n* Fixed conflicts with CharCounter\n\n# 1.0.1\n* now works with threads sucessfully (doesnt remove spaces or dashes)\n* you can now whitelist a server from the menu, and show/hide this toggle in the settings\n* there is now a normalization setting which turns fancy characters into standard ones"
   },
   {
     "name": "CompactLinks",
@@ -511,7 +511,7 @@
   {
     "name": "CustomNameFormat",
     "description": "Allows you to customize nickname and display names ",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "LampDelivery",
@@ -569,22 +569,37 @@
     "changelog": null
   },
   {
+    "name": "Ads",
+    "description": "more stupit plugin",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "OmegaSunkey",
+        "id": 0,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/OmegaSunkey/awesomeplugins@refs/heads/builds/Ads.zip",
+    "repoUrl": "https://github.com/OmegaSunkey/awesomeplugins",
+    "changelog": "# hi"
+  },
+  {
     "name": "AliucordRenamer",
     "description": "stupit plugin",
     "version": "1.0.1",
     "authors": [
       {
-        "hyperlink": true,
-        "id": 9366,
-        "name": "OmegaSunkey"
+        "name": "OmegaSunkey",
+        "id": 0,
+        "hyperlink": true
       },
       {
-        "hyperlink": true,
+        "name": "Iryis",
         "id": 1,
-        "name": "Iryis"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/OmegaSunkey/awesomeplugins/builds/AliucordRenamer.zip",
+    "url": "https://cdn.jsdelivr.net/gh/OmegaSunkey/awesomeplugins@refs/heads/builds/AliucordRenamer.zip",
     "repoUrl": "https://github.com/OmegaSunkey/awesomeplugins",
     "changelog": "       # 1.0.1\n* Set text hint / texto que te dice que poner en el cuadro de texto añadido wwww"
   },
@@ -594,17 +609,17 @@
     "version": "1.0.3",
     "authors": [
       {
-        "hyperlink": true,
-        "id": 9366,
-        "name": "OmegaSunkey"
+        "name": "OmegaSunkey",
+        "id": 0,
+        "hyperlink": true
       },
       {
-        "hyperlink": true,
+        "name": "razertexz",
         "id": 0,
-        "name": "razertexz"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/OmegaSunkey/awesomeplugins/builds/DMTabs.zip",
+    "url": "https://cdn.jsdelivr.net/gh/OmegaSunkey/awesomeplugins@refs/heads/builds/DMTabs.zip",
     "repoUrl": "https://github.com/OmegaSunkey/awesomeplugins",
     "changelog": "       # 1.0.1\nDM button now switches you to Home Tab.\n# 1.0.2\nThe home button now switches you to the last selected channel! Also fixes not showing DMs if youre on any other tab.\n# 1.0.3\nThe friends button now closes the panel back into the main screen."
   },
@@ -614,29 +629,14 @@
     "version": "1.0.0",
     "authors": [
       {
-        "hyperlink": true,
-        "id": 9366,
-        "name": "OmegaSunkey"
+        "name": "OmegaSunkey",
+        "id": 0,
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/OmegaSunkey/awesomeplugins/builds/FanCopypasta.zip",
+    "url": "https://cdn.jsdelivr.net/gh/OmegaSunkey/awesomeplugins@refs/heads/builds/FanCopypasta.zip",
     "repoUrl": "https://github.com/OmegaSunkey/awesomeplugins",
     "changelog": "# hi"
-  },
-  {
-    "name": "ForceAliucordZip",
-    "description": "Force custom builds by replacing the inner Aliucord.zip",
-    "version": "1.0.0",
-    "authors": [
-      {
-        "hyperlink": true,
-        "id": 9366,
-        "name": "OmegaSunkey"
-      }
-    ],
-    "url": "https://raw.githubusercontent.com/OmegaSunkey/awesomeplugins/builds/ForceAliucordZip.zip",
-    "repoUrl": "https://github.com/OmegaSunkey/awesomeplugins",
-    "changelog": "       # 1.0.0\nRelease"
   },
   {
     "name": "NoticeSound",
@@ -644,12 +644,12 @@
     "version": "1.0.0",
     "authors": [
       {
-        "hyperlink": true,
-        "id": 9366,
-        "name": "OmegaSunkey"
+        "name": "OmegaSunkey",
+        "id": 0,
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/OmegaSunkey/awesomeplugins/builds/NoticeSound.zip",
+    "url": "https://cdn.jsdelivr.net/gh/OmegaSunkey/awesomeplugins@refs/heads/builds/NoticeSound.zip",
     "repoUrl": "https://github.com/OmegaSunkey/awesomeplugins",
     "changelog": "       # 1.0.0\nInitial release"
   },
@@ -659,12 +659,12 @@
     "version": "1.1.3",
     "authors": [
       {
-        "hyperlink": true,
-        "id": 9366,
-        "name": "OmegaSunkey"
+        "name": "OmegaSunkey",
+        "id": 0,
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/OmegaSunkey/awesomeplugins/builds/SafeBooru.zip",
+    "url": "https://cdn.jsdelivr.net/gh/OmegaSunkey/awesomeplugins@refs/heads/builds/SafeBooru.zip",
     "repoUrl": "https://github.com/OmegaSunkey/awesomeplugins",
     "changelog": "# 1.0.1\n• Made pid random, this will make images random (in a tiny way) | Hice el pid random, esto hace las imagenes random (en una pequeña forma)\n# 1.0.2\n• So i've discovered that making limit=1 and changing pages actually changes posts. So now you can choose the \"page\" for searching and sending different posts instead of making it random. It is required to set a number. | Descubrí que hacer limit=1 y cambiar de paginas en realidad cambiaba de imagenes. Ahora puedes elegir la \"pagina\" para buscar y enviar diferentes imagenes en vez de ser random. Un numero es requerido.\n# 1.1.0 \n• Now you can set the amount of images you wanna send. Please note that doing limit=999 will do nothing, the site has a hardcode limit of 100. | Ahora puedes elegir la cantidad de imágenes que quieres enviar. Por favor recuerda que hacer limit=999 hará nada, el sitio tiene un limite forzado de 100. \n# 1.1.1 \n• the comma wont show the rest of the images lmaooo | la coma no deja mostrar el resto de las imagenes \n# 1.1.2 \n• \"limit\" limit is hardcoded to 5 because discord embedding is limied to 5 images lolll. | el limite de \"limit\" es 5 porque discord solo muestra hasta 5 imagenes.\n# 1.1.3 \n• I think this is the last release. Fixed a phrase. Also secret plugin for you: https://github.com/OmegaSunkey/awesomeplugins/blob/builds/Rule34.zip?raw=true | Creo que es la última actualización. Arreglé una frase. Además un plugin secreto para ti ↑"
   },
@@ -674,12 +674,12 @@
     "version": "1.1.1",
     "authors": [
       {
-        "hyperlink": true,
-        "id": 9366,
-        "name": "OmegaSunkey"
+        "name": "OmegaSunkey",
+        "id": 0,
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/OmegaSunkey/awesomeplugins/builds/StartupSound.zip",
+    "url": "https://cdn.jsdelivr.net/gh/OmegaSunkey/awesomeplugins@refs/heads/builds/StartupSound.zip",
     "repoUrl": "https://github.com/OmegaSunkey/awesomeplugins",
     "changelog": "       # 1.1.0\n* Added customizable sound for startup, please provide a link to that sound (you can use cdn.discordapp.com) / Ahora puedes añadir tu propio sonido, por favor provee un enlace directo al sonido (puedes usar cdn.discordapp.com)\n# 1.1.1\n* Added text hint / pista añadida "
   },
@@ -689,17 +689,17 @@
     "version": "1.0.8",
     "authors": [
       {
-        "hyperlink": true,
-        "id": 9366,
-        "name": "OmegaSunkey"
+        "name": "OmegaSunkey",
+        "id": 0,
+        "hyperlink": true
       },
       {
-        "hyperlink": true,
+        "name": "HalalKing",
         "id": 0,
-        "name": "HalalKing"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/OmegaSunkey/awesomeplugins/builds/UserBG.zip",
+    "url": "https://cdn.jsdelivr.net/gh/OmegaSunkey/awesomeplugins@refs/heads/builds/UserBG.zip",
     "repoUrl": "https://github.com/OmegaSunkey/awesomeplugins",
     "changelog": "added usrbg.json\nfinal fix \n       * most of this plugin was made by halalking, i just fixed some things. / la mayoria de este plugin fue hecha por halalking, yo solo arreglé algunas cosas.\n# 1.0.4\n* set text hint / texto añadido\n# 1.0.5\n* added spanish support server / server de soporte en español añadido \n# 1.0.6\n* fixed links being not clickable / arreglé los links soy tonto waaa \n# 1.0.7\n* fixed text color / le quité el color feo al texto\n# 1.0.8\n* Switch to new database ✅ / Se cambió a la nueva base de datos ✅✅✅✅✅✅"
   },
@@ -709,17 +709,17 @@
     "version": "1.2.3",
     "authors": [
       {
-        "hyperlink": true,
-        "id": 9366,
-        "name": "OmegaSunkey"
+        "name": "OmegaSunkey",
+        "id": 0,
+        "hyperlink": true
       },
       {
-        "hyperlink": true,
+        "name": "HalalKing",
         "id": 0,
-        "name": "HalalKing"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/OmegaSunkey/awesomeplugins/builds/UserPFP.zip",
+    "url": "https://cdn.jsdelivr.net/gh/OmegaSunkey/awesomeplugins@refs/heads/builds/UserPFP.zip",
     "repoUrl": "https://github.com/OmegaSunkey/awesomeplugins",
     "changelog": "      - 1.0.0\nrelease; fix HalalKing source and add new db source.\n- 1.0.1\nchanged regex to ignore ?=.\n- 1.0.2\nAdded debug setting for knowing when a pfp is incorrect.\n- 1.0.3\n(Added fallback pfp to be used when an error occurs while trying to load pfp.) disabled for now.\nMade debug logs setting be false by default.\n- 1.1.0\nSwitch to USRPFP database, which is used on Vencord and Vendetta.\nUnhook while on ChatView, to evade lag and crashes.\n- 1.1.1\nMake UserPFP work with SquareAvatars.\n- 1.1.2\nUse data.json instead of dist.css because it updates faster\n- 1.1.3\nSometimes the plugin would show a badge instead of the avatar, this is fixed now\n- 1.1.4\nChanged DB url to UserPFP/UserPFP/main/source/data.json\n- 1.2.0\nUse a worker for getting a static version of your UserPFP, now you can see your UaerPFP in chat without Aliucord exploding!\n- 1.2.1\nfix insane bug that spammed logs with null cast\n- 1.2.2\nchanged regex; apfp downloads in aliucord dir instead of secret cache dir\n- 1.2.3\nuse static avatars provided by repo instead of deleted worker; fix bug with SquareAvatars"
   },
