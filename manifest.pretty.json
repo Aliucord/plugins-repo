@@ -2567,6 +2567,36 @@
     "changelog": "\n# 1.1.2\n* Added support for Android versions below 10\n\n# 1.1.1\n* Fix some issues\n\n# 1.1.0\n* Make voice messages sendable in servers\n\n# 1.0.5\n* Fix voice messages getting sent in wrong channel if you switched channels before voice message is sent\n\n# 1.0.4\n* Made swiping up delete the voice recording\n\n# 1.0.2\n* Fix audio quality and add option to change it\n"
   },
   {
+    "name": "ImageToClipboard",
+    "description": "add an option to copy images to your clipboard",
+    "version": "1.2.0",
+    "authors": [
+      {
+        "name": "miaaaa0a",
+        "id": 435750383491481602,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/miaaaa0a/aliucord-plugins@refs/heads/builds/ImageToClipboard.zip",
+    "repoUrl": "https://github.com/miaaaa0a/aliucord-plugins",
+    "changelog": "# 1.2.0\n* completely rewrite mime type detection"
+  },
+  {
+    "name": "NativeFriendNicknames",
+    "description": "a plugin that backports the friend nickname feature",
+    "version": "1.1.5",
+    "authors": [
+      {
+        "name": "miaaaa0a",
+        "id": 435750383491481602,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/miaaaa0a/aliucord-plugins@refs/heads/builds/NativeFriendNicknames.zip",
+    "repoUrl": "https://github.com/miaaaa0a/aliucord-plugins",
+    "changelog": "# 1.1.5\n* prevent nullable user from leaking into discord's api"
+  },
+  {
     "name": "AutoShowSpoilers",
     "description": "Automatically clicks on spoilers for you",
     "version": "1.1.0",
