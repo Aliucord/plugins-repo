@@ -2644,7 +2644,7 @@
   {
     "name": "NativeFriendNicknames",
     "description": "a plugin that backports the friend nickname feature",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "authors": [
       {
         "name": "miaaaa0a",
@@ -2654,7 +2654,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/miaaaa0a/aliucord-plugins@refs/heads/builds/NativeFriendNicknames.zip",
     "repoUrl": "https://github.com/miaaaa0a/aliucord-plugins",
-    "changelog": "# 1.1.5\n* prevent nullable user from leaking into discord's api"
+    "changelog": "# 1.1.6\n* don't display friend nickname in servers"
   },
   {
     "name": "AutoShowSpoilers",
