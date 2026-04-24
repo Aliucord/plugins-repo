@@ -1186,9 +1186,24 @@
     "changelog": null
   },
   {
+    "name": "HideEvents",
+    "description": "Hide events from the channel list",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "Ushie",
+        "id": 399862294143696897,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/HideEvents.zip",
+    "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
+    "changelog": null
+  },
+  {
     "name": "HideServers",
     "description": "Hide servers from the context menu, with a toggle to show hidden ones",
-    "version": "1.0.0",
+    "version": "1.2.1",
     "authors": [
       {
         "name": "Ushie",
@@ -1198,7 +1213,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/HideServers.zip",
     "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
-    "changelog": null
+    "changelog": "# 1.2.1\n* Don't auto-reset to hide mode when moving servers in show/edit mode\n\n# 1.2.0\n* Handle moving servers in hide mode\n* Improve the hidden indicator in edit mode\n\n# 1.1.1\n* Don't automatically go back to hide mode when moving screens\n\n# 1.1.0\n* Add hiding folders\n* Add edit mode\n* Show icons to represent the current modes instead of the help icon\n\nIn edit mode, you can hold a folder to show/hide it or click it to open it"
   },
   {
     "name": "HoldAuthorToCopyId",
@@ -1257,6 +1272,21 @@
       }
     ],
     "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/ModernNitroIcons.zip",
+    "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
+    "changelog": null
+  },
+  {
+    "name": "MuteVoiceAndStageChannels",
+    "description": "Backports voice/stage channel muting. Long press to mute/unmute vocal channels and hide them when Hide Muted Channels is enabled.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "Ushie",
+        "id": 399862294143696897,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/MuteVoiceAndStageChannels.zip",
     "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
     "changelog": null
   },
