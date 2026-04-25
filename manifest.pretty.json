@@ -1261,6 +1261,21 @@
     "changelog": null
   },
   {
+    "name": "ModernMentions",
+    "description": "Adds customizable mention styling with optional avatars, colors, and spacing",
+    "version": "1.0.1",
+    "authors": [
+      {
+        "name": "Ushie",
+        "id": 399862294143696897,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/ModernMentions.zip",
+    "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
+    "changelog": null
+  },
+  {
     "name": "ModernNitroIcons",
     "description": "Backports modern Discord Nitro badges",
     "version": "1.0.0",
