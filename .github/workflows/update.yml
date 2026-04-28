@@ -7,7 +7,7 @@ concurrency:
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 20 * * *" # 1 PM PDT (Mar - Nov)
+    - cron: "0 8,20 * * *" # Every day at 1am and 1pm PDT
   push:
     branches: [ "master" ]
     paths: [ "repositories" ]
