@@ -2069,7 +2069,7 @@
   {
     "name": "DisplayNameStyles",
     "description": "Display name styles",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "authors": [
       {
         "name": "cilly",
@@ -2079,7 +2079,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/cillynder/Awoocord@refs/heads/builds/DisplayNameStyles.zip",
     "repoUrl": "https://github.com/cillynder/Awoocord",
-    "changelog": "# 0.2.0\n* Apply styles in DMs list\n\n# 0.1.0\n* Initial release >w<"
+    "changelog": "# 0.2.1\n* Fix app breaking sometimes\n* Actually disable the plugin if it is disabled\n* Removed log spam\n\n# 0.2.0\n* Apply styles in DMs list\n\n# 0.1.0\n* Initial release >w<"
   },
   {
     "name": "Glance",
