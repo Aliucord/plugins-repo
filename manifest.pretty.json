@@ -1398,7 +1398,7 @@
   {
     "name": "PersistMessageDrafts",
     "description": "Persists chat drafts across app restarts/refreshes",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "Ushie",
@@ -1439,6 +1439,21 @@
     "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/ShowBlockedMessagesAuthor.zip",
     "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
     "changelog": "# 1.0.0\n* Initial release\n* TODO: Support multiple authors"
+  },
+  {
+    "name": "ShowHiddenMutedChannelsWithMentions",
+    "description": "Shows muted channels with unread mentions when “Hide Muted Channels” is enabled",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "Ushie",
+        "id": 399862294143696897,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/ShowHiddenMutedChannelsWithMentions.zip",
+    "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
+    "changelog": null
   },
   {
     "name": "AnimateApngs",
