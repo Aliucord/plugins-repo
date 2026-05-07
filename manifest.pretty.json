@@ -1233,7 +1233,7 @@
   {
     "name": "DMsToBottom",
     "description": "Moves DMs to the bottom of the server list",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "authors": [
       {
         "name": "Ushie",
@@ -1243,7 +1243,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/DMsToBottom.zip",
     "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
-    "changelog": null
+    "changelog": "# 1.1.0\n* Added the ability to stack the server list to the bottom (toggleable in settings) "
   },
   {
     "name": "GlobalProfilesOnly",
@@ -1337,8 +1337,8 @@
   },
   {
     "name": "ModernMentions",
-    "description": "Adds customizable mention styling with optional avatars, colors, and spacing",
-    "version": "1.0.1",
+    "description": "Adds customizable mention styling with optional avatars, colors, spacing and prefix",
+    "version": "1.1.0",
     "authors": [
       {
         "name": "Ushie",
@@ -1348,7 +1348,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/ModernMentions.zip",
     "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
-    "changelog": null
+    "changelog": "# 1.1.0\n* Support custom mention prefix (e.g. @)"
   },
   {
     "name": "ModernNitroIcons",
