@@ -1338,7 +1338,7 @@
   {
     "name": "ModernMentions",
     "description": "Adds customizable mention styling with optional avatars, colors, spacing and prefix",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "authors": [
       {
         "name": "Ushie",
@@ -1348,7 +1348,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/ModernMentions.zip",
     "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
-    "changelog": "# 1.1.0\n* Support custom mention prefix (e.g. @)"
+    "changelog": "# 1.1.1\n* Fix mention color when \"Use role color\" is disabled\n# 1.1.0\n* Support custom mention prefix (e.g. @)"
   },
   {
     "name": "ModernNitroIcons",
