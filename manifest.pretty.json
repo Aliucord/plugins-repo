@@ -2562,6 +2562,21 @@
     "changelog": null
   },
   {
+    "name": "HeicImageConverter",
+    "description": "Converts HEIC/HEIF images to JPG before uploading",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "mantikafasi",
+        "id": 287555395151593473,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/HeicImageConverter.zip",
+    "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
+    "changelog": "\n# 1.0.0\n* Convert HEIC and HEIF local attachments to JPG before Discord uploads them\n"
+  },
+  {
     "name": "HighlightReplies",
     "description": "Highlight Replies",
     "version": "1.0.3",
