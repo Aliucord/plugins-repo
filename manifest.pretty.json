@@ -2457,6 +2457,21 @@
     "changelog": null
   },
   {
+    "name": "AvatarResizer",
+    "description": "Allows resizing of avatars in messages and user popouts",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "mantikafasi",
+        "id": 287555395151593473,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/AvatarResizer.zip",
+    "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
+    "changelog": null
+  },
+  {
     "name": "Base64",
     "description": "Base64 Encodes/Decodes messages",
     "version": "1.0.2",
@@ -2564,7 +2579,7 @@
   {
     "name": "HeicImageConverter",
     "description": "Converts HEIC/HEIF images to JPG before uploading",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "mantikafasi",
@@ -2637,6 +2652,21 @@
     "changelog": "uhm...\npls dont try to run lighlette command on AliuCord server. "
   },
   {
+    "name": "PasswordLogin",
+    "description": "Locks Discord behind a password when returning to the app",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "mantikafasi",
+        "id": 287555395151593473,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/PasswordLogin.zip",
+    "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
+    "changelog": null
+  },
+  {
     "name": "PluginRepo",
     "description": "Install Plugins Easily",
     "version": "1.1.4",
@@ -2650,6 +2680,21 @@
     "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/PluginRepo.zip",
     "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
     "changelog": "\n# 1.0.1.3\n*Added filter to hide installed plugins\n\n# 1.0.1.1\n*Fixed stupit typo\n\n# 1.0.1\n*Added 'Notify new plugins' feature \n\n\n"
+  },
+  {
+    "name": "PowerMode",
+    "description": "Adds particles and screen shake while typing",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "mantikafasi",
+        "id": 287555395151593473,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/PowerMode.zip",
+    "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
+    "changelog": null
   },
   {
     "name": "ReviewDB",
