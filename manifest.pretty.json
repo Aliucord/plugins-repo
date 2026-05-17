@@ -2652,6 +2652,21 @@
     "changelog": "uhm...\npls dont try to run lighlette command on AliuCord server. "
   },
   {
+    "name": "MoreGifProviders",
+    "description": "Adds Klipy and Giphy results to Discord's GIF picker",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "mantikafasi",
+        "id": 287555395151593473,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/MoreGifProviders.zip",
+    "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
+    "changelog": null
+  },
+  {
     "name": "PasswordLogin",
     "description": "Locks Discord behind a password when returning to the app",
     "version": "1.0.0",
