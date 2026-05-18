@@ -2792,6 +2792,21 @@
     "changelog": null
   },
   {
+    "name": "SwipeMediaViewer",
+    "description": "Swipe between multiple images in Discord's media viewer",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "mantikafasi",
+        "id": 287555395151593473,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/SwipeMediaViewer.zip",
+    "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
+    "changelog": null
+  },
+  {
     "name": "ThemeRepo",
     "description": "Theme Repo",
     "version": "1.0.1",
