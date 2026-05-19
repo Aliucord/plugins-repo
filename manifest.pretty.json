@@ -2682,6 +2682,21 @@
     "changelog": null
   },
   {
+    "name": "PerformanceTuner",
+    "description": "Diagnoses and reduces Discord chat UI performance hotspots",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "mantikafasi",
+        "id": 287555395151593473,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/PerformanceTuner.zip",
+    "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
+    "changelog": null
+  },
+  {
     "name": "PluginRepo",
     "description": "Install Plugins Easily",
     "version": "1.1.4",
