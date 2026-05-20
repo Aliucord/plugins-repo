@@ -904,21 +904,6 @@
     "changelog": "# 1.0.7\n* Removed the toast\n* Prompts a restart after reading\n\n# 1.0.5\n* Added toast with channel read count\n\n# 1.0.3\n* Optimized functionality\n\n# 1.0.2\n* Improved button appearance\n\n# 1.0.1\n* Fixed some bugs\n\n# 1.0.0\n* Initial version"
   },
   {
-    "name": "SaveMessageToFile",
-    "description": "Adds a new context menu for saving messages to a file",
-    "version": "1.1.4",
-    "authors": [
-      {
-        "name": "RazerTexz",
-        "id": 633565155501801472,
-        "hyperlink": true
-      }
-    ],
-    "url": "https://cdn.jsdelivr.net/gh/RazerTexz/My-plugins@refs/heads/builds/SaveMessageToFile.zip",
-    "repoUrl": "https://github.com/RazerTexz/My-plugins",
-    "changelog": "# 1.1.2\n* Fix crash\n\n# 1.1.1\n* Added 'Skip File Name Dialog' in settings tab\n\n# 1.1.0\n* Added settings tab\n\n# 1.0.0\n* Initial version"
-  },
-  {
     "name": "SearchScrollSaver",
     "description": "Saves your scroll position when searching",
     "version": "1.0.3",
@@ -1007,6 +992,21 @@
     "url": "https://cdn.jsdelivr.net/gh/RazerTexz/My-plugins@refs/heads/builds/ThemeWeb.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
     "changelog": "# 1.0.2\n* Fixed a resource leak when fetching themes\n\n# 1.0.1\n* Automatically installs Themer if missing\n\n# 1.0.0\n* Initial version"
+  },
+  {
+    "name": "Yoink",
+    "description": "Exports loaded channel messages (up to 200) to a text file via the top-right (⋮) menu",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "RazerTexz",
+        "id": 633565155501801472,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/RazerTexz/My-plugins@refs/heads/builds/Yoink.zip",
+    "repoUrl": "https://github.com/RazerTexz/My-plugins",
+    "changelog": "# 1.0.0\n* Initial version"
   },
   {
     "name": "AttachmentKeyboardFix",
@@ -1199,6 +1199,21 @@
     "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/AvatarInHeader.zip",
     "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
     "changelog": "# 1.0.1\n* Fix positioning of the avatar"
+  },
+  {
+    "name": "BetterSpoiler",
+    "description": "Spoiler attachments in specific servers, channels, or users, with an option for age-restricted channels",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "Ushie",
+        "id": 399862294143696897,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/BetterSpoiler.zip",
+    "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
+    "changelog": null
   },
   {
     "name": "BetterUserDetails",
@@ -2457,6 +2472,21 @@
     "changelog": null
   },
   {
+    "name": "AudioPlayer",
+    "description": "Play audio files with a beautiful inline player UI.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "mantikafasi",
+        "id": 287555395151593473,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/AudioPlayer.zip",
+    "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
+    "changelog": null
+  },
+  {
     "name": "AvatarResizer",
     "description": "Allows resizing of avatars in messages and user popouts",
     "version": "1.0.0",
@@ -2504,7 +2534,7 @@
   {
     "name": "ChannelTabs",
     "description": "View channel content",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "authors": [
       {
         "name": "mantikafasi",
@@ -2514,7 +2544,7 @@
     ],
     "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/ChannelTabs.zip",
     "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
-    "changelog": null
+    "changelog": "* Added Media Grid Mode Toggle to view items in a 3-column square collage.\n* Added Guild-Wide search accessible from the Guild Context Menu.\n* Premium themed indeterminate circular loader at the center & bottom.\n* Crisp circular author avatars with native clipping.\n* Dynamically styled Server Content and Channel Content title headers.\n* Safe context menu dismissals and robust reflective Fresco scale bindings."
   },
   {
     "name": "DisableVerifyScreen",
