@@ -671,7 +671,7 @@
   {
     "name": "StartupSound",
     "description": "Startup sound for discord!",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "authors": [
       {
         "name": "OmegaSunkey",
@@ -681,7 +681,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/OmegaSunkey/awesomeplugins@refs/heads/builds/StartupSound.zip",
     "repoUrl": "https://github.com/OmegaSunkey/awesomeplugins",
-    "changelog": "       # 1.1.0\n* Added customizable sound for startup, please provide a link to that sound (you can use cdn.discordapp.com) / Ahora puedes añadir tu propio sonido, por favor provee un enlace directo al sonido (puedes usar cdn.discordapp.com)\n# 1.1.1\n* Added text hint / pista añadida "
+    "changelog": "   # 1.1.0\n* Added customizable sound for startup, please provide a link to that sound (you can use cdn.discordapp.com) / Ahora puedes añadir tu propio sonido, por favor provee un enlace directo al sonido (puedes usar cdn.discordapp.com)\n# 1.1.1\n* Added text hint / pista añadida \n   # 1.2.0\n   * Stop spamming Github for default sound, download sound from URL to play it locally (your URL will be rewritten to /sdcard/Aliucord/userstartup.mp3 so don't worry)"
   },
   {
     "name": "UserBG",
@@ -2474,7 +2474,7 @@
   {
     "name": "AudioPlayer",
     "description": "Play audio files with a beautiful inline player UI.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "authors": [
       {
         "name": "mantikafasi",
@@ -2484,7 +2484,7 @@
     ],
     "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/AudioPlayer.zip",
     "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
-    "changelog": null
+    "changelog": ")\n    - 1.0.3\n        - download opus files to make seekbar work (thank you android)"
   },
   {
     "name": "AvatarResizer",
@@ -2854,7 +2854,7 @@
   {
     "name": "SwipeMediaViewer",
     "description": "Swipe between multiple images in Discord's media viewer",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
       {
         "name": "mantikafasi",
@@ -2864,7 +2864,7 @@
     ],
     "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/SwipeMediaViewer.zip",
     "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
-    "changelog": null
+    "changelog": "- Refactored video swipe previews to match native full-screen layout.\n- Fixed black preview screen bug by preserving pre-existing query parameters.\n- Implemented zero-dimension fallback to screen size."
   },
   {
     "name": "ThemeRepo",
