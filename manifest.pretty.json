@@ -2697,6 +2697,21 @@
     "changelog": "uhm...\npls dont try to run lighlette command on AliuCord server. "
   },
   {
+    "name": "MessageForwarder",
+    "description": "Natively forward messages to other channels or DMs",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "mantikafasi",
+        "id": 287555395151593473,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/MessageForwarder.zip",
+    "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
+    "changelog": null
+  },
+  {
     "name": "MoreGifProviders",
     "description": "Adds Klipy and Giphy results to Discord's GIF picker",
     "version": "1.0.1",
@@ -2774,7 +2789,7 @@
   {
     "name": "ReviewDB",
     "description": "Review other users and servers",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "authors": [
       {
         "name": "mantikafasi",
@@ -2789,7 +2804,7 @@
     ],
     "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/ReviewDB.zip",
     "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
-    "changelog": ",\n# 1.2.0\n# bunch of new features so tuff\n\n# 1.1.4\n* Show ban modal if user gets banned\n\n# 1.0.2\n* Added support server and website link to settings\n\n"
+    "changelog": ",\n# 1.2.1\n* Fix crash when ReviewDB fails to load a review page\n\n# 1.2.0\n# bunch of new features so tuff\n\n# 1.1.4\n* Show ban modal if user gets banned\n\n# 1.0.2\n* Added support server and website link to settings\n\n"
   },
   {
     "name": "ServerReviews",
