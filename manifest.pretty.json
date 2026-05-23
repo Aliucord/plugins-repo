@@ -1203,7 +1203,7 @@
   {
     "name": "BetterSpoiler",
     "description": "Spoiler attachments in specific servers, channels, or users, with an option for age-restricted channels",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "Ushie",
@@ -1213,7 +1213,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/BetterSpoiler.zip",
     "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
-    "changelog": null
+    "changelog": "# 1.0.1\n* Fix normal spoilered embeds being unspoilered"
   },
   {
     "name": "BetterUserDetails",
@@ -1278,7 +1278,7 @@
   {
     "name": "HideEmptyCategories",
     "description": "Hides empty categories",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "Ushie",
@@ -1288,12 +1288,12 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/HideEmptyCategories.zip",
     "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
-    "changelog": null
+    "changelog": "# 1.0.1\n* Handle hook fails"
   },
   {
     "name": "HideEvents",
     "description": "Hide events from the channel list",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "authors": [
       {
         "name": "Ushie",
@@ -1303,7 +1303,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/HideEvents.zip",
     "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
-    "changelog": null
+    "changelog": "# 1.1.0\n* Completly disable events"
   },
   {
     "name": "HideServers",
@@ -2789,7 +2789,7 @@
   {
     "name": "ReviewDB",
     "description": "Review other users and servers",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "authors": [
       {
         "name": "mantikafasi",
@@ -2804,7 +2804,7 @@
     ],
     "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/ReviewDB.zip",
     "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
-    "changelog": ",\n# 1.2.1\n* Fix crash when ReviewDB fails to load a review page\n\n# 1.2.0\n# bunch of new features so tuff\n\n# 1.1.4\n* Show ban modal if user gets banned\n\n# 1.0.2\n* Added support server and website link to settings\n\n"
+    "changelog": ",\n# 1.2.2\n* Use bundled icons for ReviewDB pagination and review actions\n\n# 1.2.1\n* Fix crash when ReviewDB fails to load a review page\n\n# 1.2.0\n# bunch of new features so tuff\n\n# 1.1.4\n* Show ban modal if user gets banned\n\n# 1.0.2\n* Added support server and website link to settings\n\n"
   },
   {
     "name": "ServerReviews",
