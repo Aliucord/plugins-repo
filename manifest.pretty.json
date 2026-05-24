@@ -1203,7 +1203,7 @@
   {
     "name": "BetterSpoiler",
     "description": "Spoiler attachments in specific servers, channels, or users, with an option for age-restricted channels",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "authors": [
       {
         "name": "Ushie",
@@ -1213,7 +1213,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/BetterSpoiler.zip",
     "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
-    "changelog": "# 1.0.1\n* Fix normal spoilered embeds being unspoilered"
+    "changelog": "# 1.0.3\n* Request restart when toggling age restricted channels\n# 1.0.2\n* Fix all spoilers being unspoilered in non-age restricted channels when you have the auto spoiler age restricted setting enabled\n# 1.0.1\n* Fix normal spoilered embeds being unspoilered"
   },
   {
     "name": "BetterUserDetails",
@@ -1246,6 +1246,21 @@
     "changelog": null
   },
   {
+    "name": "CustomNavBar",
+    "description": "Customize the navbar layout, reorder or toggle entries, separate DMs from the server list into the navbar",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "Ushie",
+        "id": 399862294143696897,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/CustomNavBar.zip",
+    "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
+    "changelog": null
+  },
+  {
     "name": "DMsToBottom",
     "description": "Moves DMs to the bottom of the server list",
     "version": "1.1.0",
@@ -1259,6 +1274,26 @@
     "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/DMsToBottom.zip",
     "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
     "changelog": "# 1.1.0\n* Added the ability to stack the server list to the bottom (toggleable in settings) "
+  },
+  {
+    "name": "ForwardMessages",
+    "description": "Forward messages to your channel of your liking.",
+    "version": "1.0.3",
+    "authors": [
+      {
+        "name": "Ushie",
+        "id": 399862294143696897,
+        "hyperlink": true
+      },
+      {
+        "name": "reisxd",
+        "id": 1385511666266935318,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/ForwardMessages.zip",
+    "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
+    "changelog": "v1.0.3\n- Fixed forward icon having incorrect coloring due to wrong context\n\nv1.0.2\n- Fixed sharing being broken\n\nv1.0.1\n- Changed the icon with the forward icon (mirrored)\n- Internal data processing for IDs is now different\n\nv1.0.0\n- Initial release"
   },
   {
     "name": "GlobalProfilesOnly",
@@ -1896,6 +1931,26 @@
     "changelog": "# 1.0.10\n* Added the lossless quality argument to the emoji URL to combat Blur (by RGBCube)\n* Added the emoji name argument to the URL to help Vencord properly display the emoji (by Delphox)\n* Fix emojis breaking when the server boost runs out (by Delphox)\n* Fix invalid emoji size breaking the final emoji URL (by RGBCube)\n# 1.0.9\n* Removed the troll and made NitroSpoof work again\n* Thanks to Lenk for helping me with the code\n* The /freenitro slash command was changed to /freenitroll (use the command if you are sure you want to allow it to delete NitroSpoof)\n* No the command is not malicious and I am specifically telling you it will only delete NitroSpoof.zip\n* Ven is still my beloved -Foxy"
   },
   {
+    "name": "ShowHiddenChannels",
+    "description": "Allows you to see hidden channels in servers.",
+    "version": "1.3.0",
+    "authors": [
+      {
+        "hyperlink": true,
+        "id": 423915768191647755,
+        "name": "Xinto"
+      },
+      {
+        "hyperlink": true,
+        "id": 324622488644616195,
+        "name": "Juby210"
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/X1nto/AliucordPlugins/builds/ShowHiddenChannels.zip",
+    "repoUrl": "https://github.com/X1nto/AliucordPlugins",
+    "changelog": "Added {added marginTop} \n======================\n\n* added voice channels\n\nImproved {improved marginTop}\n======================\n\n* improved hidden channels appearance\n* refactored code"
+  },
+  {
     "name": "Stallman",
     "description": "Replace the word \"Linux\" in the Linux Copypasta with your desired phrase.",
     "version": "1.0.3",
@@ -2474,7 +2529,7 @@
   {
     "name": "AudioPlayer",
     "description": "Play audio files with a beautiful inline player UI.",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "authors": [
       {
         "name": "mantikafasi",
@@ -2484,7 +2539,7 @@
     ],
     "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/AudioPlayer.zip",
     "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
-    "changelog": ")\n    - 1.0.3\n        - download opus files to make seekbar work (thank you android)"
+    "changelog": ")\n    - 1.0.5\n        - add a hide button for the sticky player\n        - add sticky top player when the active audio scrolls off-screen\n        - hide the sticky player when playback stops\n        - show the filename in the sticky player\n        - improve OGG/Opus duration handling\n        - improve Themer color compatibility for custom player UI\n    - 1.0.3\n        - download opus files to make seekbar work (thank you android)"
   },
   {
     "name": "AvatarResizer",
@@ -2744,7 +2799,7 @@
   {
     "name": "PerformanceTuner",
     "description": "Diagnoses and reduces Discord chat UI performance hotspots",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "mantikafasi",
@@ -2753,6 +2808,21 @@
       }
     ],
     "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/PerformanceTuner.zip",
+    "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
+    "changelog": null
+  },
+  {
+    "name": "PhotoEditor",
+    "description": "Edit image URLs with PhotoEditor",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "mantikafasi",
+        "id": 287555395151593473,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/PhotoEditor.zip",
     "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
     "changelog": null
   },
@@ -2974,7 +3044,7 @@
   {
     "name": "VoiceMessages",
     "description": "Send Voice Messages",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "authors": [
       {
         "name": "mantikafasi",
@@ -2984,7 +3054,7 @@
     ],
     "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/VoiceMessages.zip",
     "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
-    "changelog": "\n# 1.1.2\n* Added support for Android versions below 10\n\n# 1.1.1\n* Fix some issues\n\n# 1.1.0\n* Make voice messages sendable in servers\n\n# 1.0.5\n* Fix voice messages getting sent in wrong channel if you switched channels before voice message is sent\n\n# 1.0.4\n* Made swiping up delete the voice recording\n\n# 1.0.2\n* Fix audio quality and add option to change it\n"
+    "changelog": "\n# 1.1.3\n* Vibecoded fixes\n\n# 1.1.2\n* Added support for Android versions below 10\n\n# 1.1.1\n* Fix some issues\n\n# 1.1.0\n* Make voice messages sendable in servers\n\n# 1.0.5\n* Fix voice messages getting sent in wrong channel if you switched channels before voice message is sent\n\n# 1.0.4\n* Made swiping up delete the voice recording\n\n# 1.0.2\n* Fix audio quality and add option to change it\n"
   },
   {
     "name": "ImageToClipboard",
