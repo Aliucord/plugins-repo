@@ -1248,7 +1248,7 @@
   {
     "name": "CustomNavBar",
     "description": "Customize the navbar layout, reorder or toggle entries, separate DMs from the server list into the navbar",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "Ushie",
@@ -1258,7 +1258,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/CustomNavBar.zip",
     "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
-    "changelog": null
+    "changelog": "# 1.0.1\n* Fix DMs being hidden from the serverlist even when the messages tab isn't enabled"
   },
   {
     "name": "DMsToBottom",
