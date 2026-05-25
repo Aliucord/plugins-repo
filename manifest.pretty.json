@@ -2752,6 +2752,21 @@
     "changelog": "uhm...\npls dont try to run lighlette command on AliuCord server. "
   },
   {
+    "name": "MediaFavorites",
+    "description": "Favorite images, videos, and audio files from chat",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "mantikafasi",
+        "id": 287555395151593473,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/MediaFavorites.zip",
+    "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
+    "changelog": "# 1.0.0 - Initial release\n* Star button on image, video, and audio attachments\n* Separate favorites lists for each media type\n* Browse and manage favorites in settings"
+  },
+  {
     "name": "MessageForwarder",
     "description": "Natively forward messages to other channels or DMs",
     "version": "1.0.0",
