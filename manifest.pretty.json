@@ -2709,7 +2709,7 @@
   {
     "name": "InvisibleMessages",
     "description": "Encrypts/Decrypts/Hides Messages \n To send message encrypted long click to send button,To decrypt message long click to message and press 'Decrypt Message' (it will not show if message doesnt contain any hidden text)",
-    "version": "1.1.7",
+    "version": "1.2.0",
     "authors": [
       {
         "name": "mantikafasi",
@@ -2719,7 +2719,7 @@
     ],
     "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/InvisibleMessages.zip",
     "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
-    "changelog": "\n#1.1.2\n* Fix mantikafasis  shitty detection. or break it. dont know dont care\n\n#1.1.1\n* Thanks to discord it got broken again on 105.12 so this update fixes that\n\n#1.0.6\n* Now messages encrypted with this plugin can be decryped with Apate (Discord Plugin)\n\n#1.0.563441\n* Updated it to work on 101.3\n\n#1.0.563440\n* Now passwords are automaticly trimmed(removes spaces from beginning and end of the text)\n* Some Fix\n\n#1.0.2\n* Added option to set password per channel (Works on DMs too)\nTo set password for channel ,long click to channels name (or user) and click set Channel Password,If you leave it empty and click confirm it will delete channels password if there is one \n\n#1.0.1\n* Added /invis slash command to send hidden message\n\n\n"
+    "changelog": "\n#1.2.0\n* Remove API and fully do operations locally\n\n#1.1.2\n* Fix mantikafasis  shitty detection. or break it. dont know dont care\n\n#1.1.1\n* Thanks to discord it got broken again on 105.12 so this update fixes that\n\n#1.0.6\n* Now messages encrypted with this plugin can be decryped with Apate (Discord Plugin)\n\n#1.0.563441\n* Updated it to work on 101.3\n\n#1.0.563440\n* Now passwords are automaticly trimmed(removes spaces from beginning and end of the text)\n* Some Fix\n\n#1.0.2\n* Added option to set password per channel (Works on DMs too)\nTo set password for channel ,long click to channels name (or user) and click set Channel Password,If you leave it empty and click confirm it will delete channels password if there is one \n\n#1.0.1\n* Added /invis slash command to send hidden message\n\n\n"
   },
   {
     "name": "KyzaMode",
@@ -2795,6 +2795,21 @@
     "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/MoreGifProviders.zip",
     "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
     "changelog": "# 1.0.1\n- Bug fix"
+  },
+  {
+    "name": "NewIcons",
+    "description": "Replaces Discord drawable resources with packaged new icons",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "mantikafasi",
+        "id": 287555395151593473,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/NewIcons.zip",
+    "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
+    "changelog": null
   },
   {
     "name": "PasswordLogin",
