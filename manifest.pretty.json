@@ -2662,6 +2662,21 @@
     "changelog": "\n#1.0.8 & 1.1.0\n* Some Fix\n\n# 1.0.7\n* Updated it to work on 101.3\n\n# 1.0.6\n* Made the menus look better -Animal\n* died of death\n# 1.0.5\n* Changed few things (I hope nothing will get broken)\n* Added opinion to edit voice channels (Long click to voice channel name,if it opens channel settings you cant edit it currently)\n\n# 1.0.4\n* Some Fixes (hopefully)\n* Added \"Local Server Settings\" button to Server Action Menu\n\n# 1.0.3\n* Added Icons to menu items\n\n"
   },
   {
+    "name": "EncryptDMs",
+    "description": "Encrypts chats with exchanged public keys",
+    "version": "1.0.1",
+    "authors": [
+      {
+        "name": "mantikafasi",
+        "id": 287555395151593473,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/EncryptDMs.zip",
+    "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
+    "changelog": "Implemented public key exchange, hybrid encryption, and automatic decrypt"
+  },
+  {
     "name": "GoodPerson",
     "description": "Makes you a great person",
     "version": "1.0.1",
