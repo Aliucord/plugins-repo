@@ -2814,7 +2814,7 @@
   {
     "name": "NewIcons",
     "description": "Replaces Discord drawable resources with packaged new icons",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "mantikafasi",
@@ -2824,7 +2824,7 @@
     ],
     "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/NewIcons.zip",
     "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
-    "changelog": null
+    "changelog": ")\n    - 1.0.1\n        - Fix Invisible keyboard icon"
   },
   {
     "name": "PasswordLogin",
