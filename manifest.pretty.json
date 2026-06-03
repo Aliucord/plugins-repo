@@ -2814,7 +2814,7 @@
   {
     "name": "NewIcons",
     "description": "Replaces Discord drawable resources with packaged new icons",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
       {
         "name": "mantikafasi",
