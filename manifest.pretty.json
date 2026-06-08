@@ -1966,6 +1966,21 @@
     "changelog": null
   },
   {
+    "name": "AutoIdle",
+    "description": "Marks you idle when unfocusing Aliucord, restores your status on focus like RN does (only if you were online before)",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "catsoft",
+        "id": 532967505438965780,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/autodistries/aliucord-plugins/builds/AutoIdle.zip",
+    "repoUrl": "https://github.com/autodistries/aliucord-plugins",
+    "changelog": "# 1.0.0\n* Initial plugin release!"
+  },
+  {
     "name": "CopyUrlInsteadOfShare",
     "description": "Replaces share message function with a copy url one",
     "version": "1.1.1",
@@ -1994,21 +2009,6 @@
     "url": "https://raw.githubusercontent.com/autodistries/aliucord-plugins/builds/Find.zip",
     "repoUrl": "https://github.com/autodistries/aliucord-plugins",
     "changelog": null
-  },
-  {
-    "name": "MobileIdle",
-    "description": "Marks you idle when unfocusing Aliucord, restores your status on focus like RN does (only if you were online before)",
-    "version": "1.0.0",
-    "authors": [
-      {
-        "name": "catsoft",
-        "id": 532967505438965780,
-        "hyperlink": true
-      }
-    ],
-    "url": "https://raw.githubusercontent.com/autodistries/aliucord-plugins/builds/MobileIdle.zip",
-    "repoUrl": "https://github.com/autodistries/aliucord-plugins",
-    "changelog": "# 1.0.0\n* Initial plugin release!"
   },
   {
     "name": "MoreMoreSlashCommands",
