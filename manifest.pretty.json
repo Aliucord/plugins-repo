@@ -1971,8 +1971,9 @@
     "version": "1.1.1",
     "authors": [
       {
+        "name": "catsoft",
         "id": 532967505438965780,
-        "name": "ℵ✺℘ḙ"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/autodistries/aliucord-plugins/builds/CopyUrlInsteadOfShare.zip",
@@ -1985,8 +1986,9 @@
     "version": "1.0.4",
     "authors": [
       {
+        "name": "catsoft",
         "id": 532967505438965780,
-        "name": "ℵ✺℘ḙ"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/autodistries/aliucord-plugins/builds/Find.zip",
@@ -1994,13 +1996,29 @@
     "changelog": null
   },
   {
+    "name": "MobileIdle",
+    "description": "Marks you idle when unfocusing Aliucord, restores your status on focus like RN does (only if you were online before)",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "catsoft",
+        "id": 532967505438965780,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/autodistries/aliucord-plugins/builds/MobileIdle.zip",
+    "repoUrl": "https://github.com/autodistries/aliucord-plugins",
+    "changelog": "# 1.0.0\n* Initial plugin release!"
+  },
+  {
     "name": "MoreMoreSlashCommands",
     "description": "Adds a few charcter modification slash commands",
     "version": "1.0.2",
     "authors": [
       {
+        "name": "catsoft",
         "id": 532967505438965780,
-        "name": "ℵ✺℘ḙ"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/autodistries/aliucord-plugins/builds/MoreMoreSlashCommands.zip",
@@ -2008,13 +2026,29 @@
     "changelog": "#1.0.2\nfixed morse translation issues\n    # 1.0.1\n    * Now with morse, bold, and small yay\n    # 1.0.0\n    * Initial release"
   },
   {
+    "name": "SearchHighlight",
+    "description": "Highlights search terms in message search results",
+    "version": "0.0.1",
+    "authors": [
+      {
+        "name": "catsoft",
+        "id": 532967505438965780,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://raw.githubusercontent.com/autodistries/aliucord-plugins/builds/SearchHighlight.zip",
+    "repoUrl": "https://github.com/autodistries/aliucord-plugins",
+    "changelog": "# 1.0.0\n* Initial plugin release!"
+  },
+  {
     "name": "SnowflakeUtilities",
     "description": "Adds a /snowflake command to translate discord snowflakes to readable date and time",
     "version": "1.0.6",
     "authors": [
       {
+        "name": "catsoft",
         "id": 532967505438965780,
-        "name": "ℵ✺℘ḙ"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/autodistries/aliucord-plugins/builds/SnowflakeUtilities.zip",
@@ -2027,8 +2061,9 @@
     "version": "1.0.0",
     "authors": [
       {
+        "name": "catsoft",
         "id": 532967505438965780,
-        "name": "ℵ✺℘ḙ"
+        "hyperlink": true
       }
     ],
     "url": "https://raw.githubusercontent.com/autodistries/aliucord-plugins/builds/Whois.zip",
