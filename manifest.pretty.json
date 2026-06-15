@@ -3516,6 +3516,111 @@
     "changelog": "1.1.2\n======================\n\n* Add compatibility mode to settings, if the plugin does not work\n\n1.0.2\n======================\n\n* Fix not being able to switch between audio devices\n\n1.0.1\n======================\n\n* Fix some bugs\n\n1.0.0\n======================\n\nInitial release\n\n======================"
   },
   {
+    "name": "IgnoreFeature",
+    "description": "Ignore users without blocking them",
+    "version": "0.0.5",
+    "authors": [
+      {
+        "name": "pilot bell",
+        "id": 1501048399485468697,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/pilotbellyt-spec/AliucordPlugins@refs/heads/builds/IgnoreFeature.zip",
+    "repoUrl": "https://github.com/pilotbellyt-spec/AliucordPlugins",
+    "changelog": "# v0.0.4\n- Parse ignored users from the startup READY gateway payload.\n- Keep ignored-only startup users when the legacy relationship list is incomplete.\n- Stay on the standard relationship route and gateway events.\n- Handle both legacy and modern relationship event field names.\n- Log startup sync counts for easier verification.\n\n# v0.0.3\n- Improve cold-start sync for ignores made from Discord web/RN.\n- Run a delayed relationship sync after Aliucord startup.\n- Keep incomplete legacy relationship payloads from wiping the ignore cache.\n\n# v0.0.1\n- Add Ignore and Unignore to the profile actions menu.\n- Sync ignored users with Discord's relationship ignore API.\n- Collapse ignored users' chat messages using Discord's blocked-message UI."
+  },
+  {
+    "name": "JumpToTop",
+    "description": "Adds a DiscordRN-style jump-to-top button for forum chats",
+    "version": "0.0.5",
+    "authors": [
+      {
+        "name": "pilot bell",
+        "id": 1501048399485468697,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/pilotbellyt-spec/AliucordPlugins@refs/heads/builds/JumpToTop.zip",
+    "repoUrl": "https://github.com/pilotbellyt-spec/AliucordPlugins",
+    "changelog": "# v0.0.4\n- Only show the button inside forum posts, not the forum home view.\n\n# v0.0.3\n- Jump to the forum post starter message instead of only the oldest loaded row.\n\n# v0.0.2\n- Replace the text caret with a real toolbar icon.\n- Use a normal menu item click handler.\n\n# v0.0.1\n- Add a caret button beside search in forum chat headers.\n- Jump to the oldest loaded message or forum row."
+  },
+  {
+    "name": "ManageStickers",
+    "description": "Adds a Stickers page to server settings",
+    "version": "0.0.22",
+    "authors": [
+      {
+        "name": "pilot bell",
+        "id": 1501048399485468697,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/pilotbellyt-spec/AliucordPlugins@refs/heads/builds/ManageStickers.zip",
+    "repoUrl": "https://github.com/pilotbellyt-spec/AliucordPlugins",
+    "changelog": "# v0.0.22\n- Use loading copy in the sticker list header before slots are loaded.\n\n# v0.0.21\n- Remove Lottie JSON sticker uploads because Discord rejects them.\n\n# v0.0.20\n- Keep sticker descriptions out of the author subtext area.\n\n# v0.0.19\n- Limit sticker descriptions to 100 characters.\n- Show sticker author username and avatar like the emoji settings list.\n\n# v0.0.18\n- Fix a crash when showing sticker authors on older Kotlin runtime.\n\n# v0.0.17\n- Show the sticker author's username in the sticker list.\n\n# v0.0.16\n- Align the Stickers server settings icon with Discord's native settings rows.\n\n# v0.0.15\n- Convert JPG and JPEG sticker uploads to PNG like Discord web.\n\n# v0.0.14\n- Allow JPG and JPEG sticker uploads without renaming the file type.\n- Clean Discord upload errors before showing them in toasts.\n\n# v0.0.13\n- Clean Discord API errors at the toast boundary too.\n\n# v0.0.12\n- Show Discord API error messages cleanly in toasts.\n\n# v0.0.11\n- Remove the sticker dimension safeguard.\n\n# v0.0.10\n- Block sticker uploads over Discord's maximum dimensions.\n\n# v0.0.9\n- Refresh the open Stickers page when Discord sends sticker updates.\n\n# v0.0.8\n- Preserve sticker upload file type for GIF and Lottie files.\n\n# v0.0.7\n- Block sticker uploads over 512KB before showing the form.\n\n# v0.0.6\n- Show remaining sticker slots and block uploads when full.\n\n# v0.0.5\n- Fix delete confirmation showing after the sticker menu closes.\n\n# v0.0.4\n- Fix delete confirmation width for short sticker names.\n\n# v0.0.3\n- Fix sticker delete menu opening.\n\n# v0.0.2\n- Fix duplicate Stickers rows in server settings.\n- Fix delete confirmation action.\n\n# v0.0.1\n- Add a Stickers row under Emoji in server settings.\n- Add a server sticker manager with upload, edit, and delete actions."
+  },
+  {
+    "name": "MessageBookmarks",
+    "description": "Message bookmarks and reminders",
+    "version": "0.0.4",
+    "authors": [
+      {
+        "name": "pilot bell",
+        "id": 1501048399485468697,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/pilotbellyt-spec/AliucordPlugins@refs/heads/builds/MessageBookmarks.zip",
+    "repoUrl": "https://github.com/pilotbellyt-spec/AliucordPlugins",
+    "changelog": "# 0.0.4\n* Keep the Bookmarks view from taking over Discord's shared titlebar.\n\n# 0.0.3\n* Show saved messages with Recent Mentions style channel headers and reply previews.\n\n# 0.0.1\n* Add local message bookmarks and reminders.\n* Add opt-in sync mode for Discord's saved-message API.\n* Add bookmark/reminder actions to the message action sheet.\n* Add a Bookmarks button to Recent Mentions."
+  },
+  {
+    "name": "MessageRequests",
+    "description": "Backport of Discord message requests",
+    "version": "0.0.17",
+    "authors": [
+      {
+        "name": "pilot bell",
+        "id": 1501048399485468697,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/pilotbellyt-spec/AliucordPlugins@refs/heads/builds/MessageRequests.zip",
+    "repoUrl": "https://github.com/pilotbellyt-spec/AliucordPlugins",
+    "changelog": "# 0.0.17\n* Mirror Discord's request state when sync/live channel payloads explicitly mark a DM accepted.\n* Keep pending requests when a partial sync omits their channel rows.\n* Switch the DM list to Message Requests when the selected DM is a pending request.\n\n# 0.0.16\n* Keep live message request rows available for the request inbox before restart.\n* Refresh the request list when opening the Message Requests page.\n\n# 0.0.14\n* Only use Discord's is_message_request field to classify request DMs.\n\n# 0.0.13\n* Stop treating generic pending consent as a message request.\n\n# 0.0.12\n* Stop REST sync from overwriting live message request gateway state.\n\n# 0.0.11\n* Fix request inbox sync when Discord returns split channel arrays.\n* Keep accepted requests out of the inbox when stale request markers remain.\n\n# 0.0.10\n* Refresh the DM list after request sync/live state changes.\n\n# 0.0.5\n* Stop treating empty message request timestamp fields as pending requests.\n\n# 0.0.4\n* Keep message request filtering on the DM adapter data path so rows cannot fall back into normal DMs.\n\n# 0.0.3\n* Detect Discord's real message request channel fields.\n* Sync the current private channel list on startup so existing requests move out of normal DMs.\n\n# 0.0.2\n* Move pending message requests into a separate Direct Messages page.\n* Add a Message Requests button beside the new DM button.\n* Hide pending requests from the normal DM list.\n\n# 0.0.1\n* Add basic message request detection from Discord gateway payloads.\n* Add Accept and Deny actions for pending DM requests.\n* Add a small request banner to the start of DM chats."
+  },
+  {
+    "name": "ModernUserStyles",
+    "description": "Gradient roles and custom display names from DiscordRN",
+    "version": "0.0.52",
+    "authors": [
+      {
+        "name": "pilot bell",
+        "id": 1501048399485468697,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/pilotbellyt-spec/AliucordPlugins@refs/heads/builds/ModernUserStyles.zip",
+    "repoUrl": "https://github.com/pilotbellyt-spec/AliucordPlugins",
+    "changelog": "# 0.0.52\n* Stop DM toolbar name effects from leaking selected channel or DM names into other pages.\n\n# 0.0.51\n* Keep the bookmarks/title-mode fix separate and stable while preserving display-name role styling behavior.\n\n# 0.0.50\n* Keep font-styled chat names from wiping or leaking role gradients on recycled message rows.\n\n# 0.0.49\n* Keep selected DM sidebar name effects aligned with normal Discord rows.\n\n# 0.0.48\n* Stop profile/name styles from leaking into emoji, channel, role, and command autocomplete rows.\n\n# 0.0.47\n* Refresh tab toolbar ownership and clear stale subtitles during tab switches.\n\n# 0.0.46\n* Stop stale display-name font styles from sticking to recycled message rows.\n\n# 0.0.45\n* Keep regular message role colors tied to Discord's current message row data.\n\n# 0.0.44\n* Preserve theme fonts for users without a custom display-name font.\n\n# 0.0.43\n* Recalculate reply preview spacing after styled reply names render.\n\n# 0.0.42\n* Make install, uninstall, update, and settings changes require an Aliucord restart.\n* Keep solid role colors when role gradients are turned off.\n* Restore normal toolbar title styling when leaving styled DMs.\n\n# 0.0.41\n* Keep DM sidebar font styles on unselected rows while limiting full name effects to the selected DM.\n* Guard delayed drawable-name refreshes with the same row tag checks used by chat names.\n* Restore non-DM toolbar titles after clearing stale DM name effects.\n* Keep server channel toolbar titles out of the DM name-effect path.\n\n# 0.0.40\n* Stop DM name effects from leaking into non-DM toolbar titles.\n\n# 0.0.39\n* Clear stale DM header and toolbar name effects when switching conversations.\n\n# 0.0.38\n* Bind reply names from the current message row so recycled reply previews keep the right user, font, and role color.\n\n# 0.0.37\n* Keep the DM sidebar and header fixes on top of the stable reply styling build.\n\n# 0.0.36\n* Keep DM sidebar names normal until their one-to-one DM is selected, then show the custom effect.\n* Keep group DM names from being replaced by a single recipient's styled name.\n* Keep Discord's selected, unread, and normal DM sidebar colors when clearing name effects.\n* Clear stale one-to-one DM header effects when switching into group DMs.\n\n# 0.0.35\n* Harden reply username styling by following Discord's reply author path and avoiding recycled row state.\n* Keep Discord's live reply color when custom style or role data is not available yet.\n\n# 0.0.33\n* Rework chat, reply, and member-list styling to use Discord row models instead of recycled TextView state.\n* Stop using previous view colors as role fallbacks, fixing stale names, fonts, and role colors on reused rows.\n\n# 0.0.32\n* Apply custom display-name colors and effects to DM headers, the top chat bar, the DM list, and private member-list names.\n* Style the large \"beginning of DM\" header with the same custom name effect path used by profiles.\n\n# 0.0.31\n* Let long customized profile names wrap instead of collapsing to ellipses.\n* Split profile effect spans by word so styled names can line-break naturally.\n\n# 0.0.30\n* Fix reply names sometimes using stale user data from recycled chat rows.\n* Preserve server-specific reply names while still applying custom fonts and role colors.\n\n# 0.0.29\n* Prevent display-name fonts from leaking onto users whose profile payload does not include a font style.\n\n# 0.0.28\n* Use bundled TTF/OTF display-name fonts instead of native font decoding.\n* Re-render reply names after profile and role data loads so custom fonts and role colors stay consistent.\n\n# 0.0.27\n* Gate role gradients and holographic role colors on the server's Enhanced Role Styles perk instead of treating booster roles specially.\n\n# 0.0.26\n* Keep premium subscriber roles from creating false chat gradients while preserving their primary color.\n\n# 0.0.25\n* Prevent reflected legacy role color data from creating false chat gradients.\n\n# 0.0.24\n* Fix profile effect animations being wiped by follow-up renders.\n\n# 0.0.23\n* Restore Discord web's separate horizontal role-gradient shader for chat and limit profile animations to exact animated effects.\n\n# 0.0.22\n* Fix toon profile names to match Discord web's larger candy-fill gradient and add short profile effect animations.\n\n# 0.0.21\n* Fix customized profile display names collapsing to ellipses.\n\n# 0.0.20\n* Match Discord web gradient direction, color contrast, strokes, and layered profile name effects more closely.\n\n# 0.0.19\n* Show custom display-name colors and effects on profiles while keeping chat and member-list names role-colored.\n\n# 0.0.18\n* Apply reply name styles before Discord calculates reply preview spacing.\n\n# 0.0.17\n* Fix styled reply names overlapping the replied-to message text.\n\n# 0.0.16\n* Make role gradients closer to Discord web.\n* Fix member-list users sometimes showing as null.\n\n# 0.0.15\n* Link the author metadata to my Discord profile.\n\n# 0.0.14\n* Update public-facing plugin metadata and settings copy.\n\n# 0.0.13\n* Prepare the plugin for public repository review.\n* Remove old slash commands and noisy profile logging.\n* Update package, author metadata, and plugin description.\n\n# 0.0.12\n* Ignore legacy fallback member colors unless they resolve to an actual colored guild role, keeping roleless users white.\n* Preserve server nicknames during async profile refreshes instead of replacing them with global display names.\n* Render role colors without display-name glow/neon effects that Discord web does not apply to roles.\n\n# 0.0.11\n* Keep users with no colored role white instead of falling back to display-name style colors.\n\n# 0.0.10\n* Load Discord's real display-name fonts instead of Android approximations.\n* Match the current Discord web font-class mapping and letter spacing.\n* Let role colors/gradients stay authoritative when a user also has a custom font.\n\n# 0.0.9\n* Style member-list UsernameView's internal username text so side-menu gradients apply.\n* Style replied-to usernames in reply previews.\n* Stop changing text weight, text scale, or letter spacing for gradients/effects.\n\n# 0.0.8\n* Resolve member-list role gradients from the real guild member roles instead of only item.color.\n* Use selected guild fallback for member-list role/color fetches.\n\n# 0.0.7\n* Resolve role colors by highest colored role position, matching Discord role precedence.\n* Let higher solid roles override lower gradient roles and improve per-font Android styling.\n\n# 0.0.6\n* Rework name rendering to apply color, gradient, shadow, and typeface directly to TextViews.\n* Make font ID fallbacks more visually distinct on Android.\n\n# 0.0.5\n* Fetch display-name styles through the modern popout profile route with guild context.\n* Cache profile fetches by user and guild so a no-style lightweight response does not block styled data.\n\n# 0.0.4\n* Apply single-color display-name styles for effects and font styling.\n* Parse display_name_styles anywhere in profile payloads and avoid member-list guildId crashes.\n\n# 0.0.3\n* Make gradients higher contrast and easier to read on small text.\n* Reset unstyled names to white instead of inheriting Discord's blue tint.\n\n# 0.0.2\n* Fetch modern profile display-name data and role color payloads directly for chat/member/profile surfaces.\n* Only render colors when Discord sends an actual gradient; custom fonts still render without colors.\n\n# 0.0.1\n* Initial ModernUserStyles build.\n* Render display names, display-name style IDs, and real role gradients where legacy data exposes them."
+  },
+  {
+    "name": "ServerSettingsFix",
+    "description": "Server settings fixes for legacy Android",
+    "version": "0.0.3",
+    "authors": [
+      {
+        "name": "pilot bell",
+        "id": 1501048399485468697,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/pilotbellyt-spec/AliucordPlugins@refs/heads/builds/ServerSettingsFix.zip",
+    "repoUrl": "https://github.com/pilotbellyt-spec/AliucordPlugins",
+    "changelog": "# 0.0.3\n- Rename plugin to ServerSettingsFix.\n- Use Discord's current audit-log route.\n\n# 0.0.1\n- Use Discord's paginated bans endpoint.\n- Keep stuck audit-log requests from leaving the page in a loading state.\n- Add a 30-minute invite option."
+  },
+  {
     "name": "1ClickDelete",
     "description": "Disable the delete confirmation on messages.",
     "version": "1.0.1",
