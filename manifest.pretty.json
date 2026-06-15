@@ -2804,7 +2804,7 @@
   {
     "name": "MediaFavorites",
     "description": "Favorite images, videos, and audio files from chat",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "authors": [
       {
         "name": "mantikafasi",
@@ -2814,7 +2814,7 @@
     ],
     "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/MediaFavorites.zip",
     "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
-    "changelog": "# 1.0.0 - Initial release\n* Star button on image, video, and audio attachments\n* Separate favorites lists for each media type\n* Browse and manage favorites in settings"
+    "changelog": "# 1.0.2\n* Refresh expired Discord CDN favorite URLs\n* Move audio favorite star away from download button\n\n# 1.0.1\n* Flatten Media expression tab styling\n* Add video thumbnails in Media Favorites\n\n# 1.0.0 - Initial release\n* Star button on image, video, and audio attachments\n* Separate favorites lists for each media type\n* Browse and manage favorites in settings"
   },
   {
     "name": "MessageForwarder",
