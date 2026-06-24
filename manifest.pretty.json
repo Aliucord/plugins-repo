@@ -1968,7 +1968,7 @@
   {
     "name": "AutoIdle",
     "description": "Marks you idle when unfocusing Aliucord, restores your status on focus like RN does (only if you were online before)",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "authors": [
       {
         "name": "catsoft",
@@ -1978,7 +1978,7 @@
     ],
     "url": "https://raw.githubusercontent.com/autodistries/aliucord-plugins/builds/AutoIdle.zip",
     "repoUrl": "https://github.com/autodistries/aliucord-plugins",
-    "changelog": "# 1.0.0\n* Initial plugin release!"
+    "changelog": "# 1.1.0\n* fix keeping your status when autoidling\n* reduce qty of false positives\n# 1.0.0\n* Initial plugin release!"
   },
   {
     "name": "CopyUrlInsteadOfShare",
