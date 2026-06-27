@@ -996,7 +996,7 @@
   {
     "name": "Yoink",
     "description": "Exports loaded channel messages (up to 200) to a text file via the top-right (⋮) menu",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "RazerTexz",
@@ -1006,7 +1006,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/RazerTexz/My-plugins@refs/heads/builds/Yoink.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
-    "changelog": "# 1.0.0\n* Initial version"
+    "changelog": "# 1.0.1\n* Switched from ASV to formatted TXT\n* Filenames now use guild/channel names\n* Show export path in the toast"
   },
   {
     "name": "AttachmentKeyboardFix",
