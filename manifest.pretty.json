@@ -995,8 +995,8 @@
   },
   {
     "name": "Yoink",
-    "description": "Exports loaded channel messages (up to 200) to a text file via the top-right (⋮) menu",
-    "version": "1.0.2",
+    "description": "Exports loaded channel messages (up to 200) to .txt by long-pressing the channel name at the top",
+    "version": "1.0.4",
     "authors": [
       {
         "name": "RazerTexz",
@@ -1006,7 +1006,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/RazerTexz/My-plugins@refs/heads/builds/Yoink.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
-    "changelog": "# 1.0.2\n* Added options to include timestamps, message IDs, and reply IDs\n\n# 1.0.1\n* Switched from ASV to formatted TXT\n* Filenames now use guild/channel names\n* Show export path in the toast"
+    "changelog": "# 1.0.4\n* Added support for text embeds\n* Added a toggle for attachment URLs\n# 1.0.3\n* Replaced the top-right (⋮) menu with a long press on the channel name at the top to prevent clutter\n# 1.0.2\n* Added toggles for timestamps, message IDs, and reply IDs\n# 1.0.1\n* Switched from ASV to formatted TXT\n* Filenames now use guild/channel names\n* Show export path in the toast"
   },
   {
     "name": "AttachmentKeyboardFix",
