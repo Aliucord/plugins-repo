@@ -123,7 +123,7 @@
   {
     "name": "HideMessageChatActions",
     "description": "Hides specific actions from the message long-press menu.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "authors": [
       {
         "name": "Alt+F4",
@@ -133,7 +133,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/Importantamigo/piglins@refs/heads/builds/HideMessageChatActions.zip",
     "repoUrl": "https://github.com/Importantamigo/piglins",
-    "changelog": "# 1.0.0\n* Initial release"
+    "changelog": "# 1.1.0\n* Sorts actions in the same order as the menu now\n\n# 1.0.0\n* Initial release"
   },
   {
     "name": "TenorAPIFix",
