@@ -121,6 +121,36 @@
     "changelog": "# NOTICE: This plugin is in maintenance and will therefore not be usable until further notice.\n\n\n# 1.0.10\n* Fixed issue where pronouns were not being set (oops!)\n* UI bug fixes\n* Fixed issue where pronouns would be blank once set and re-entering the user profile screen\n\n# 1.0.9\n* Fixed crash on user profile screen\n\n# 1.0.8\n* Improved optimisation when fetching user values\n* Fixed several bugs with save button showing at incorrect times on user profile screen\n* Rotating device on user profile screen no longer resets recently typed pronouns\n* Enter button now hides keyboard on pronouns field\n\n# 1.0.7\n* Only sends API request to update when necessary\n\n# 1.0.6\n* Fixed bug where cursor would reset to the start of the pronouns edit field when focusing\n* Fixed bug where pronouns would be underlined on preview when unfocusing from the edit field\n\n# 1.0.5\n* More closely mimics Discord's stock save button behaviour on User Profile screen for pronouns field\n* Remove shadow from pronouns edit field\n\n# 1.0.4\n* Fixed deranged bug where the 'User Profile' screen would show and set another user's pronouns\n\n# 1.0.3\n* More improvements to API request headers and super properties handling\n\n# 1.0.2\n* Hotfix\n\n# 1.0.1\n* Improved API request headers and super properties handling\n* Added more translations and UI now respects the app's chosen language\n* Fixed issue where accounts screen would display incorrectly\n\n# 1.0.0\n* First release!"
   },
   {
+    "name": "HideMessageChatActions",
+    "description": "Hides specific actions from the message long-press menu.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "Alt+F4",
+        "id": 0,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/Importantamigo/piglins@refs/heads/builds/HideMessageChatActions.zip",
+    "repoUrl": "https://github.com/Importantamigo/piglins",
+    "changelog": "# 1.0.0\n* Initial release"
+  },
+  {
+    "name": "TenorAPIFix",
+    "description": "Fixes the Tenor GIF search and trending API",
+    "version": "1.1.0",
+    "authors": [
+      {
+        "name": "Alt+F4",
+        "id": 0,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/Importantamigo/piglins@refs/heads/builds/TenorAPIFix.zip",
+    "repoUrl": "https://github.com/Importantamigo/piglins",
+    "changelog": "# 1.1.0\n* fuckton of refactoring, should work more consistently\n\n# 1.0.1\n* Initial plugin release"
+  },
+  {
     "name": "BetterCodeBlocks",
     "description": "Makes codeblocks better by adding new languages, improving already existing and more.",
     "version": "1.1.2",
