@@ -2864,7 +2864,7 @@
   {
     "name": "MoreGifProviders",
     "description": "Adds Klipy and Giphy results to Discord's GIF picker",
-    "version": "1.0.1",
+    "version": "1.0.5",
     "authors": [
       {
         "name": "mantikafasi",
@@ -2874,7 +2874,7 @@
     ],
     "url": "https://raw.githubusercontent.com/mantikafasi/AliucordPlugins/builds/MoreGifProviders.zip",
     "repoUrl": "https://github.com/mantikafasi/AliucordPlugins",
-    "changelog": "# 1.0.1\n- Bug fix"
+    "changelog": "# 1.0.5\n- Restore Giphy search and trending results\n\n# 1.0.1\n- Bug fix"
   },
   {
     "name": "NewIcons",
