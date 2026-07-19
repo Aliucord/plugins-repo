@@ -4425,6 +4425,21 @@
     "changelog": null
   },
   {
+    "name": "petpet",
+    "description": "Adds a /petpet slash command to create headpat GIFs from an image",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "thecatinyourceiling",
+        "id": 1292181720354787421,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/The-Microwave-Society-Reborn/petpet@refs/heads/builds/petpet.zip",
+    "repoUrl": "https://github.com/thecatontheceiling/AliucordPlugins",
+    "changelog": "# 1.0.0\n* Initial release."
+  },
+  {
     "name": "BetterChannelIcons",
     "description": "Adds an array of new channel icons",
     "version": "1.3.7",
