@@ -148,7 +148,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/Importantamigo/piglins@refs/heads/builds/TenorAPIFix.zip",
     "repoUrl": "https://github.com/Importantamigo/piglins",
-    "changelog": "# 1.1.0\n* fuckton of refactoring, should work more consistently\n\n# 1.0.1\n* Initial plugin release"
+    "changelog": "# 1.1.1\n* disabled some debug stuff that would flood logs\n    \n# 1.1.0\n* fuckton of refactoring, should work more consistently\n\n# 1.0.1\n* Initial plugin release"
   },
   {
     "name": "BetterCodeBlocks",
