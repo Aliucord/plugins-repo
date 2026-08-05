@@ -4280,6 +4280,21 @@
     "changelog": "# 1.0.0\n* Initial plugin release!"
   },
   {
+    "name": "KeepVideoPlaying",
+    "description": "Keeps videos playing even when scrolling off screen",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "secp192k1",
+        "id": 477497542205243392,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/secp192k1/Aliucord-Plugins@refs/heads/builds/KeepVideoPlaying.zip",
+    "repoUrl": "https://github.com/secp192k1/Aliucord-Plugins",
+    "changelog": "# 1.0.0\n* Initial plugin release!"
+  },
+  {
     "name": "LargerUploadsPerk",
     "description": "Support for 'Larger File Uploads' guild boost perk",
     "version": "1.0.0",
