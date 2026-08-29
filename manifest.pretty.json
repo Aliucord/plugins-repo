@@ -4310,6 +4310,21 @@
     "changelog": "# 1.0.0\n* Initial plugin release!"
   },
   {
+    "name": "FixEditUpdates",
+    "description": "Fixes edited messages not updating",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "secp192k1",
+        "id": 477497542205243392,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/secp192k1/Aliucord-Plugins@refs/heads/builds/FixEditUpdates.zip",
+    "repoUrl": "https://github.com/secp192k1/Aliucord-Plugins",
+    "changelog": "# 1.0.0\n* Initial plugin release!"
+  },
+  {
     "name": "KeepVideoPlaying",
     "description": "Keeps videos playing even when scrolling off screen",
     "version": "1.0.0",
@@ -4338,6 +4353,21 @@
     "url": "https://cdn.jsdelivr.net/gh/secp192k1/Aliucord-Plugins@refs/heads/builds/LargerUploadsPerk.zip",
     "repoUrl": "https://github.com/secp192k1/Aliucord-Plugins",
     "changelog": "# 1.0.0\n* Initial plugin release!\n* Standalone implementation of the UploadSize Core Plugin with added guild perk support"
+  },
+  {
+    "name": "Lupa",
+    "description": "Adds searching through all of your dms",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "secp192k1",
+        "id": 477497542205243392,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/secp192k1/Aliucord-Plugins@refs/heads/builds/Lupa.zip",
+    "repoUrl": "https://github.com/secp192k1/Aliucord-Plugins",
+    "changelog": "# 1.0.0\n* Initial plugin release!"
   },
   {
     "name": "FuckOffDiscord",
