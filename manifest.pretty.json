@@ -4370,6 +4370,21 @@
     "changelog": "# 1.0.0\n* Initial plugin release!"
   },
   {
+    "name": "TotalCallTime",
+    "description": "Backport of the total elapsed voice call time in guilds",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "secp192k1",
+        "id": 477497542205243392,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/secp192k1/Aliucord-Plugins@refs/heads/builds/TotalCallTime.zip",
+    "repoUrl": "https://github.com/secp192k1/Aliucord-Plugins",
+    "changelog": "# 1.0.0\n* Initial plugin release!"
+  },
+  {
     "name": "FuckOffDiscord",
     "description": "Fuck off Discord",
     "version": "1.0.1",
