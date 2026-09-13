@@ -285,7 +285,7 @@
   {
     "name": "NewEmojis",
     "description": "Adds new emojis missing in old discord.",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "authors": [
       {
         "id": 324622488644616195,
@@ -294,7 +294,7 @@
     ],
     "url": "https://raw.githubusercontent.com/Juby210/Aliucord-plugins/builds/NewEmojis.zip",
     "repoUrl": "https://github.com/Juby210/Aliucord-plugins",
-    "changelog": "1.0.3 {added}\n======================\n\n* added more emoji's\n\n1.0.2 {updated marginTop}\n======================\n\n* updated twemoji to 15.0.3 adding unicode 15 emojis\n\n1.0.1 {added}\n======================\n\n* updated twemoji url to 14.1.2 (jdecked's fork)\n* added option to revert change of pleading and face_holding_back_tears emoji"
+    "changelog": "1.0.5 {added}\n======================\n\n* updated twemoji to 16.0.1 adding unicode 16 emojis\n\n1.0.3 {added}\n======================\n\n* added more emoji's\n\n1.0.2 {updated marginTop}\n======================\n\n* updated twemoji to 15.0.3 adding unicode 15 emojis\n\n1.0.1 {added}\n======================\n\n* updated twemoji url to 14.1.2 (jdecked's fork)\n* added option to revert change of pleading and face_holding_back_tears emoji"
   },
   {
     "name": "NewProfiles",
