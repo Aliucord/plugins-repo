@@ -4815,34 +4815,34 @@
     "changelog": null
   },
   {
-    "name": "FriendInvites",
-    "description": "generate, list, and remove Discord friend invites.",
-    "version": "1.0.0",
+    "name": "LaTeXRenderer",
+    "description": "Renders LaTeX Formulas.\n* Service is provided by quicklatex.com",
+    "version": "0.1.0",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "Wire",
         "id": 460493336076091392,
-        "name": "wiretoscreen"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/wiretoscreen/aliupluh/builds/FriendInvites.zip",
+    "url": "https://cdn.jsdelivr.net/gh/wiretoscreen/aliupluh@refs/heads/builds/LaTeXRenderer.zip",
     "repoUrl": "https://github.com/wiretoscreen/aliupluh",
-    "changelog": "* **1.0.0**: Initial Release"
+    "changelog": "* **0.1.0**: Initial Release"
   },
   {
     "name": "ThemeRandomizer",
     "description": "Randomizes your theme every Aliucord launch",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "Wire",
         "id": 460493336076091392,
-        "name": "wiretoscreen"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/wiretoscreen/aliupluh/builds/ThemeRandomizer.zip",
+    "url": "https://cdn.jsdelivr.net/gh/wiretoscreen/aliupluh@refs/heads/builds/ThemeRandomizer.zip",
     "repoUrl": "https://github.com/wiretoscreen/aliupluh",
-    "changelog": "- **1.0.1** • Fix install & Adds error messages\n- **1.0.0** • Initial Release"
+    "changelog": "* **1.0.2** • exclude current theme from randomization, use toasts and improve error messages\n* **1.0.1** • Fix install & Adds error messages\n* **1.0.0** • Initial Release"
   },
   {
     "name": "AccountSwitcher",
