@@ -4282,7 +4282,7 @@
   {
     "name": "ActivitiesV2",
     "description": "Lets you play activities like Wordle",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "authors": [
       {
         "name": "secp192k1",
@@ -4292,7 +4292,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/secp192k1/Aliucord-Plugins@refs/heads/builds/ActivitiesV2.zip",
     "repoUrl": "https://github.com/secp192k1/Aliucord-Plugins",
-    "changelog": "# 1.2.2\n* Use real locale for activities\n* Support opening external links inside activities\n* Quest requests answered gracefully, by skipping\n\n# 1.2.1\n* Faster message processing\n* Faster loading of the activity picker\n* Activity updates are now processed in order, no ghost participants\n* Fewer redundant network requests for unknown applications\n\n# 1.2.0\n* Render message cards (type 23) correctly\n* Multiplayer activities now receive live participant updates (player lists work)\n* Voice activities can now see who's in the voice channel\n* Activities now ask before using your microphone or camera\n* Fixed crash crash or close when the screen is rotated\n* Fixed switching to another activity while one is already open\n* Activities that fail to load now show a toast and close instead of a black screen\n* Fixed activities rejecting channel info due to wrong id format\n* Unknown RPC commands now return a proper error instead of a fake success\n* Reduced memory usage (bounded avatar/icon caches)\n* Added a settings page (permission prompt and WebView debugging)\n\n# 1.1.2\n* Fixed activites not working at all while in a voice chat\n* Fixed authentication (Chess in the Park, Putt Party, etc) which resulted in refusal to load\n* Support for activities in more channel types\n* Code refactor and cleanup\n\n# 1.1.1\n* Show participant avatars in activity header\n\n# 1.1.0\n* Added an activity picker to the chat attachments bar, showing a grid of the server's apps and the activity shelf\n* Activities in voice chat are now supported\n* Launch failures now show the exact reason (age restriction, missing permission, etc)\n* Fixed activities failing to authenticate after launch\n* Silenced some gateway logs (spams...)\n* Code refactor and cleanup\n\n# 1.0.0\n* Initial plugin release!"
+    "changelog": "# 1.2.3\n* Fix crashing when opening media picker on older android phones\n\n# 1.2.2\n* Use real locale for activities\n* Support opening external links inside activities\n* Quest requests answered gracefully, by skipping\n\n# 1.2.1\n* Faster message processing\n* Faster loading of the activity picker\n* Activity updates are now processed in order, no ghost participants\n* Fewer redundant network requests for unknown applications\n\n# 1.2.0\n* Render message cards (type 23) correctly\n* Multiplayer activities now receive live participant updates (player lists work)\n* Voice activities can now see who's in the voice channel\n* Activities now ask before using your microphone or camera\n* Fixed crash crash or close when the screen is rotated\n* Fixed switching to another activity while one is already open\n* Activities that fail to load now show a toast and close instead of a black screen\n* Fixed activities rejecting channel info due to wrong id format\n* Unknown RPC commands now return a proper error instead of a fake success\n* Reduced memory usage (bounded avatar/icon caches)\n* Added a settings page (permission prompt and WebView debugging)\n\n# 1.1.2\n* Fixed activites not working at all while in a voice chat\n* Fixed authentication (Chess in the Park, Putt Party, etc) which resulted in refusal to load\n* Support for activities in more channel types\n* Code refactor and cleanup\n\n# 1.1.1\n* Show participant avatars in activity header\n\n# 1.1.0\n* Added an activity picker to the chat attachments bar, showing a grid of the server's apps and the activity shelf\n* Activities in voice chat are now supported\n* Launch failures now show the exact reason (age restriction, missing permission, etc)\n* Fixed activities failing to authenticate after launch\n* Silenced some gateway logs (spams...)\n* Code refactor and cleanup\n\n# 1.0.0\n* Initial plugin release!"
   },
   {
     "name": "Caffeinate",
@@ -4321,6 +4321,21 @@
       }
     ],
     "url": "https://cdn.jsdelivr.net/gh/secp192k1/Aliucord-Plugins@refs/heads/builds/FixEditUpdates.zip",
+    "repoUrl": "https://github.com/secp192k1/Aliucord-Plugins",
+    "changelog": "# 1.0.0\n* Initial plugin release!"
+  },
+  {
+    "name": "ForceSystemFont",
+    "description": "Use the phone's system font instead",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "secp192k1",
+        "id": 477497542205243392,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/secp192k1/Aliucord-Plugins@refs/heads/builds/ForceSystemFont.zip",
     "repoUrl": "https://github.com/secp192k1/Aliucord-Plugins",
     "changelog": "# 1.0.0\n* Initial plugin release!"
   },
