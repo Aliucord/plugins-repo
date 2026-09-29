@@ -2339,7 +2339,7 @@
   {
     "name": "Scout",
     "description": "Backported and improved search functionality",
-    "version": "1.4.3",
+    "version": "1.4.5",
     "authors": [
       {
         "name": "cilly",
@@ -2349,7 +2349,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/cillynder/Awoocord@refs/heads/builds/Scout.zip",
     "repoUrl": "https://github.com/cillynder/Awoocord",
-    "changelog": "!!! Minimum Aliucord version requirement {fixed}\n======================\n* Scout now requires Aliucord 2.4.0, please update before reporting issues.\n\nChangelog {added marginTop}\n======================\n# 1.4.3\n* Clear search state when switching servers or DMs\n\n# 1.4.2\n* Keeps search state when backing out of results\n* Don't show keyboard when returning to search results\n\n# 1.4.1\n* Shows self when typing \"me\" in from: or mentions: suggestions\n\n# 1.4.0 - Scout is searching for clues about the elusive MvM update\n* Added the authorType filter option to search by user, bot, or webhook\n* Moved sort filter to the top of the new ones\n* Fixes a Discord bug where typing \"mentions\" would also suggest \"has\"\n* Some people said the options were getting bloated, so they're all hidden behind a \"Show all\" button now. They'll still show up in auto suggestions.\n\n# 1.3.0\n* Removes empty discriminator when searching with users\n\n# 1.2.2\n* Fix possible rare crash related to thread searching\n\n# 1.2.1\n* Fixes off-looking thread icon\nOnly Discord will name an icon \"thread_white_24dp\", and it's neither white nor 24dp. Seriously, what were they thinking?\n\n# 1.2.0 - Scout is in:to knitting\n* Adds support for searching threads; simply use in:\n\n# 1.1.3\n* Patch to fix the biggggg top padding in results\n\n# 1.1.2\n* Fix month being one month behind after using the date picker\n\n# 1.1.1\n* Use proper icons for search filter suggestions\n\n# 1.1.0 - Look out, Scout has:updates\n* Add \"has:forward\" and \"has:poll\" filters\n* Add \"exclude:\" filter. It is the opposite of \"has:\" and filters out matching elements\n\n# 1.0.1\n* Fix not being able to search more than one page with sort:old\n\n# 1.0.0\n* Initial release >w<"
+    "changelog": "!!! Minimum Aliucord version requirement {fixed}\n======================\n* Scout now requires Aliucord 2.4.0, please update before reporting issues.\n\nChangelog {added marginTop}\n======================\n# 1.4.5\n* Add toggle to customise search persistence behaviour\n\n# 1.4.4\n* Make search state persist a bit more consistently\n\n# 1.4.3\n* Clear search state when switching servers or DMs\n\n# 1.4.2\n* Keeps search state when backing out of results\n* Don't show keyboard when returning to search results\n\n# 1.4.1\n* Shows self when typing \"me\" in from: or mentions: suggestions\n\n# 1.4.0 - Scout is searching for clues about the elusive MvM update\n* Added the authorType filter option to search by user, bot, or webhook\n* Moved sort filter to the top of the new ones\n* Fixes a Discord bug where typing \"mentions\" would also suggest \"has\"\n* Some people said the options were getting bloated, so they're all hidden behind a \"Show all\" button now. They'll still show up in auto suggestions.\n\n# 1.3.0\n* Removes empty discriminator when searching with users\n\n# 1.2.2\n* Fix possible rare crash related to thread searching\n\n# 1.2.1\n* Fixes off-looking thread icon\nOnly Discord will name an icon \"thread_white_24dp\", and it's neither white nor 24dp. Seriously, what were they thinking?\n\n# 1.2.0 - Scout is in:to knitting\n* Adds support for searching threads; simply use in:\n\n# 1.1.3\n* Patch to fix the biggggg top padding in results\n\n# 1.1.2\n* Fix month being one month behind after using the date picker\n\n# 1.1.1\n* Use proper icons for search filter suggestions\n\n# 1.1.0 - Look out, Scout has:updates\n* Add \"has:forward\" and \"has:poll\" filters\n* Add \"exclude:\" filter. It is the opposite of \"has:\" and filters out matching elements\n\n# 1.0.1\n* Fix not being able to search more than one page with sort:old\n\n# 1.0.0\n* Initial release >w<"
   },
   {
     "name": "SlashCommandsFixBeta",
@@ -4212,7 +4212,7 @@
   {
     "name": "ActivitiesV2",
     "description": "Lets you play activities like Wordle",
-    "version": "1.2.3",
+    "version": "1.3.0",
     "authors": [
       {
         "name": "secp192k1",
@@ -4222,7 +4222,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/secp192k1/Aliucord-Plugins@refs/heads/builds/ActivitiesV2.zip",
     "repoUrl": "https://github.com/secp192k1/Aliucord-Plugins",
-    "changelog": "# 1.2.3\n* Fix crashing when opening media picker on older android phones\n\n# 1.2.2\n* Use real locale for activities\n* Support opening external links inside activities\n* Quest requests answered gracefully, by skipping\n\n# 1.2.1\n* Faster message processing\n* Faster loading of the activity picker\n* Activity updates are now processed in order, no ghost participants\n* Fewer redundant network requests for unknown applications\n\n# 1.2.0\n* Render message cards (type 23) correctly\n* Multiplayer activities now receive live participant updates (player lists work)\n* Voice activities can now see who's in the voice channel\n* Activities now ask before using your microphone or camera\n* Fixed crash crash or close when the screen is rotated\n* Fixed switching to another activity while one is already open\n* Activities that fail to load now show a toast and close instead of a black screen\n* Fixed activities rejecting channel info due to wrong id format\n* Unknown RPC commands now return a proper error instead of a fake success\n* Reduced memory usage (bounded avatar/icon caches)\n* Added a settings page (permission prompt and WebView debugging)\n\n# 1.1.2\n* Fixed activites not working at all while in a voice chat\n* Fixed authentication (Chess in the Park, Putt Party, etc) which resulted in refusal to load\n* Support for activities in more channel types\n* Code refactor and cleanup\n\n# 1.1.1\n* Show participant avatars in activity header\n\n# 1.1.0\n* Added an activity picker to the chat attachments bar, showing a grid of the server's apps and the activity shelf\n* Activities in voice chat are now supported\n* Launch failures now show the exact reason (age restriction, missing permission, etc)\n* Fixed activities failing to authenticate after launch\n* Silenced some gateway logs (spams...)\n* Code refactor and cleanup\n\n# 1.0.0\n* Initial plugin release!"
+    "changelog": "# 1.3.0\n* Activities that close themselves after an error now close instead of getting stuck\n* Participant list and header avatars show up as soon as an activity opens\n* The activity sheet can no longer be dragged into a stuck, collapsed state\n* Activities open a bit faster\n* Activities now receive the screen orientation, layout mode and thermal state\n* Launch messages now render for activities with a renamed launch command\n* Nothing is sent to an activity anymore after you leave it\n* More detailed logging to help troubleshoot activities\n* Sign-in codes and API keys are no longer written to logs\n\n# 1.2.3\n* Fix crashing when opening media picker on older android phones\n\n# 1.2.2\n* Use real locale for activities\n* Support opening external links inside activities\n* Quest requests answered gracefully, by skipping\n\n# 1.2.1\n* Faster message processing\n* Faster loading of the activity picker\n* Activity updates are now processed in order, no ghost participants\n* Fewer redundant network requests for unknown applications\n\n# 1.2.0\n* Render message cards (type 23) correctly\n* Multiplayer activities now receive live participant updates (player lists work)\n* Voice activities can now see who's in the voice channel\n* Activities now ask before using your microphone or camera\n* Fixed crash crash or close when the screen is rotated\n* Fixed switching to another activity while one is already open\n* Activities that fail to load now show a toast and close instead of a black screen\n* Fixed activities rejecting channel info due to wrong id format\n* Unknown RPC commands now return a proper error instead of a fake success\n* Reduced memory usage (bounded avatar/icon caches)\n* Added a settings page (permission prompt and WebView debugging)\n\n# 1.1.2\n* Fixed activites not working at all while in a voice chat\n* Fixed authentication (Chess in the Park, Putt Party, etc) which resulted in refusal to load\n* Support for activities in more channel types\n* Code refactor and cleanup\n\n# 1.1.1\n* Show participant avatars in activity header\n\n# 1.1.0\n* Added an activity picker to the chat attachments bar, showing a grid of the server's apps and the activity shelf\n* Activities in voice chat are now supported\n* Launch failures now show the exact reason (age restriction, missing permission, etc)\n* Fixed activities failing to authenticate after launch\n* Silenced some gateway logs (spams...)\n* Code refactor and cleanup\n\n# 1.0.0\n* Initial plugin release!"
   },
   {
     "name": "Caffeinate",
@@ -4266,6 +4266,21 @@
       }
     ],
     "url": "https://cdn.jsdelivr.net/gh/secp192k1/Aliucord-Plugins@refs/heads/builds/ForceSystemFont.zip",
+    "repoUrl": "https://github.com/secp192k1/Aliucord-Plugins",
+    "changelog": "# 1.0.0\n* Initial plugin release!"
+  },
+  {
+    "name": "FriendCodes",
+    "description": "Lets you create friend codes to quickly add someone",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "secp192k1",
+        "id": 477497542205243392,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/secp192k1/Aliucord-Plugins@refs/heads/builds/FriendCodes.zip",
     "repoUrl": "https://github.com/secp192k1/Aliucord-Plugins",
     "changelog": "# 1.0.0\n* Initial plugin release!"
   },
