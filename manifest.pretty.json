@@ -4805,6 +4805,726 @@
     "changelog": "* **1.0.2** • exclude current theme from randomization, use toasts and improve error messages\n* **1.0.1** • Fix install & Adds error messages\n* **1.0.0** • Initial Release"
   },
   {
+    "name": "BetterMessageLogger",
+    "description": "Keeps deleted messages and edit history visible in Discord chats.",
+    "version": "1.0.26",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/BetterMessageLogger.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.26\n* Use Aliucord's themed confirmation dialog when clearing saved logs\n* Use Discord's native settings rows, headers and dividers\n# 1.0.25\n* Make media options disabled by default\n* Add .nomedia to the media folder\n# 1.0.24\n* Small redesign and add toggle to keep media after restart\n# 1.0.23\n* Pop-up redesign\n# 1.0.22\n* Logged images and videos are saved and stay visible after restarting the app.\n* Media is pre-downloaded as messages arrive, so deleted attachments show even if you weren't in the channel (can be turned off).\n* Deleted media also shows for the current session when the database is off.\n* Added a Message Logger entry to server, channel and DM long-press menus to block or allow them quickly.\n* Compact settings, filter lists with names, and a cleaner edit history popup.\n# 1.0.21\n* Redesign\n# 1.0.20\n* Database migration\n# 1.0.19\n* Modernize pop-ups in settings\n# 1.0.18\n* Rewrite the plugin entirely in Kotlin.\n* Modernize settings and the edit-history popup with selectable versions and individual copy actions.\n* Improve database reliability and edit-history storage, with bounded caches and loading limited to the current message range.\n* Store logs in Aliucord/BetterMessageLogger.db without WAL, SHM, or disk journal files.\n# 1.0.17\n* Fix NitroSpoof\n# 1.0.16\n* Remove inline edit history immediately when deleting a logged message.\n# 1.0.15\n* Add visual color picker\n# 1.0.14\n* Add option to show edit logs in chat history (like other loggers)\n* Add option to change text color (eleted tag doesnt need to be hidden now)\n# 1.0.13\n* Fix HideMessages\n# 1.0.12\n* Add option to disable deleted tag\n* Add option to disable edit logs\n# 1.0.11\n* Fix PluginDownloader in link context menu\n# 1.0.10\n* Added a customizable color for the deleted-message tag and fixed crashes caused by excessive message-cache memory usage.\n# 1.0.9\n* Fixed context menus failing after deleting messages with images.\n# 1.0.8\n* Fixed deleted bot messages not being logged or restored.\n# 1.0.7\n* Fixed deleted messages being repositioned as older or newer live batches load.\n# 1.0.6\n* Fixed logged messages interfering with older/newer loading, channel jumps, and re-entry.\n# 1.0.5\n* Fixed database messages interfering with loading older live messages.\n# 1.0.4\n* Fixed channel and server whitelist/blacklist filtering for your own messages.\n# 1.0.3\n* Fixed link long-press context menus so PluginDownloader actions remain available.\n# 1.0.2\n* Modernized the settings screen with grouped sections, switches, action buttons, and improved spacing.\n# 1.0.1\n* Fixed message emojis not loading when deleted-message labels are applied.\n* Fixed the deleted marker not appearing on restored messages.\n* Moved BetterMessageLogger actions below the reaction picker.\n# 1.0.0\n* Initial plugin release!"
+  },
+  {
+    "name": "Bio300",
+    "description": "Backports the 300-character bio limit to the native profile editor.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/Bio300.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
+  },
+  {
+    "name": "ComponentsV2",
+    "description": "Beta backport of ComponentsV2",
+    "version": "8.11.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/ComponentsV2.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "TODO {fixed}\n======================\n* File component\n* SelectV2: searching\n* SelectV2: showing selected items in chat list\n\nChangelog {added marginTop}\n======================\n# 8.11.0\n* Support forms\n\n# 8.10.0\n* Show bot Components V2 in search results and other secondary message lists\n* Render forwarded bot messages from their message snapshots\n* Display and submit text fields in newer bot modal dialogs\n* Fix gallery images and videos with extensionless media URLs\n* Prevent ViewRaw crashes on new component types\n\n# 8.9.0\n* Support Components V2 link previews from regular user messages\n* Preserve link-preview components in the message cache and ViewRaw\n* Fix empty link previews on builds with contentScanVersion\n* Handle multiple component previews and preview content updates\n\n# 8.8.0\n* Fix a possible weird crash\n\n# 8.7.0\n* Prevent ViewRaw crash\n* Add a CV2 tag to distinguish new embeds (will not be in core)\n\n# 7.15.1\n* Fix broken reply preview >w<\n\n# 7.15.0\n* Initial release >w<"
+  },
+  {
+    "name": "ConnectionInfo",
+    "description": "Backports profile connection details, including Steam games, Reddit karma, and member dates.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/ConnectionInfo.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
+  },
+  {
+    "name": "CustomRPC",
+    "description": "Set a custom Rich Presence from Aliucord settings.",
+    "version": "1.0.7",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/CustomRPC.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.7\n* Use Aliucord's themed dialogs for activity type and activity flags\n* Rebuild settings with Discord's native rows, headers, dividers and text inputs\n# 1.0.6\n* Redesign\n# 1.0.5\n* Fix crash\n# 1.0.3\n* Rewrite CustomRPC entirely in Kotlin while preserving existing settings\n* Redesign settings and selection dialogs with themed cards and a live activity text preview\n* Add application ID and image URL validation and separate controls to save settings or save and enable the activity\n* Prevent queued presence updates from restoring disabled activities and keep activity timestamps stable\n* Restore replaced activities when disabling CustomRPC or changing activity type\n* Prevent outdated image requests from repopulating cleared caches\n* Use Discord's presence snapshots to avoid redundant gateway updates\n# 1.0.2\n* Re-add option for application id and clarify https description\n# 1.0.1\n* Change setting images to use public https and remove application id field"
+  },
+  {
+    "name": "DMActivities",
+    "description": "Shows what your friends are playing and their custom statuses above your direct messages.",
+    "version": "1.0.1",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/DMActivities.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.1\n* Friends in a voice channel or call now show up, with the channel and server name.\n\n# 1.0.0\n* Initial release."
+  },
+  {
+    "name": "Devices",
+    "description": "Backports the Devices settings page with session management.",
+    "version": "1.0.2",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/Devices.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.2\n* Use a dedicated native Discord settings page for Devices\n* Replace logout pop-ups with native verification bottom sheets\n* Fix verification sheet activity and layout crashes\n* Use a distinct monitor icon in User Settings\n# 1.0.1\n* Add indicator for current session"
+  },
+  {
+    "name": "FakeDecor",
+    "description": "Allow users to set a custom avatar frame. Shares API with Vencord.",
+    "version": "1.0.4",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/FakeDecor.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.4\n* Fix uploading custom decorations doing nothing after picking an image\n* Popups now use Discord's themed dialogs\n# 1.0.3\n* Fixes\n# 1.0.2\n* Rewrite in Kotlin\n* Redesign settings page and add images for decor presets\n# 1.0.1\n* Fix decos refreshing and add compat with ViewProfileImages\n* Add setting to preserve original discord decor if available"
+  },
+  {
+    "name": "FallbackFont",
+    "description": "Use custom fonts for text, emoji, and characters your device fonts cannot display.",
+    "version": "1.0.1",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/FallbackFont.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.1\n* Added a text font that replaces Discord's font.\n* Added an emoji font that replaces your device's emoji, and a fallback emoji font for emoji it's missing.\n* Added an option to show emoji as text instead of Twemoji images, keeping emoji-only messages large.\n* Added a second fallback font for characters the first one is missing.\n\n# 1.0.0\n* Initial release."
+  },
+  {
+    "name": "FontScaleFix",
+    "description": "Restores Appearance font scaling on newer Android and Samsung One UI versions.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/FontScaleFix.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
+  },
+  {
+    "name": "ForwardMessages",
+    "description": "Forward messages to your channel of your liking.",
+    "version": "1.0.7",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/ForwardMessages.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.7\n* Fix possible crashes when opening the message menu and sorting favorites\n# 1.0.6\n* Kotlin rewrite\n# 1.0.5\n* Add compatibility with Android 7 and fix context menu button theming\n#1.0.4\n* Favoriting\n#1.0.3\n* Fixed forward icon having incorrect coloring due to wrong context\n#1.0.2\n- Fixed sharing being broken\n#1.0.1\n* Changed the icon with the forward icon (mirrored)\n* Internal data processing for IDs is now different\n#1.0.0\n* Initial release"
+  },
+  {
+    "name": "FriendRequestFix",
+    "description": "Fixes accepting incoming friend requests on the legacy client.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/FriendRequestFix.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
+  },
+  {
+    "name": "GameMentions",
+    "description": "Backports @game mentions: type @game to search for a game and mention it.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/GameMentions.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
+  },
+  {
+    "name": "GifDownloadFix",
+    "description": "Keeps Tenor, Klipy, and Giphy GIF downloads named with a .gif extension.",
+    "version": "1.0.2",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/GifDownloadFix.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.2\n* Fix a possible crash when saving GIFs.\n\n# 1.0.1\n* Add Klipy GIF download progress, completion, and failure notifications.\n* Show Klipy download errors instead of failing silently.\n* Retry the direct Klipy source if Discord's media proxy fails.\n* Avoid unnecessary legacy storage permission requests on Android 10+ in the media viewer.\n\n# 1.0.0\n* Keep Tenor, Klipy, and Giphy GIF downloads named with a .gif extension."
+  },
+  {
+    "name": "HideCallButtons",
+    "description": "Fork of HideCallButtons",
+    "version": "1.0.3",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/HideCallButtons.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.3\n* Fix settings spacing to match Discord's\n# 1.0.2\n* Rewrite in Kotlin\n# 1.0.1\n* Add option to hide camera button in vc"
+  },
+  {
+    "name": "HideModActions",
+    "description": "Shows only Manage User and DM group-member removal in profile sheets.",
+    "version": "1.0.2",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/HideModActions.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.2\n* Rewrite in Kotlin\n# 1.0.1\n* Keep the Remove from Group action visible in DM group profiles."
+  },
+  {
+    "name": "IRC",
+    "description": "Recreates Discord desktop's IRC-style compact chat layout.",
+    "version": "1.0.3",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/IRC.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.3\n* Fix settings spacing to match Discord's.\n* Fix extra space above and below replies, and show the replied message on one line like desktop.\n* Align reactions, embeds, videos, stickers and bot components with the message text.\n* Lay out system messages like desktop compact mode, with the time and icon on the same line.\n* Show search results in Discord's regular layout, like desktop.\n* Keep timestamps clear of the highlight bar on mentions and replies to you.\n* Support MessageLatency's indicator before the author name.\n# 1.0.2\n* Make it more like desktop-style and fix spacing issues.\n# 1.0.1\n* Rewrite the plugin entirely in Kotlin.\n* Hide avatars by default and add a Show avatars setting.\n* Fix author and avatar alignment for grouped messages and replies.\n* Preserve themed author fonts and remove forced bold styling.\n* Align authors and message text on the same baseline.\n* Wrap long names and let message continuation lines flow beneath them.\n* Match reply and message spine thickness and stop the spine at the end of the author name.\n# 1.0.0\n* Add an IRC-style compact chat layout with inline authors, timestamps, avatars, and message spines."
+  },
+  {
+    "name": "ImageDescriptions",
+    "description": "Backports image descriptions and tappable ALT labels to attachments.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/ImageDescriptions.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
+  },
+  {
+    "name": "InstantMessages",
+    "description": "Shows outgoing messages instantly without chat-list animations.",
+    "version": "1.0.3",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/InstantMessages.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.3\n* Added a setting to grey out messages while they're sending.\n* Added a setting to turn chat and keyboard animations on or off.\n* Fixed animations sometimes not coming back after disabling the plugin.\n\n# 1.0.2\n* Rewrote the plugin in Kotlin.\n* Fixed repeated scrolling and preserved chat position when switching channels.\n* Improved message acknowledgement matching and limited delayed chat updates.\n* Fixed compatibility with Android versions below 11.\n* Restored animations and pending-message opacity when disabling the plugin.\n\n# 1.0.0\n* Initial release."
+  },
+  {
+    "name": "KeepChannelScroll",
+    "description": "Remembers the channel list scroll position of each server, even after restarting the app.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/KeepChannelScroll.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
+  },
+  {
+    "name": "MarkdownFix",
+    "description": "Backports Discord's newer Markdown formatting to chat messages.",
+    "version": "1.0.18",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/MarkdownFix.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.18\n* Use Aliucord's themed confirmation dialog when resetting appearance\n* Use Discord's native settings rows, headers and dividers\n# 1.0.17\n* Another small redesign\n# 1.0.16\n* Pop-up redesign\n# 1.0.15\n* Another redesign\n# 1.0.14\n* Improve game mentions and make them clickable\n* Support viewing slash command mentions\n# 1.0.13\n* Redesign\n# 1.0.12\n* Add support for hex colors\n# 1.0.11\n* Modernize settings pop-ups with rounded layouts and styled buttons\n* Add inline validation, keyboard Done support, and a live bullet-color preview\n* Add a bullet-color picker with hue, saturation, brightness, and opacity sliders\n# 1.0.10\n* Rewrite the plugin in Kotlin and unify Markdown parsing across messages, forum posts, and embeds\n* Fix quote/list alignment, nested formatting, and trailing quote spacing\n* Make bullets compact by default and remove the compact bullet option\n* Improve settings with a live preview, immediate updates, and reset controls\n* Remove restart prompts\n* Fix spoilers in Markdown links, game mention updates, and ANSI style resets\n# 1.0.9\n* Add support for game mentions and ansi colors\n# 1.0.8\n* Fix NewEmojis and TextEmoji\n# 1.0.7\n* Fix consecutive bullets rendering\n# 1.0.6\n* Fixed compact quotes\n# 1.0.5\n* Fixed empty lines before headers and subtext\n# 1.0.4\n* List parsing now only applies at the start of a line\n# 1.0.3\n* Fixed spacing between quotes and bold text hyperlinks\n# 1.0.2\n* Added settings and fixed markdown inside embeds\n# 1.0.1\n* Fix forum posts"
+  },
+  {
+    "name": "MessageApps",
+    "description": "Use application message commands from the message context menu.",
+    "version": "1.0.1",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/MessageApps.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.1\n* Add support for DM user apps"
+  },
+  {
+    "name": "MessageLatency",
+    "description": "Shows an indicator on messages that took a while to send. Port of Vencord's MessageLatency.",
+    "version": "1.0.1",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/MessageLatency.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.1\n* Aliucord 2.11 and newer now send correct message timestamps, so users on them are no longer flagged as an old Discord Android client. The setting and details now say so.\n\n# 1.0.0\n* Initial release."
+  },
+  {
+    "name": "MessageLinkFix",
+    "description": "Opens message links in Aliucord and prevents unwanted jumps to the newest message.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/MessageLinkFix.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
+  },
+  {
+    "name": "NewDiscordBadges",
+    "description": "Backports Discord's evolving Nitro and current profile badges to mobile profile sheets.",
+    "version": "1.0.3",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/NewDiscordBadges.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.3\n* Fully rewritten in Kotlin.\n* Use Discord's visible badge list to support badge hiding and current profile badges.\n* Remove redundant profile requests that delayed Nitro badges, including Silver.\n* Add image fallbacks, share badge downloads, and prevent stale images in reused badge views.\n* Fix compatibility with Discord's obfuscated Kotlin runtime.\n# 1.0.2\n* Revert rows to normal\n* Fix flickering\n# 1.0.1\n* Fixed duplicated evolving Nitro badges and backport gifting badges."
+  },
+  {
+    "name": "NewLinks",
+    "description": "Displays Discord channel, message, and attachment links with icons and readable labels.",
+    "version": "1.0.1",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/NewLinks.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
+  },
+  {
+    "name": "NewThemes",
+    "description": "Backports Light, Ash, Dark and Onyx with account theme sync.",
+    "version": "1.0.1",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/NewThemes.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.1\n* Fix compatibility with Android 7.1 and fix refreshing issues"
+  },
+  {
+    "name": "Notifications",
+    "description": "Backports account notification preferences to a dedicated Notifications settings page.",
+    "version": "1.0.2",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/Notifications.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.2\n* Fix section headers, dividers and descriptions to fully match Discord's settings style.\n# 1.0.1\n* Redesign the settings page with native Discord headers and spacing.\n* Remove the \"Settings saved\" and \"Saving changes\" status messages; only loading and errors are shown.\n# 1.0.0\n* Initial release"
+  },
+  {
+    "name": "Onboarding",
+    "description": "Backports community onboarding and Channels & Roles to Discord 126.21.",
+    "version": "1.0.6",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/Onboarding.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.6\n* Use Aliucord's themed dialogs for dropdown questions, the discard prompt and save errors.\n* Fix a possible crash when searching channels.\n\n# 1.0.5\n* Re-add button to check onboarding\n* Fix twemojis\n\n# 1.0.4\n* Add a Show All Channels toggle to the server sheet, synced with Browse Channels.\n* Fix saving Channels & Roles when initial onboarding is incomplete (Discord error 350002).\n\n# 1.0.3\n* Fix a crash when opening Channels & Roles by using Discord's native dialog button styles.\n* Remove the Check Onboarding button. Joining-server onboarding and customization questions remain available.\n\n# 1.0.2\n* Use Discord 126.21's native toolbar, tabs, fonts, and controls.\n* Add channel search and expanded category groups with Follow Category controls.\n* Show channel icons, topics, and recent activity.\n* Fix category controls becoming unresponsive after a failed update.\n\n# 1.0.1\n* Allow disabling channels even if it's a default channel"
+  },
+  {
+    "name": "PlayEmbeds",
+    "description": "Plays direct video and audio link embeds in Discord's built-in media player.",
+    "version": "1.0.7",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/PlayEmbeds.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.6\nRefactor and cleanup\n\n# 1.0.5\n* Play signed, extensionless video embeds such as OGInstagram reels using Discord's proxy URL.\n* Keep inline videos playing when message rows refresh.\n* Fall back to Discord's normal click behavior when the inline player cannot be displayed.\n* Keep hosted clicks usable when a preview is unavailable.\n* Load Spotify short links in the embed player after they resolve.\n* Handle YouTube playlists and already embedded SoundCloud widget URLs.\n\n# 1.0.4\n* Play extensionless video URLs using the media type supplied in the embed, without adding service-specific host rules.\n\n# 1.0.3\n* Load YouTube's /embed/{id} endpoint directly instead of wrapping it in a synthetic iframe page.\n* Fix Spotify embeds failing to load the playable player.\n* Keep YouTube playback active when adding reactions refreshes the message.\n* Replace the entire YouTube embed card with the player again.\n* Fix touch handling so GIFs and other embeds can be tapped and opened normally.\n* Avoid Kkinstagram-specific handling and leave Discord-native embeds untouched.\n\n# 1.0.2\n* Keep hosted videos playing when reactions refresh their embed rows.\n* Let Discord handle Kkinstagram embeds without plugin interception.\n* Keep selected YouTube videos inside the inline player after fullscreen.\n\n# 1.0.1\n* Improve YouTube player loading and error reporting.\n* Play hosted media inside the original image area at its default size, preserving the embed layout.\n* Prevent panel swipes from interrupting the inline YouTube seekbar.\n* Fix search-result clicks playing embeds instead of jumping to the message.\n\n# 1.0.0\n* Play direct video and audio link embeds in Discord's built-in media player."
+  },
+  {
+    "name": "ProfileBoard",
+    "description": "Backports Discord Profile Board and Wishlist sections to Discord 126.21 profiles.",
+    "version": "1.0.4",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/ProfileBoard.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.4\n* Make games openable\n# 1.0.3\n* Hide empty Board and Wishlist tabs, and hide the tab row when neither section has content\n* Match Discord 126.21 tab styling and touch feedback\n* Improve Wishlist previews for avatar decorations, profile effects, frames, and nameplates\n* Show checkmarks on owned Wishlist items and remove empty grid tiles\n* Fix Wishlist images not loading"
+  },
+  {
+    "name": "ProfileEffects",
+    "description": "Backports viewing Discord Nitro profile effects and profile frames.",
+    "version": "1.0.10",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/ProfileEffects.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.9\n* Rewrite the plugin in Kotlin\n* Fix crashes when closing profile sheets and improve overlay and WebView cleanup\n* Improve profile loading, collectible caching, and rate-limit handling\n* Fix effect scaling, animation restarts, and loop timing\n* Respect reduced motion settings\n# 1.0.8\n* Fix crash\n# 1.0.7\n* Return to WebView for compatibility\n# 1.0.6\n* Fix WebView layer removing\n# 1.0.5\n* Replace the effect WebView with native APNG rendering\n* Hide one-shot APNG layers after playback completes\n* Add an optional WebView renderer for older Android devices\n* Prevent oversized WebView layers from crashing fullscreen profiles\n# 1.0.4\n* Fix side rails being stretched and rendered above the banner\n# 1.0.3\n* Fix animation looping when reopening the profile\n# 1.0.2\n* Fix profile effects and frames being cut off in fullscreen profile sheets\n# 1.0.1\n* Fixes\n* Don't show them in settings"
+  },
+  {
+    "name": "QuickReactions",
+    "description": "Choose which emojis appear in the quick reaction row of the message actions sheet.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/QuickReactions.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
+  },
+  {
+    "name": "ReadAll",
+    "description": "Marks unread channels as read from the DM icon menu or the /readall command.",
+    "version": "1.0.2",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/ReadAll.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.2\n* Fix settings spacing to match Discord's.\n\n# 1.0.1\n* Rewrite the plugin in Kotlin and improve read-state handling.\n* Hold the DM icon to open a Read All menu.\n* Add a setting to use one /readall command instead, with an option to include DMs."
+  },
+  {
+    "name": "RecentProfilePictures",
+    "description": "Backports Discord desktop's six most recent profile pictures to mobile.",
+    "version": "1.0.2",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/RecentProfilePictures.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.2\n* Use Aliucord's themed confirmation dialog, fixing hard-to-read text\n# 1.0.1\n* Rewrite in Kotlin"
+  },
+  {
+    "name": "ReportForm",
+    "description": "Backports Discord's current message report categories and form inputs.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/ReportForm.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
+  },
+  {
+    "name": "ReportRaid",
+    "description": "Backports Report Raid to the server sheet menu.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/ReportRaid.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
+  },
+  {
+    "name": "SearchHistoryFix",
+    "description": "Makes Discord search-history clearing persist across app restarts.",
+    "version": "1.0.1",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/SearchHistoryFix.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "\n# 1.0.1\n* Rewrite the plugin in Kotlin.\n* Persist new searches immediately as well as history clears.\n* Make history updates atomic to prevent concurrent changes from being lost.\n* Copy history lists before updating them to keep existing history unchanged.\n\n# 1.0.0\n* Make clearing search history persist immediately.\n"
+  },
+  {
+    "name": "ServerDiscovery",
+    "description": "Adds a Server Discovery button to the server list.",
+    "version": "1.0.3",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/ServerDiscovery.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.3\n* Make tap feedback visible on the light theme.\n* Use the theme's brand color while server banners load.\n# 1.0.2\n* Fix search\n# 1.0.1\n* Redesign discovery with category tabs, an illustrated search header, and server banner cards using Discord 126.21's native styles.\n* Fix the discovery header width and a Kotlin runtime crash when opening discovery.\n* Open Discord's native server preview with its Join Server bar directly when tapping a server."
+  },
+  {
+    "name": "ServerSheetFix",
+    "description": "Fixes layout issues in server sheets.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/ServerSheetFix.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
+  },
+  {
+    "name": "SettingsFix",
+    "description": "Fixes media settings persistence and Discord's friend-request controls.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/SettingsFix.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
+  },
+  {
+    "name": "Shop",
+    "description": "Backports browsing Discord Shop collections and collectibles from User Settings.",
+    "version": "1.0.2",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/Shop.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.2\n* Fix more previews\n# 1.0.1\n* Fix nameplates preview"
+  },
+  {
+    "name": "StickerPaste",
+    "description": "Picking a sticker in the sticker picker pastes it into the chat box instead of sending it right away.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/StickerPaste.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
+  },
+  {
+    "name": "SuperReactions",
+    "description": "Backport super reactions.",
+    "version": "1.0.7",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/SuperReactions.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.6\n* Fully rewrite the plugin in Kotlin\n* Improve emoji-colored shine, selection, and pending feedback\n* Fix repeated taps and reaction types on messages with many reactions\n* Queue requests, prioritize taps, and honor Discord rate-limit cooldowns\n* Fix super-reaction ownership and keep normal and super reactions separate\n* Fix stale reaction counts, member lists, and cleanup when disabling the plugin\n# 1.0.5\n* Reduce reaction metadata requests to avoid Discord rate limits on messages with many reactions\n* Add rate-limit backoff and stop retrying alternate send endpoints after HTTP 429\n* Fix existing super-reaction counts resetting after sending a new super reaction\n# 1.0.4\n* Fix shine not applying sometimes\n* Fix not being able to remove a super-reaction sent from official Discord\n* Move the context menu button to the bottom\n# 1.0.3\n* Fix member list\n# 1.0.2\n* Fixes\n# 1.0.1\n* Match shine color to emoji"
+  },
+  {
+    "name": "Time",
+    "description": "Backports the desktop @time timestamp picker with native Discord autocomplete rows.",
+    "version": "1.0.1",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/Time.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.1\n* Type a time after @time (like `@time 5pm`, `@time 13:30` or `@time in 2h`) to get formats for the next and previous occurrence, like desktop."
+  },
+  {
+    "name": "TranslateMessages",
+    "description": "Translate messages from the message menu, or automatically, into the language you choose.",
+    "version": "1.0.1",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/TranslateMessages.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.1\n* Added DeepL and LibreTranslate as translation services.\n* The language picker now shows each language's code.\n* The translated tag now shows which language a message was translated from and to.\n\n# 1.0.0\n* Initial release."
+  },
+  {
+    "name": "VoiceChannelMenu",
+    "description": "Adds a long-press menu to voice channels with Copy Link and Copy ID.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/VoiceChannelMenu.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.0\n* Initial release"
+  },
+  {
+    "name": "VoiceMessages",
+    "description": "Send Voice Messages",
+    "version": "1.1.15",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/VoiceMessages.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "\n# 1.1.15\n* Fix a possible crash when detecting the format of audio files\n* Use Discord's native settings rows, headers and dividers\n# 1.1.14\n* Another redesign\n* Added cooldown when hold to record is enabled to avoid accidental taps\n* Voice button now dims instead of disappearing after sending\n# 1.1.13\n* Redesign\n# 1.1.12\n* Rewrite the plugin in Kotlin\n* Redesign settings and voice selection with themed cards and microphone previews\n* Improve the color picker with presets, current/new previews, and keyboard support\n* Fix the composer layout covering the attachment button\n* Improve recording cancellation, channel permission handling, and waveforms for long recordings\n* Detect audio file formats correctly and stream uploads to reduce memory usage\n* Fix upload timeouts, cancellation, temporary file cleanup, and reply handling\n* Fix settings restoration and prevent duplicate popups\n* Limit temporary audio storage usage\n* Use 48 kHz for recordings and remove the sampling rate toggle\n# 1.1.11\n* Use Discord's themed bottom sheet for voice message selection\n* Add an option to disable selection and hold the microphone to record\n* Fix the \"Please try again in a moment\" issue when opening voice options\n# 1.1.10\n* Hide the voice message button when the channel does not allow attachments\n* Fix button not disappearing when attaching files\n# 1.1.9\n* Add ability to send audio files as voice messages\n# 1.1.8\n* Fix crash\n# 1.1.7\n* Add option to integrate button into chatbox\n* Fix button showing up in locked channels\n* Fix hex bar focusing\n# 1.1.6\n* Fix color picker\n* Add option for translucent button\n# 1.1.5\n* Fix crash\n* Remove the button when an attachment is added\n* Increase sampling rate on by default\n* Modernized Settings UI\n* Added color picker\n# 1.1.4\n* Restore and redesign the voice message button\n* Support replying with voice messages\n* Fix empty recordings on Android 7\n"
+  },
+  {
     "name": "AccountSwitcher",
     "description": "Adds the ability to quickly switch accounts",
     "version": "1.4.2",
