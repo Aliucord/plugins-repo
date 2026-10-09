@@ -4895,6 +4895,21 @@
     "changelog": "# 1.0.1\n* Friends in a voice channel or call now show up, with the channel and server name.\n\n# 1.0.0\n* Initial release."
   },
   {
+    "name": "DMButtonIcon",
+    "description": "Change the icon of the Direct Messages button to any Discord icon.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/DMButtonIcon.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.0\n* Initial release."
+  },
+  {
     "name": "Devices",
     "description": "Backports the Devices settings page with session management.",
     "version": "1.0.2",
@@ -5433,6 +5448,21 @@
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/Shop.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
     "changelog": "# 1.0.2\n* Fix more previews\n# 1.0.1\n* Fix nameplates preview"
+  },
+  {
+    "name": "SquareServers",
+    "description": "Makes server icons in the server list rounded squares, like the new Discord app.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/SquareServers.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
   },
   {
     "name": "StickerPaste",
