@@ -5452,7 +5452,7 @@
   {
     "name": "SquareServers",
     "description": "Makes server icons in the server list rounded squares, like the new Discord app.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "yutaplug",
@@ -5462,7 +5462,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/SquareServers.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": null
+    "changelog": "# 1.0.1\n* Add a corner radius option in plugin settings"
   },
   {
     "name": "StickerPaste",
@@ -5512,7 +5512,7 @@
   {
     "name": "TranslateMessages",
     "description": "Translate messages from the message menu, or automatically, into the language you choose.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
       {
         "name": "yutaplug",
@@ -5522,7 +5522,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/TranslateMessages.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.1\n* Added DeepL and LibreTranslate as translation services.\n* The language picker now shows each language's code.\n* The translated tag now shows which language a message was translated from and to.\n\n# 1.0.0\n* Initial release."
+    "changelog": "# 1.0.2\n* Added a /translate command that translates a message and sends it.\n* Moved the Translate button to the bottom of the message menu.\n\n# 1.0.1\n* Added DeepL and LibreTranslate as translation services.\n* The language picker now shows each language's code.\n* The translated tag now shows which language a message was translated from and to.\n\n# 1.0.0\n* Initial release."
   },
   {
     "name": "VoiceChannelMenu",
