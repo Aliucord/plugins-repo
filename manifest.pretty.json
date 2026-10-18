@@ -5465,6 +5465,21 @@
     "changelog": "# 1.0.6\n* Fully rewrite the plugin in Kotlin\n* Improve emoji-colored shine, selection, and pending feedback\n* Fix repeated taps and reaction types on messages with many reactions\n* Queue requests, prioritize taps, and honor Discord rate-limit cooldowns\n* Fix super-reaction ownership and keep normal and super reactions separate\n* Fix stale reaction counts, member lists, and cleanup when disabling the plugin\n# 1.0.5\n* Reduce reaction metadata requests to avoid Discord rate limits on messages with many reactions\n* Add rate-limit backoff and stop retrying alternate send endpoints after HTTP 429\n* Fix existing super-reaction counts resetting after sending a new super reaction\n# 1.0.4\n* Fix shine not applying sometimes\n* Fix not being able to remove a super-reaction sent from official Discord\n* Move the context menu button to the bottom\n# 1.0.3\n* Fix member list\n# 1.0.2\n* Fixes\n# 1.0.1\n* Match shine color to emoji"
   },
   {
+    "name": "Themes",
+    "description": "Aliucord theme engine compatible with Themer themes, that keeps working on modern Android.",
+    "version": "1.0.4",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/Themes.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.4\n* Fix settings pages crashing with an animated background in Chat & Settings transparency mode.\n\n# 1.0.3\n* Fix the Themes settings and theme editor closing when a change was applied.\n\n# 1.0.2\n* Changes made in the Themes settings and theme editor now apply right away, without going back first.\n\n# 1.0.1\n* Fix the status bar staying hidden after restarting Discord with a theme enabled.\n* Fix icons such as the log out button becoming invisible with themes that use transparent backgrounds.\n* Fix muted channels and forum thread lines becoming invisible. Colors now change exactly where they did with Themer.\n\n# 1.0.0\n* Initial release."
+  },
+  {
     "name": "Time",
     "description": "Backports the desktop @time timestamp picker with native Discord autocomplete rows.",
     "version": "1.0.1",
