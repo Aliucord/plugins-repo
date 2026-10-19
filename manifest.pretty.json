@@ -5272,7 +5272,7 @@
   {
     "name": "ProfileIdentity",
     "description": "Adds display name and pronouns fields to the User Profile settings page.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "yutaplug",
@@ -5281,6 +5281,21 @@
       }
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/ProfileIdentity.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.1\n* Fix a changed display name not showing on other pages, like the main settings page, until Discord restarts.\n\n# 1.0.0\n* Initial release."
+  },
+  {
+    "name": "QuickDownload",
+    "description": "Adds a download button to image and video attachments in chat, so you don't have to open them first.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/QuickDownload.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
     "changelog": null
   },
@@ -5482,7 +5497,7 @@
   {
     "name": "Themes",
     "description": "Aliucord theme engine compatible with Themer themes, that keeps working on modern Android.",
-    "version": "1.0.5",
+    "version": "1.0.8",
     "authors": [
       {
         "name": "yutaplug",
@@ -5492,7 +5507,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/Themes.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.5\n* Fix some elements not being themed on some newer Android versions.\n\n# 1.0.4\n* Fix settings pages crashing with an animated background in Chat & Settings transparency mode.\n\n# 1.0.3\n* Fix the Themes settings and theme editor closing when a change was applied.\n\n# 1.0.2\n* Changes made in the Themes settings and theme editor now apply right away, without going back first.\n\n# 1.0.1\n* Fix the status bar staying hidden after restarting Discord with a theme enabled.\n* Fix icons such as the log out button becoming invisible with themes that use transparent backgrounds.\n* Fix muted channels and forum thread lines becoming invisible. Colors now change exactly where they did with Themer.\n\n# 1.0.0\n* Initial release."
+    "changelog": "# 1.0.8\n* Fix Discord crashing when opening the Icons page of the theme editor once a theme has icons set.\n\n# 1.0.7\n* Backgrounds, fonts, sounds and icons can now be picked from your gallery or files app in the theme editor, not only added as links.\n\n# 1.0.6\n* Themes can now replace any of Discord's icons, with an image or with another Discord icon. Set them in the new Icons page of the theme editor.\n* Added a Custom icons switch to turn off icons from themes.\n* Fix some features unsupported on your device not being listed in the Status section.\n\n# 1.0.5\n* Fix some elements not being themed on some newer Android versions.\n\n# 1.0.4\n* Fix settings pages crashing with an animated background in Chat & Settings transparency mode.\n\n# 1.0.3\n* Fix the Themes settings and theme editor closing when a change was applied.\n\n# 1.0.2\n* Changes made in the Themes settings and theme editor now apply right away, without going back first.\n\n# 1.0.1\n* Fix the status bar staying hidden after restarting Discord with a theme enabled.\n* Fix icons such as the log out button becoming invisible with themes that use transparent backgrounds.\n* Fix muted channels and forum thread lines becoming invisible. Colors now change exactly where they did with Themer.\n\n# 1.0.0\n* Initial release."
   },
   {
     "name": "Time",
