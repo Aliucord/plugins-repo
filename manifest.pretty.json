@@ -61,6 +61,21 @@
     "changelog": "# 1.0.1\n* Fixed the matching of the text replace so it works with other languages (thx therealhalkion)\n\n# 1.0.0\n* Initial release"
   },
   {
+    "name": "LetMeRead",
+    "description": "Dynamically adjusts contrast and readability for unreadable usernames, roles, and chat across any theme, wallpaper, or background.",
+    "version": "0.2.0",
+    "authors": [
+      {
+        "name": "furqanhun",
+        "id": 0,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/furqanhun/aliucord-plugins@refs/heads/builds/LetMeRead.zip",
+    "repoUrl": "https://github.com/FurqanHun/aliucord-plugins",
+    "changelog": "# 0.2.0\n* Added opt-in contrast adjustment for chat message content and reply previews\n* Added 2D spatial wallpaper sampling across vertical and horizontal gradients\n* Improved member list sidebar background resolution for custom themes\n* Added perceptual human-eye contrast boost for blue and purple roles\n* Added dynamic saturation balancing to prevent washed-out or neon colors\n* Added real-time readability tier indicators to the settings contrast slider\n\n# 0.1.0-dev\n* Added dynamic contrast adjustment for role and author colors\n* Added smart HSL lightness boost to preserve original role hue\n* Added slider to configure contrast threshold in settings\n* Added support for custom wallpapers and themes"
+  },
+  {
     "name": "TimezoneSpoof",
     "description": "Spoofs your timezone. Only in Discord.",
     "version": "0.4.0",
