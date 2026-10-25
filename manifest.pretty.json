@@ -5617,7 +5617,7 @@
   {
     "name": "AnonymousFiles",
     "description": "Randomize uploaded file names",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "authors": [
       {
         "name": "zt",
@@ -5627,7 +5627,7 @@
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/AnonymousFiles.zip",
     "repoUrl": "https://github.com/zt64/aliucord-plugins",
-    "changelog": null
+    "changelog": "# 1.1.0\n* Added Prompt on Send mode with interactive attachment checklist\n* Added Select All, Clear, and Invert selection actions\n* Added exclusion rules by extension and media-only filter\n* Added configurable random name length\n\n# 1.0.0\n* Initial release"
   },
   {
     "name": "AppendGifAsUrl",
