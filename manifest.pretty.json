@@ -4865,6 +4865,21 @@
     "changelog": "# 1.0.7\n* Use Aliucord's themed dialogs for activity type and activity flags\n* Rebuild settings with Discord's native rows, headers, dividers and text inputs\n# 1.0.6\n* Redesign\n# 1.0.5\n* Fix crash\n# 1.0.3\n* Rewrite CustomRPC entirely in Kotlin while preserving existing settings\n* Redesign settings and selection dialogs with themed cards and a live activity text preview\n* Add application ID and image URL validation and separate controls to save settings or save and enable the activity\n* Prevent queued presence updates from restoring disabled activities and keep activity timestamps stable\n* Restore replaced activities when disabling CustomRPC or changing activity type\n* Prevent outdated image requests from repopulating cleared caches\n* Use Discord's presence snapshots to avoid redundant gateway updates\n# 1.0.2\n* Re-add option for application id and clarify https description\n# 1.0.1\n* Change setting images to use public https and remove application id field"
   },
   {
+    "name": "CustomTypingIndicator",
+    "description": "Backports Discord's custom typing indicators: see other people's emojis and phrases in the typing bar, and pick your own.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/CustomTypingIndicator.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
+  },
+  {
     "name": "DMActivities",
     "description": "Shows what your friends are playing and their custom statuses above your direct messages.",
     "version": "1.0.1",
@@ -5301,8 +5316,8 @@
   },
   {
     "name": "QuickDownload",
-    "description": "Adds a download button to image and video attachments in chat, so you don't have to open them first.",
-    "version": "1.0.0",
+    "description": "Adds a download button to images, videos and GIFs in chat, so you don't have to open them first.",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "yutaplug",
@@ -5312,7 +5327,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/QuickDownload.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": null
+    "changelog": "# 1.0.1\n* The download button now also shows on GIFs, including Tenor and GIPHY links.\n* Added settings to turn the button on or off separately for media and GIFs.\n\n# 1.0.0\n* Initial release."
   },
   {
     "name": "QuickReactions",
@@ -5542,7 +5557,7 @@
   {
     "name": "TranslateMessages",
     "description": "Translate messages from the message menu, or automatically, into the language you choose.",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "authors": [
       {
         "name": "yutaplug",
@@ -5552,7 +5567,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/TranslateMessages.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.3\n* Fixed language names in a /translate message, like German, being changed into codes such as \"de\".\n\n# 1.0.2\n* Added a /translate command that translates a message and sends it.\n* Moved the Translate button to the bottom of the message menu.\n\n# 1.0.1\n* Added DeepL and LibreTranslate as translation services.\n* The language picker now shows each language's code.\n* The translated tag now shows which language a message was translated from and to.\n\n# 1.0.0\n* Initial release."
+    "changelog": "# 1.1.0\n* Option to translate your own messages into a chosen language (English by default) right before they are sent.\n\n# 1.0.3\n* Fixed language names in a /translate message, like German, being changed into codes such as \"de\".\n\n# 1.0.2\n* Added a /translate command that translates a message and sends it.\n* Moved the Translate button to the bottom of the message menu.\n\n# 1.0.1\n* Added DeepL and LibreTranslate as translation services.\n* The language picker now shows each language's code.\n* The translated tag now shows which language a message was translated from and to.\n\n# 1.0.0\n* Initial release."
   },
   {
     "name": "VoiceChannelMenu",
