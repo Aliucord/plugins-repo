@@ -2264,7 +2264,7 @@
   {
     "name": "ComponentsV2Beta",
     "description": "Beta backport of ComponentsV2",
-    "version": "22.14.0",
+    "version": "22.14.1",
     "authors": [
       {
         "name": "cilly",
@@ -2274,7 +2274,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/cillynder/Awoocord@refs/heads/builds/ComponentsV2Beta.zip",
     "repoUrl": "https://github.com/cillynder/Awoocord",
-    "changelog": "TODO {fixed}\n======================\n* SelectV2: searching\n* SelectV2: showing selected items in chat list\n\nChangelog {added marginTop}\n======================\n# 22.14.0\n* File components\n* Link-embeds with components (requires patches 1.5.1; make sure to update base app!)\n* Fixed some media not displaying correctly (requires patches 1.5.0)\n* Thumbnails are now clickable\n\n# 8.8.0\n* Fix a possible weird crash\n\n# 8.7.0\n* Prevent ViewRaw crash\n* Add a CV2 tag to distinguish new embeds (will not be in core)\n\n# 7.15.1\n* Fix broken reply preview >w<\n\n# 7.15.0\n* Initial release >w<"
+    "changelog": "TODO {fixed}\n======================\n* SelectV2: searching\n* SelectV2: showing selected items in chat list\n\nChangelog {added marginTop}\n======================\n# 22.14.1\n* Fix log spam\n\n# 22.14.0\n* File components\n* Link-embeds with components (requires patches 1.5.1; make sure to update base app!)\n* Fixed some media not displaying correctly (requires patches 1.5.0)\n* Thumbnails are now clickable\n\n# 8.8.0\n* Fix a possible weird crash\n\n# 8.7.0\n* Prevent ViewRaw crash\n* Add a CV2 tag to distinguish new embeds (will not be in core)\n\n# 7.15.1\n* Fix broken reply preview >w<\n\n# 7.15.0\n* Initial release >w<"
   },
   {
     "name": "DisplayNameStyles",
@@ -4850,6 +4850,21 @@
     "changelog": null
   },
   {
+    "name": "CopyUserInfo",
+    "description": "Adds buttons to a profile's three dots menu to copy a user's username, display name, bio, avatar and banner, or download their avatar and banner.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/CopyUserInfo.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.0\n* Initial release"
+  },
+  {
     "name": "CustomRPC",
     "description": "Set a custom Rich Presence from Aliucord settings.",
     "version": "1.0.7",
@@ -5242,7 +5257,7 @@
   {
     "name": "Onboarding",
     "description": "Backports community onboarding and Channels & Roles to Discord 126.21.",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "authors": [
       {
         "name": "yutaplug",
@@ -5252,7 +5267,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/Onboarding.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.8\n* Show Browse Channels instead of Channels & Roles in community servers without customization questions.\n* Add a divider below the Channels & Roles row.\n* Fix the row showing in the DM list.\n\n# 1.0.7\n* Add Check Onboarding to the server long-press menu.\n* Add a Channels & Roles row under Events at the top of the channel list.\n\n# 1.0.6\n* Use Aliucord's themed dialogs for dropdown questions, the discard prompt and save errors.\n* Fix a possible crash when searching channels.\n\n# 1.0.5\n* Re-add button to check onboarding\n* Fix twemojis\n\n# 1.0.4\n* Add a Show All Channels toggle to the server sheet, synced with Browse Channels.\n* Fix saving Channels & Roles when initial onboarding is incomplete (Discord error 350002).\n\n# 1.0.3\n* Fix a crash when opening Channels & Roles by using Discord's native dialog button styles.\n* Remove the Check Onboarding button. Joining-server onboarding and customization questions remain available.\n\n# 1.0.2\n* Use Discord 126.21's native toolbar, tabs, fonts, and controls.\n* Add channel search and expanded category groups with Follow Category controls.\n* Show channel icons, topics, and recent activity.\n* Fix category controls becoming unresponsive after a failed update.\n\n# 1.0.1\n* Allow disabling channels even if it's a default channel"
+    "changelog": "# 1.0.9\n* Use the Browse Channels icon for Channels & Roles too.\n* Add a divider above the Channels & Roles row.\n* Add a setting to hide the Channels & Roles row from the channel list.\n\n# 1.0.8\n* Show Browse Channels instead of Channels & Roles in community servers without customization questions.\n* Add a divider below the Channels & Roles row.\n* Fix the row showing in the DM list.\n\n# 1.0.7\n* Add Check Onboarding to the server long-press menu.\n* Add a Channels & Roles row under Events at the top of the channel list.\n\n# 1.0.6\n* Use Aliucord's themed dialogs for dropdown questions, the discard prompt and save errors.\n* Fix a possible crash when searching channels.\n\n# 1.0.5\n* Re-add button to check onboarding\n* Fix twemojis\n\n# 1.0.4\n* Add a Show All Channels toggle to the server sheet, synced with Browse Channels.\n* Fix saving Channels & Roles when initial onboarding is incomplete (Discord error 350002).\n\n# 1.0.3\n* Fix a crash when opening Channels & Roles by using Discord's native dialog button styles.\n* Remove the Check Onboarding button. Joining-server onboarding and customization questions remain available.\n\n# 1.0.2\n* Use Discord 126.21's native toolbar, tabs, fonts, and controls.\n* Add channel search and expanded category groups with Follow Category controls.\n* Show channel icons, topics, and recent activity.\n* Fix category controls becoming unresponsive after a failed update.\n\n# 1.0.1\n* Allow disabling channels even if it's a default channel"
   },
   {
     "name": "PlayEmbeds",
@@ -5523,6 +5538,21 @@
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/SuperReactions.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
     "changelog": "# 1.0.6\n* Fully rewrite the plugin in Kotlin\n* Improve emoji-colored shine, selection, and pending feedback\n* Fix repeated taps and reaction types on messages with many reactions\n* Queue requests, prioritize taps, and honor Discord rate-limit cooldowns\n* Fix super-reaction ownership and keep normal and super reactions separate\n* Fix stale reaction counts, member lists, and cleanup when disabling the plugin\n# 1.0.5\n* Reduce reaction metadata requests to avoid Discord rate limits on messages with many reactions\n* Add rate-limit backoff and stop retrying alternate send endpoints after HTTP 429\n* Fix existing super-reaction counts resetting after sending a new super reaction\n# 1.0.4\n* Fix shine not applying sometimes\n* Fix not being able to remove a super-reaction sent from official Discord\n* Move the context menu button to the bottom\n# 1.0.3\n* Fix member list\n# 1.0.2\n* Fixes\n# 1.0.1\n* Match shine color to emoji"
+  },
+  {
+    "name": "SwipeToReplyAndEdit",
+    "description": "Swipe a message from right to left to reply to it, or to edit your own messages.",
+    "version": "1.0.3",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/SwipeToReplyAndEdit.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.3\n* Added a setting for how long you have to hold the swipe to edit your own message\n# 1.0.2\n* Automatically uninstalls SwipeToReply and SwipeActions, which conflict with this plugin\n# 1.0.1\n* Hold the swipe on your own message for a moment to edit it instead of replying\n* Renamed the setting to \"Instantly edit own messages\", which skips the hold and edits right away\n# 1.0.0\n* Initial release"
   },
   {
     "name": "Themes",
