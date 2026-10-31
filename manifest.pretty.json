@@ -5242,7 +5242,7 @@
   {
     "name": "Onboarding",
     "description": "Backports community onboarding and Channels & Roles to Discord 126.21.",
-    "version": "1.0.6",
+    "version": "1.0.8",
     "authors": [
       {
         "name": "yutaplug",
@@ -5252,7 +5252,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/Onboarding.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.6\n* Use Aliucord's themed dialogs for dropdown questions, the discard prompt and save errors.\n* Fix a possible crash when searching channels.\n\n# 1.0.5\n* Re-add button to check onboarding\n* Fix twemojis\n\n# 1.0.4\n* Add a Show All Channels toggle to the server sheet, synced with Browse Channels.\n* Fix saving Channels & Roles when initial onboarding is incomplete (Discord error 350002).\n\n# 1.0.3\n* Fix a crash when opening Channels & Roles by using Discord's native dialog button styles.\n* Remove the Check Onboarding button. Joining-server onboarding and customization questions remain available.\n\n# 1.0.2\n* Use Discord 126.21's native toolbar, tabs, fonts, and controls.\n* Add channel search and expanded category groups with Follow Category controls.\n* Show channel icons, topics, and recent activity.\n* Fix category controls becoming unresponsive after a failed update.\n\n# 1.0.1\n* Allow disabling channels even if it's a default channel"
+    "changelog": "# 1.0.8\n* Show Browse Channels instead of Channels & Roles in community servers without customization questions.\n* Add a divider below the Channels & Roles row.\n* Fix the row showing in the DM list.\n\n# 1.0.7\n* Add Check Onboarding to the server long-press menu.\n* Add a Channels & Roles row under Events at the top of the channel list.\n\n# 1.0.6\n* Use Aliucord's themed dialogs for dropdown questions, the discard prompt and save errors.\n* Fix a possible crash when searching channels.\n\n# 1.0.5\n* Re-add button to check onboarding\n* Fix twemojis\n\n# 1.0.4\n* Add a Show All Channels toggle to the server sheet, synced with Browse Channels.\n* Fix saving Channels & Roles when initial onboarding is incomplete (Discord error 350002).\n\n# 1.0.3\n* Fix a crash when opening Channels & Roles by using Discord's native dialog button styles.\n* Remove the Check Onboarding button. Joining-server onboarding and customization questions remain available.\n\n# 1.0.2\n* Use Discord 126.21's native toolbar, tabs, fonts, and controls.\n* Add channel search and expanded category groups with Follow Category controls.\n* Show channel icons, topics, and recent activity.\n* Fix category controls becoming unresponsive after a failed update.\n\n# 1.0.1\n* Allow disabling channels even if it's a default channel"
   },
   {
     "name": "PlayEmbeds",
