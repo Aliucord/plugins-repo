@@ -4852,7 +4852,7 @@
   {
     "name": "CopyUserInfo",
     "description": "Adds buttons to a profile's three dots menu to copy a user's username, display name, bio, avatar and banner, or download their avatar and banner.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "yutaplug",
@@ -4862,7 +4862,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/CopyUserInfo.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.0\n* Initial release"
+    "changelog": "# 1.0.1\n* Show the three dots button on your own profile too (without the Block option)\n\n# 1.0.0\n* Initial release"
   },
   {
     "name": "CustomRPC",
