@@ -5135,6 +5135,21 @@
     "changelog": null
   },
   {
+    "name": "LargeUploads",
+    "description": "Uploads files that are over your Discord upload limit to a file host and sends them as links.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/LargeUploads.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.0\n* Initial release"
+  },
+  {
     "name": "LocalMute",
     "description": "Locally mute yourself in channels so you can't type there by accident. Reactions still work.",
     "version": "1.0.0",
