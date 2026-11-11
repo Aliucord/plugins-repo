@@ -1566,6 +1566,21 @@
     "changelog": null
   },
   {
+    "name": "QuickSpoilAttachment",
+    "description": "Hold the preview of an attachment to quickly mark it as spoiler",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "Ushie",
+        "id": 399862294143696897,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/QuickSpoilAttachment.zip",
+    "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
+    "changelog": null
+  },
+  {
     "name": "ShowBlockedMessagesAuthor",
     "description": "Shows who sent the blocked messages in chat without opening them",
     "version": "1.0.0",
