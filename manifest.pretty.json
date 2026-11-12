@@ -5962,7 +5962,7 @@
   {
     "name": "MessageWidthFix",
     "description": "Fixes the width on embeds and stickers to make long press work",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "authors": [
       {
         "name": "zt",
@@ -5972,7 +5972,7 @@
     ],
     "url": "https://raw.githubusercontent.com/zt64/aliucord-plugins/builds/MessageWidthFix.zip",
     "repoUrl": "https://github.com/zt64/aliucord-plugins",
-    "changelog": "# 1.0.2\n* Support Discord V112.4\n\n# 1.0.1\n* Fixed embeds being wrong width"
+    "changelog": "# 1.0.4\n* Fix sticker view margins (#142)\n* Fix TapTap support (#142)\n\n# 1.0.2\n* Support Discord V112.4\n\n# 1.0.1\n* Fixed embeds being wrong width"
   },
   {
     "name": "NoBurnIn",
