@@ -861,7 +861,7 @@
   {
     "name": "BetterFontScale",
     "description": "More control over font sizes",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "authors": [
       {
         "name": "RazerTexz",
@@ -871,7 +871,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/RazerTexz/My-plugins@refs/heads/builds/BetterFontScale.zip",
     "repoUrl": "https://github.com/RazerTexz/My-plugins",
-    "changelog": "# 1.1.5\n* Support for channel category name text\n* Support for channel name text\n* Support for voice channel name text\n\n# 1.1.4\n* Support for timestamp text\n\n# 1.1.2\n* Fix username scaling in the chat list\n\n# 1.1.1\n* Fix broken font scaling\n\n# 1.0.7\n* Improved patches\n* Remove support for tag text\n\n# 1.0.6\n* Support for profile status text\n\n# 1.0.5\n* Support for about me text\n\n# 1.0.3\n* Fix crash when entering non-numeric values in plugin settings\n\n# 1.0.2\n* Support for username text\n* Support for tag text\n* Support for game status text\n\n# 1.0.1\n* Support for chatbox text"
+    "changelog": "# 1.1.6\n* Support for channel thread name text\n\n# 1.1.5\n* Support for channel category name text\n* Support for channel name text\n* Support for voice channel name text\n\n# 1.1.4\n* Support for timestamp text\n\n# 1.1.2\n* Fix username scaling in the chat list\n\n# 1.1.1\n* Fix broken font scaling\n\n# 1.0.7\n* Improve patches\n* Remove support for tag text\n\n# 1.0.6\n* Support for profile status text\n\n# 1.0.5\n* Support for about me text\n\n# 1.0.3\n* Fix crash when entering non-numeric values in plugin settings\n\n# 1.0.2\n* Support for username text\n* Support for tag text\n* Support for game status text\n\n# 1.0.1\n* Support for chatbox text"
   },
   {
     "name": "BetterPlusReacts",
@@ -1568,7 +1568,7 @@
   {
     "name": "QuickSpoilAttachment",
     "description": "Hold the preview of an attachment to quickly mark it as spoiler",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "Ushie",
@@ -1578,7 +1578,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/Ushie/Aliucord-Plugins@refs/heads/builds/QuickSpoilAttachment.zip",
     "repoUrl": "https://github.com/Ushie/Aliucord-Plugins",
-    "changelog": null
+    "changelog": "# 1.0.1\n* Allow spoiling any kind of file"
   },
   {
     "name": "ShowBlockedMessagesAuthor",
