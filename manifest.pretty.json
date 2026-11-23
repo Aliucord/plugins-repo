@@ -4807,7 +4807,7 @@
   {
     "name": "BetterMessageLogger",
     "description": "Keeps deleted messages and edit history visible in Discord chats.",
-    "version": "1.0.26",
+    "version": "1.0.27",
     "authors": [
       {
         "name": "yutaplug",
@@ -4817,7 +4817,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/BetterMessageLogger.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.26\n* Use Aliucord's themed confirmation dialog when clearing saved logs\n* Use Discord's native settings rows, headers and dividers\n# 1.0.25\n* Make media options disabled by default\n* Add .nomedia to the media folder\n# 1.0.24\n* Small redesign and add toggle to keep media after restart\n# 1.0.23\n* Pop-up redesign\n# 1.0.22\n* Logged images and videos are saved and stay visible after restarting the app.\n* Media is pre-downloaded as messages arrive, so deleted attachments show even if you weren't in the channel (can be turned off).\n* Deleted media also shows for the current session when the database is off.\n* Added a Message Logger entry to server, channel and DM long-press menus to block or allow them quickly.\n* Compact settings, filter lists with names, and a cleaner edit history popup.\n# 1.0.21\n* Redesign\n# 1.0.20\n* Database migration\n# 1.0.19\n* Modernize pop-ups in settings\n# 1.0.18\n* Rewrite the plugin entirely in Kotlin.\n* Modernize settings and the edit-history popup with selectable versions and individual copy actions.\n* Improve database reliability and edit-history storage, with bounded caches and loading limited to the current message range.\n* Store logs in Aliucord/BetterMessageLogger.db without WAL, SHM, or disk journal files.\n# 1.0.17\n* Fix NitroSpoof\n# 1.0.16\n* Remove inline edit history immediately when deleting a logged message.\n# 1.0.15\n* Add visual color picker\n# 1.0.14\n* Add option to show edit logs in chat history (like other loggers)\n* Add option to change text color (eleted tag doesnt need to be hidden now)\n# 1.0.13\n* Fix HideMessages\n# 1.0.12\n* Add option to disable deleted tag\n* Add option to disable edit logs\n# 1.0.11\n* Fix PluginDownloader in link context menu\n# 1.0.10\n* Added a customizable color for the deleted-message tag and fixed crashes caused by excessive message-cache memory usage.\n# 1.0.9\n* Fixed context menus failing after deleting messages with images.\n# 1.0.8\n* Fixed deleted bot messages not being logged or restored.\n# 1.0.7\n* Fixed deleted messages being repositioned as older or newer live batches load.\n# 1.0.6\n* Fixed logged messages interfering with older/newer loading, channel jumps, and re-entry.\n# 1.0.5\n* Fixed database messages interfering with loading older live messages.\n# 1.0.4\n* Fixed channel and server whitelist/blacklist filtering for your own messages.\n# 1.0.3\n* Fixed link long-press context menus so PluginDownloader actions remain available.\n# 1.0.2\n* Modernized the settings screen with grouped sections, switches, action buttons, and improved spacing.\n# 1.0.1\n* Fixed message emojis not loading when deleted-message labels are applied.\n* Fixed the deleted marker not appearing on restored messages.\n* Moved BetterMessageLogger actions below the reaction picker.\n# 1.0.0\n* Initial plugin release!"
+    "changelog": "# 1.0.27\n* Show when a message was deleted in the deleted tag and edit history\n# 1.0.26\n* Use Aliucord's themed confirmation dialog when clearing saved logs\n* Use Discord's native settings rows, headers and dividers\n# 1.0.25\n* Make media options disabled by default\n* Add .nomedia to the media folder\n# 1.0.24\n* Small redesign and add toggle to keep media after restart\n# 1.0.23\n* Pop-up redesign\n# 1.0.22\n* Logged images and videos are saved and stay visible after restarting the app.\n* Media is pre-downloaded as messages arrive, so deleted attachments show even if you weren't in the channel (can be turned off).\n* Deleted media also shows for the current session when the database is off.\n* Added a Message Logger entry to server, channel and DM long-press menus to block or allow them quickly.\n* Compact settings, filter lists with names, and a cleaner edit history popup.\n# 1.0.21\n* Redesign\n# 1.0.20\n* Database migration\n# 1.0.19\n* Modernize pop-ups in settings\n# 1.0.18\n* Rewrite the plugin entirely in Kotlin.\n* Modernize settings and the edit-history popup with selectable versions and individual copy actions.\n* Improve database reliability and edit-history storage, with bounded caches and loading limited to the current message range.\n* Store logs in Aliucord/BetterMessageLogger.db without WAL, SHM, or disk journal files.\n# 1.0.17\n* Fix NitroSpoof\n# 1.0.16\n* Remove inline edit history immediately when deleting a logged message.\n# 1.0.15\n* Add visual color picker\n# 1.0.14\n* Add option to show edit logs in chat history (like other loggers)\n* Add option to change text color (eleted tag doesnt need to be hidden now)\n# 1.0.13\n* Fix HideMessages\n# 1.0.12\n* Add option to disable deleted tag\n* Add option to disable edit logs\n# 1.0.11\n* Fix PluginDownloader in link context menu\n# 1.0.10\n* Added a customizable color for the deleted-message tag and fixed crashes caused by excessive message-cache memory usage.\n# 1.0.9\n* Fixed context menus failing after deleting messages with images.\n# 1.0.8\n* Fixed deleted bot messages not being logged or restored.\n# 1.0.7\n* Fixed deleted messages being repositioned as older or newer live batches load.\n# 1.0.6\n* Fixed logged messages interfering with older/newer loading, channel jumps, and re-entry.\n# 1.0.5\n* Fixed database messages interfering with loading older live messages.\n# 1.0.4\n* Fixed channel and server whitelist/blacklist filtering for your own messages.\n# 1.0.3\n* Fixed link long-press context menus so PluginDownloader actions remain available.\n# 1.0.2\n* Modernized the settings screen with grouped sections, switches, action buttons, and improved spacing.\n# 1.0.1\n* Fixed message emojis not loading when deleted-message labels are applied.\n* Fixed the deleted marker not appearing on restored messages.\n* Moved BetterMessageLogger actions below the reaction picker.\n# 1.0.0\n* Initial plugin release!"
   },
   {
     "name": "Bio300",
@@ -4970,34 +4970,44 @@
     "changelog": "# 1.0.1\n* Added a text font that replaces Discord's font.\n* Added an emoji font that replaces your device's emoji, and a fallback emoji font for emoji it's missing.\n* Added an option to show emoji as text instead of Twemoji images, keeping emoji-only messages large.\n* Added a second fallback font for characters the first one is missing.\n\n# 1.0.0\n* Initial release."
   },
   {
-    "name": "FontScaleFix",
-    "description": "Restores Appearance font scaling on newer Android and Samsung One UI versions.",
-    "version": "1.0.0",
+    "name": "Fixes",
+    "description": "Fixes essential features of Discord 126.21. Each fix can be turned on or off in the plugin settings.",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "yutaplug",
         "id": 1202406828248408134,
         "hyperlink": true
-      }
-    ],
-    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/FontScaleFix.zip",
-    "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": null
-  },
-  {
-    "name": "FriendRequestFix",
-    "description": "Fixes accepting incoming friend requests on the legacy client.",
-    "version": "1.0.0",
-    "authors": [
+      },
       {
-        "name": "yutaplug",
-        "id": 1202406828248408134,
-        "hyperlink": true
+        "name": "TsyQax",
+        "id": 0,
+        "hyperlink": false
+      },
+      {
+        "name": "secp192k1",
+        "id": 0,
+        "hyperlink": false
+      },
+      {
+        "name": "zt64",
+        "id": 0,
+        "hyperlink": false
+      },
+      {
+        "name": "pilotbellyt-spec",
+        "id": 0,
+        "hyperlink": false
+      },
+      {
+        "name": "js6pak",
+        "id": 0,
+        "hyperlink": false
       }
     ],
-    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/FriendRequestFix.zip",
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/Fixes.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": null
+    "changelog": "# 1.0.1\n* Added Message width (from zt64's MessageWidthFix): embeds and stickers use the full chat width\n* Added Server settings (from pilotbellyt-spec's ServerSettingsFix): the bans list and audit log load again, and invite durations read properly\n* Added Mentioned users (from js6pak's ValidUser): mentions of users that show as invalid-user are fetched\n* Added GIF sticker animation: GIF stickers follow the sticker animation setting\n* Heading 3 is now normal text size by default, like current Discord\n* MessageWidthFix, ServerSettingsFix and ValidUser are uninstalled automatically, since Fixes replaces them\n\n# 1.0.0\n* Initial release"
   },
   {
     "name": "GameMentions",
@@ -5013,21 +5023,6 @@
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/GameMentions.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
     "changelog": null
-  },
-  {
-    "name": "GifDownloadFix",
-    "description": "Keeps Tenor, Klipy, and Giphy GIF downloads named with a .gif extension.",
-    "version": "1.0.2",
-    "authors": [
-      {
-        "name": "yutaplug",
-        "id": 1202406828248408134,
-        "hyperlink": true
-      }
-    ],
-    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/GifDownloadFix.zip",
-    "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.2\n* Fix a possible crash when saving GIFs.\n\n# 1.0.1\n* Add Klipy GIF download progress, completion, and failure notifications.\n* Show Klipy download errors instead of failing silently.\n* Retry the direct Klipy source if Discord's media proxy fails.\n* Avoid unnecessary legacy storage permission requests on Android 10+ in the media viewer.\n\n# 1.0.0\n* Keep Tenor, Klipy, and Giphy GIF downloads named with a .gif extension."
   },
   {
     "name": "HideCallButtons",
@@ -5135,6 +5130,21 @@
     "changelog": "# 1.0.1\n* Fixed the upload limit for accounts without Nitro being 10 MB instead of 20 MB.\n\n# 1.0.0\n* Initial release"
   },
   {
+    "name": "LocalBadges",
+    "description": "Locally add badges to any user's profile, including your own, from the profile's three dots menu. Replaces CustomBadges.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/LocalBadges.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.0\n* Initial release"
+  },
+  {
     "name": "LocalMute",
     "description": "Locally mute yourself in channels so you can't type there by accident. Reactions still work.",
     "version": "1.0.0",
@@ -5148,21 +5158,6 @@
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/LocalMute.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
     "changelog": null
-  },
-  {
-    "name": "MarkdownFix",
-    "description": "Backports Discord's newer Markdown formatting to chat messages.",
-    "version": "1.0.19",
-    "authors": [
-      {
-        "name": "yutaplug",
-        "id": 1202406828248408134,
-        "hyperlink": true
-      }
-    ],
-    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/MarkdownFix.zip",
-    "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.19\n* Add support for the short date/time timestamp formats (`<t:…:s>` and `<t:…:S>`)\n# 1.0.18\n* Use Aliucord's themed confirmation dialog when resetting appearance\n* Use Discord's native settings rows, headers and dividers\n# 1.0.17\n* Another small redesign\n# 1.0.16\n* Pop-up redesign\n# 1.0.15\n* Another redesign\n# 1.0.14\n* Improve game mentions and make them clickable\n* Support viewing slash command mentions\n# 1.0.13\n* Redesign\n# 1.0.12\n* Add support for hex colors\n# 1.0.11\n* Modernize settings pop-ups with rounded layouts and styled buttons\n* Add inline validation, keyboard Done support, and a live bullet-color preview\n* Add a bullet-color picker with hue, saturation, brightness, and opacity sliders\n# 1.0.10\n* Rewrite the plugin in Kotlin and unify Markdown parsing across messages, forum posts, and embeds\n* Fix quote/list alignment, nested formatting, and trailing quote spacing\n* Make bullets compact by default and remove the compact bullet option\n* Improve settings with a live preview, immediate updates, and reset controls\n* Remove restart prompts\n* Fix spoilers in Markdown links, game mention updates, and ANSI style resets\n# 1.0.9\n* Add support for game mentions and ansi colors\n# 1.0.8\n* Fix NewEmojis and TextEmoji\n# 1.0.7\n* Fix consecutive bullets rendering\n# 1.0.6\n* Fixed compact quotes\n# 1.0.5\n* Fixed empty lines before headers and subtext\n# 1.0.4\n* List parsing now only applies at the start of a line\n# 1.0.3\n* Fixed spacing between quotes and bold text hyperlinks\n# 1.0.2\n* Added settings and fixed markdown inside embeds\n# 1.0.1\n* Fix forum posts"
   },
   {
     "name": "MessageApps",
@@ -5195,21 +5190,6 @@
     "changelog": "# 1.0.1\n* Aliucord 2.11 and newer now send correct message timestamps, so users on them are no longer flagged as an old Discord Android client. The setting and details now say so.\n\n# 1.0.0\n* Initial release."
   },
   {
-    "name": "MessageLinkFix",
-    "description": "Opens message links in Aliucord and prevents unwanted jumps to the newest message.",
-    "version": "1.0.0",
-    "authors": [
-      {
-        "name": "yutaplug",
-        "id": 1202406828248408134,
-        "hyperlink": true
-      }
-    ],
-    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/MessageLinkFix.zip",
-    "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": null
-  },
-  {
     "name": "NewLinks",
     "description": "Displays Discord channel, message, and attachment links with icons and readable labels.",
     "version": "1.0.1",
@@ -5227,7 +5207,7 @@
   {
     "name": "NewThemes",
     "description": "Backports Light, Ash, Dark and Onyx with account theme sync.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
       {
         "name": "yutaplug",
@@ -5360,21 +5340,6 @@
     "changelog": null
   },
   {
-    "name": "RawGitHubUpdater",
-    "description": "Makes the Aliucord updater fetch plugin updates from raw.githubusercontent.com instead of jsDelivr, avoiding stale or failed updates.",
-    "version": "1.0.0",
-    "authors": [
-      {
-        "name": "yutaplug",
-        "id": 1202406828248408134,
-        "hyperlink": true
-      }
-    ],
-    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/RawGitHubUpdater.zip",
-    "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.0\n* Initial release"
-  },
-  {
     "name": "ReadAll",
     "description": "Marks unread channels as read from the DM icon menu or the /readall command.",
     "version": "1.0.2",
@@ -5450,21 +5415,6 @@
     "changelog": null
   },
   {
-    "name": "SearchHistoryFix",
-    "description": "Makes Discord search-history clearing persist across app restarts.",
-    "version": "1.0.1",
-    "authors": [
-      {
-        "name": "yutaplug",
-        "id": 1202406828248408134,
-        "hyperlink": true
-      }
-    ],
-    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/SearchHistoryFix.zip",
-    "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "\n# 1.0.1\n* Rewrite the plugin in Kotlin.\n* Persist new searches immediately as well as history clears.\n* Make history updates atomic to prevent concurrent changes from being lost.\n* Copy history lists before updating them to keep existing history unchanged.\n\n# 1.0.0\n* Make clearing search history persist immediately.\n"
-  },
-  {
     "name": "ServerDiscovery",
     "description": "Adds a Server Discovery button to the server list.",
     "version": "1.0.3",
@@ -5478,36 +5428,6 @@
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/ServerDiscovery.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
     "changelog": "# 1.0.3\n* Make tap feedback visible on the light theme.\n* Use the theme's brand color while server banners load.\n# 1.0.2\n* Fix search\n# 1.0.1\n* Redesign discovery with category tabs, an illustrated search header, and server banner cards using Discord 126.21's native styles.\n* Fix the discovery header width and a Kotlin runtime crash when opening discovery.\n* Open Discord's native server preview with its Join Server bar directly when tapping a server."
-  },
-  {
-    "name": "ServerSheetFix",
-    "description": "Fixes layout issues in server sheets.",
-    "version": "1.0.0",
-    "authors": [
-      {
-        "name": "yutaplug",
-        "id": 1202406828248408134,
-        "hyperlink": true
-      }
-    ],
-    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/ServerSheetFix.zip",
-    "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": null
-  },
-  {
-    "name": "SettingsFix",
-    "description": "Fixes media settings persistence and Discord's friend-request controls.",
-    "version": "1.0.0",
-    "authors": [
-      {
-        "name": "yutaplug",
-        "id": 1202406828248408134,
-        "hyperlink": true
-      }
-    ],
-    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/SettingsFix.zip",
-    "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": null
   },
   {
     "name": "Shop",
@@ -5628,6 +5548,21 @@
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/TranslateMessages.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
     "changelog": "# 1.1.2\n* Fixed Google Translate saying some messages, like Traditional Chinese ones, were already in English instead of translating them.\n\n# 1.1.1\n* Copy Text now copies the original message when a translation is shown, and a new Copy Translated Text button copies the translation.\n\n# 1.1.0\n* Option to translate your own messages into a chosen language (English by default) right before they are sent.\n\n# 1.0.3\n* Fixed language names in a /translate message, like German, being changed into codes such as \"de\".\n\n# 1.0.2\n* Added a /translate command that translates a message and sends it.\n* Moved the Translate button to the bottom of the message menu.\n\n# 1.0.1\n* Added DeepL and LibreTranslate as translation services.\n* The language picker now shows each language's code.\n* The translated tag now shows which language a message was translated from and to.\n\n# 1.0.0\n* Initial release."
+  },
+  {
+    "name": "TypingNotifications",
+    "description": "Notifies you in-app and with push notifications whenever someone starts typing.",
+    "version": "1.0.1",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/TypingNotifications.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": null
   },
   {
     "name": "VoiceChannelMenu",
