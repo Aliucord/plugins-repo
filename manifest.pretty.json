@@ -4807,7 +4807,7 @@
   {
     "name": "BetterMessageLogger",
     "description": "Keeps deleted messages and edit history visible in Discord chats.",
-    "version": "1.0.28",
+    "version": "1.0.29",
     "authors": [
       {
         "name": "yutaplug",
@@ -4817,7 +4817,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/BetterMessageLogger.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.28\n* Timestamps follow the CustomTimestamps plugin's format when it is enabled\n# 1.0.27\n* Show when a message was deleted in the deleted tag and edit history\n# 1.0.26\n* Use Aliucord's themed confirmation dialog when clearing saved logs\n* Use Discord's native settings rows, headers and dividers\n# 1.0.25\n* Make media options disabled by default\n* Add .nomedia to the media folder\n# 1.0.24\n* Small redesign and add toggle to keep media after restart\n# 1.0.23\n* Pop-up redesign\n# 1.0.22\n* Logged images and videos are saved and stay visible after restarting the app.\n* Media is pre-downloaded as messages arrive, so deleted attachments show even if you weren't in the channel (can be turned off).\n* Deleted media also shows for the current session when the database is off.\n* Added a Message Logger entry to server, channel and DM long-press menus to block or allow them quickly.\n* Compact settings, filter lists with names, and a cleaner edit history popup.\n# 1.0.21\n* Redesign\n# 1.0.20\n* Database migration\n# 1.0.19\n* Modernize pop-ups in settings\n# 1.0.18\n* Rewrite the plugin entirely in Kotlin.\n* Modernize settings and the edit-history popup with selectable versions and individual copy actions.\n* Improve database reliability and edit-history storage, with bounded caches and loading limited to the current message range.\n* Store logs in Aliucord/BetterMessageLogger.db without WAL, SHM, or disk journal files.\n# 1.0.17\n* Fix NitroSpoof\n# 1.0.16\n* Remove inline edit history immediately when deleting a logged message.\n# 1.0.15\n* Add visual color picker\n# 1.0.14\n* Add option to show edit logs in chat history (like other loggers)\n* Add option to change text color (eleted tag doesnt need to be hidden now)\n# 1.0.13\n* Fix HideMessages\n# 1.0.12\n* Add option to disable deleted tag\n* Add option to disable edit logs\n# 1.0.11\n* Fix PluginDownloader in link context menu\n# 1.0.10\n* Added a customizable color for the deleted-message tag and fixed crashes caused by excessive message-cache memory usage.\n# 1.0.9\n* Fixed context menus failing after deleting messages with images.\n# 1.0.8\n* Fixed deleted bot messages not being logged or restored.\n# 1.0.7\n* Fixed deleted messages being repositioned as older or newer live batches load.\n# 1.0.6\n* Fixed logged messages interfering with older/newer loading, channel jumps, and re-entry.\n# 1.0.5\n* Fixed database messages interfering with loading older live messages.\n# 1.0.4\n* Fixed channel and server whitelist/blacklist filtering for your own messages.\n# 1.0.3\n* Fixed link long-press context menus so PluginDownloader actions remain available.\n# 1.0.2\n* Modernized the settings screen with grouped sections, switches, action buttons, and improved spacing.\n# 1.0.1\n* Fixed message emojis not loading when deleted-message labels are applied.\n* Fixed the deleted marker not appearing on restored messages.\n* Moved BetterMessageLogger actions below the reaction picker.\n# 1.0.0\n* Initial plugin release!"
+    "changelog": "# 1.0.29\n* The clear logs dialog no longer stops opening after you open and close another screen, like settings or an image\n# 1.0.28\n* Timestamps follow the CustomTimestamps plugin's format when it is enabled\n# 1.0.27\n* Show when a message was deleted in the deleted tag and edit history\n# 1.0.26\n* Use Aliucord's themed confirmation dialog when clearing saved logs\n* Use Discord's native settings rows, headers and dividers\n# 1.0.25\n* Make media options disabled by default\n* Add .nomedia to the media folder\n# 1.0.24\n* Small redesign and add toggle to keep media after restart\n# 1.0.23\n* Pop-up redesign\n# 1.0.22\n* Logged images and videos are saved and stay visible after restarting the app.\n* Media is pre-downloaded as messages arrive, so deleted attachments show even if you weren't in the channel (can be turned off).\n* Deleted media also shows for the current session when the database is off.\n* Added a Message Logger entry to server, channel and DM long-press menus to block or allow them quickly.\n* Compact settings, filter lists with names, and a cleaner edit history popup.\n# 1.0.21\n* Redesign\n# 1.0.20\n* Database migration\n# 1.0.19\n* Modernize pop-ups in settings\n# 1.0.18\n* Rewrite the plugin entirely in Kotlin.\n* Modernize settings and the edit-history popup with selectable versions and individual copy actions.\n* Improve database reliability and edit-history storage, with bounded caches and loading limited to the current message range.\n* Store logs in Aliucord/BetterMessageLogger.db without WAL, SHM, or disk journal files.\n# 1.0.17\n* Fix NitroSpoof\n# 1.0.16\n* Remove inline edit history immediately when deleting a logged message.\n# 1.0.15\n* Add visual color picker\n# 1.0.14\n* Add option to show edit logs in chat history (like other loggers)\n* Add option to change text color (eleted tag doesnt need to be hidden now)\n# 1.0.13\n* Fix HideMessages\n# 1.0.12\n* Add option to disable deleted tag\n* Add option to disable edit logs\n# 1.0.11\n* Fix PluginDownloader in link context menu\n# 1.0.10\n* Added a customizable color for the deleted-message tag and fixed crashes caused by excessive message-cache memory usage.\n# 1.0.9\n* Fixed context menus failing after deleting messages with images.\n# 1.0.8\n* Fixed deleted bot messages not being logged or restored.\n# 1.0.7\n* Fixed deleted messages being repositioned as older or newer live batches load.\n# 1.0.6\n* Fixed logged messages interfering with older/newer loading, channel jumps, and re-entry.\n# 1.0.5\n* Fixed database messages interfering with loading older live messages.\n# 1.0.4\n* Fixed channel and server whitelist/blacklist filtering for your own messages.\n# 1.0.3\n* Fixed link long-press context menus so PluginDownloader actions remain available.\n# 1.0.2\n* Modernized the settings screen with grouped sections, switches, action buttons, and improved spacing.\n# 1.0.1\n* Fixed message emojis not loading when deleted-message labels are applied.\n* Fixed the deleted marker not appearing on restored messages.\n* Moved BetterMessageLogger actions below the reaction picker.\n# 1.0.0\n* Initial plugin release!"
   },
   {
     "name": "Bio300",
@@ -4852,7 +4852,7 @@
   {
     "name": "ConnectionInfo",
     "description": "Backports profile connection details, including Steam games, Reddit karma, and member dates.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "yutaplug",
@@ -4862,12 +4862,12 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/ConnectionInfo.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": null
+    "changelog": "# 1.0.1\n* Tapping a connection opens its menu again after you open and close another screen, like settings or an image\n\n# 1.0.0\n* Initial release"
   },
   {
     "name": "CopyUserInfo",
     "description": "Adds buttons to a profile's three dots menu to copy a user's username, display name, bio, avatar and banner, or download their avatar and banner.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
       {
         "name": "yutaplug",
@@ -4877,12 +4877,12 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/CopyUserInfo.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.1\n* Show the three dots button on your own profile too (without the Block option)\n\n# 1.0.0\n* Initial release"
+    "changelog": "# 1.0.2\n* Downloading avatars and banners works again after you open and close another screen, like settings or an image\n\n# 1.0.1\n* Show the three dots button on your own profile too (without the Block option)\n\n# 1.0.0\n* Initial release"
   },
   {
     "name": "CustomRPC",
     "description": "Set a custom Rich Presence from Aliucord settings.",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "authors": [
       {
         "name": "yutaplug",
@@ -4892,12 +4892,12 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/CustomRPC.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.7\n* Use Aliucord's themed dialogs for activity type and activity flags\n* Rebuild settings with Discord's native rows, headers, dividers and text inputs\n# 1.0.6\n* Redesign\n# 1.0.5\n* Fix crash\n# 1.0.3\n* Rewrite CustomRPC entirely in Kotlin while preserving existing settings\n* Redesign settings and selection dialogs with themed cards and a live activity text preview\n* Add application ID and image URL validation and separate controls to save settings or save and enable the activity\n* Prevent queued presence updates from restoring disabled activities and keep activity timestamps stable\n* Restore replaced activities when disabling CustomRPC or changing activity type\n* Prevent outdated image requests from repopulating cleared caches\n* Use Discord's presence snapshots to avoid redundant gateway updates\n# 1.0.2\n* Re-add option for application id and clarify https description\n# 1.0.1\n* Change setting images to use public https and remove application id field"
+    "changelog": "# 1.0.8\n* The activity type and flags dialogs no longer stop opening after you open and close another screen, like settings or an image\n\n# 1.0.7\n* Use Aliucord's themed dialogs for activity type and activity flags\n* Rebuild settings with Discord's native rows, headers, dividers and text inputs\n# 1.0.6\n* Redesign\n# 1.0.5\n* Fix crash\n# 1.0.3\n* Rewrite CustomRPC entirely in Kotlin while preserving existing settings\n* Redesign settings and selection dialogs with themed cards and a live activity text preview\n* Add application ID and image URL validation and separate controls to save settings or save and enable the activity\n* Prevent queued presence updates from restoring disabled activities and keep activity timestamps stable\n* Restore replaced activities when disabling CustomRPC or changing activity type\n* Prevent outdated image requests from repopulating cleared caches\n* Use Discord's presence snapshots to avoid redundant gateway updates\n# 1.0.2\n* Re-add option for application id and clarify https description\n# 1.0.1\n* Change setting images to use public https and remove application id field"
   },
   {
     "name": "CustomTypingIndicator",
     "description": "Backports Discord's custom typing indicators: see other people's emojis and phrases in the typing bar, and pick your own.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "authors": [
       {
         "name": "yutaplug",
@@ -4907,12 +4907,12 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/CustomTypingIndicator.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.2\n* Show your saved typing indicator when reopening the editor\n* Show Discord's captcha when saving asks for one, then save again\n# 1.0.1\n* Add plugin settings, separate from the typing indicator editor in User Settings\n* Add an option to show avatars next to names in the typing bar\n* Add an option to open profiles by tapping names in the typing bar"
+    "changelog": "# 1.0.3\n* Tapping a name in the typing bar opens their profile again after you open and close another screen, like settings or an image\n* The editor's dialogs and emoji picker no longer stop opening after you open and close another screen, like settings or an image\n\n# 1.0.2\n* Show your saved typing indicator when reopening the editor\n* Show Discord's captcha when saving asks for one, then save again\n# 1.0.1\n* Add plugin settings, separate from the typing indicator editor in User Settings\n* Add an option to show avatars next to names in the typing bar\n* Add an option to open profiles by tapping names in the typing bar"
   },
   {
     "name": "DMActivities",
     "description": "Shows what your friends are playing and their custom statuses above your direct messages.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
       {
         "name": "yutaplug",
@@ -4922,7 +4922,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/DMActivities.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.1\n* Friends in a voice channel or call now show up, with the channel and server name.\n\n# 1.0.0\n* Initial release."
+    "changelog": "# 1.0.2\n* Tapping an activity card opens the profile again after you open and close another screen, like settings or an image.\n\n# 1.0.1\n* Friends in a voice channel or call now show up, with the channel and server name.\n\n# 1.0.0\n* Initial release."
   },
   {
     "name": "DMButtonIcon",
@@ -4957,7 +4957,7 @@
   {
     "name": "FakeDecor",
     "description": "Allow users to set a custom avatar frame. Shares API with Vencord.",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "authors": [
       {
         "name": "yutaplug",
@@ -4967,12 +4967,12 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/FakeDecor.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.4\n* Fix uploading custom decorations doing nothing after picking an image\n* Popups now use Discord's themed dialogs\n# 1.0.3\n* Fixes\n# 1.0.2\n* Rewrite in Kotlin\n* Redesign settings page and add images for decor presets\n# 1.0.1\n* Fix decos refreshing and add compat with ViewProfileImages\n* Add setting to preserve original discord decor if available"
+    "changelog": "# 1.0.5\n* The settings dialogs no longer stop opening after you open and close another screen, like settings or an image\n\n# 1.0.4\n* Fix uploading custom decorations doing nothing after picking an image\n* Popups now use Discord's themed dialogs\n# 1.0.3\n* Fixes\n# 1.0.2\n* Rewrite in Kotlin\n* Redesign settings page and add images for decor presets\n# 1.0.1\n* Fix decos refreshing and add compat with ViewProfileImages\n* Add setting to preserve original discord decor if available"
   },
   {
     "name": "FallbackFont",
     "description": "Use custom fonts for text, emoji, and characters your device fonts cannot display.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
       {
         "name": "yutaplug",
@@ -4982,12 +4982,12 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/FallbackFont.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.1\n* Added a text font that replaces Discord's font.\n* Added an emoji font that replaces your device's emoji, and a fallback emoji font for emoji it's missing.\n* Added an option to show emoji as text instead of Twemoji images, keeping emoji-only messages large.\n* Added a second fallback font for characters the first one is missing.\n\n# 1.0.0\n* Initial release."
+    "changelog": "# 1.0.2\n* The font menu and picker no longer stop opening after you open and close another screen, like settings or an image.\n\n# 1.0.1\n* Added a text font that replaces Discord's font.\n* Added an emoji font that replaces your device's emoji, and a fallback emoji font for emoji it's missing.\n* Added an option to show emoji as text instead of Twemoji images, keeping emoji-only messages large.\n* Added a second fallback font for characters the first one is missing.\n\n# 1.0.0\n* Initial release."
   },
   {
     "name": "Fixes",
     "description": "Fixes essential features of Discord 126.21. Each fix can be turned on or off in the plugin settings.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "authors": [
       {
         "name": "yutaplug",
@@ -5022,7 +5022,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/Fixes.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.2\n* Markdown: numbered lists (1. 2. 3.) now render, and dashes after a numbered item continue its numbering like on current Discord\n\n# 1.0.1\n* Added Message width (from zt64's MessageWidthFix): embeds and stickers use the full chat width\n* Added Server settings (from pilotbellyt-spec's ServerSettingsFix): the bans list and audit log load again, and invite durations read properly\n* Added Mentioned users (from js6pak's ValidUser): mentions of users that show as invalid-user are fetched\n* Added GIF sticker animation: GIF stickers follow the sticker animation setting\n* Heading 3 is now normal text size by default, like current Discord\n* MessageWidthFix, ServerSettingsFix and ValidUser are uninstalled automatically, since Fixes replaces them\n\n# 1.0.0\n* Initial release"
+    "changelog": "# 1.0.3\n* Added Plugin menus: menus and popups from plugins no longer stop opening after you open and close another screen, like settings or an image\n* Added Message menu in search: holding a message in search opens its menu instead of jumping to it\n* Added Server long press: the menu from holding a server or folder no longer closes by itself when you let go\n* Markdown: the reset dialog in the settings no longer stops opening after you open and close another screen, like settings or an image\n\n# 1.0.2\n* Markdown: numbered lists (1. 2. 3.) now render, and dashes after a numbered item continue its numbering like on current Discord\n\n# 1.0.1\n* Added Message width (from zt64's MessageWidthFix): embeds and stickers use the full chat width\n* Added Server settings (from pilotbellyt-spec's ServerSettingsFix): the bans list and audit log load again, and invite durations read properly\n* Added Mentioned users (from js6pak's ValidUser): mentions of users that show as invalid-user are fetched\n* Added GIF sticker animation: GIF stickers follow the sticker animation setting\n* Heading 3 is now normal text size by default, like current Discord\n* MessageWidthFix, ServerSettingsFix and ValidUser are uninstalled automatically, since Fixes replaces them\n\n# 1.0.0\n* Initial release"
   },
   {
     "name": "GameMentions",
@@ -5207,7 +5207,7 @@
   {
     "name": "MessageReminders",
     "description": "Backports Discord's message reminders: get reminded about a message later, from its long-press menu.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
         "name": "yutaplug",
@@ -5217,7 +5217,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/MessageReminders.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": null
+    "changelog": "# 1.0.1\n* \"Remind me\" no longer stops opening after you open and close another screen, like settings or an image\n\n# 1.0.0\n* Initial release"
   },
   {
     "name": "NewLinks",
@@ -5267,7 +5267,7 @@
   {
     "name": "Onboarding",
     "description": "Backports community onboarding and Channels & Roles to Discord 126.21.",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "authors": [
       {
         "name": "yutaplug",
@@ -5277,12 +5277,12 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/Onboarding.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.9\n* Use the Browse Channels icon for Channels & Roles too.\n* Add a divider above the Channels & Roles row.\n* Add a setting to hide the Channels & Roles row from the channel list.\n\n# 1.0.8\n* Show Browse Channels instead of Channels & Roles in community servers without customization questions.\n* Add a divider below the Channels & Roles row.\n* Fix the row showing in the DM list.\n\n# 1.0.7\n* Add Check Onboarding to the server long-press menu.\n* Add a Channels & Roles row under Events at the top of the channel list.\n\n# 1.0.6\n* Use Aliucord's themed dialogs for dropdown questions, the discard prompt and save errors.\n* Fix a possible crash when searching channels.\n\n# 1.0.5\n* Re-add button to check onboarding\n* Fix twemojis\n\n# 1.0.4\n* Add a Show All Channels toggle to the server sheet, synced with Browse Channels.\n* Fix saving Channels & Roles when initial onboarding is incomplete (Discord error 350002).\n\n# 1.0.3\n* Fix a crash when opening Channels & Roles by using Discord's native dialog button styles.\n* Remove the Check Onboarding button. Joining-server onboarding and customization questions remain available.\n\n# 1.0.2\n* Use Discord 126.21's native toolbar, tabs, fonts, and controls.\n* Add channel search and expanded category groups with Follow Category controls.\n* Show channel icons, topics, and recent activity.\n* Fix category controls becoming unresponsive after a failed update.\n\n# 1.0.1\n* Allow disabling channels even if it's a default channel"
+    "changelog": "# 1.0.10\n* Dropdowns and dialogs no longer stop opening after you open and close another screen, like settings or an image.\n\n# 1.0.9\n* Use the Browse Channels icon for Channels & Roles too.\n* Add a divider above the Channels & Roles row.\n* Add a setting to hide the Channels & Roles row from the channel list.\n\n# 1.0.8\n* Show Browse Channels instead of Channels & Roles in community servers without customization questions.\n* Add a divider below the Channels & Roles row.\n* Fix the row showing in the DM list.\n\n# 1.0.7\n* Add Check Onboarding to the server long-press menu.\n* Add a Channels & Roles row under Events at the top of the channel list.\n\n# 1.0.6\n* Use Aliucord's themed dialogs for dropdown questions, the discard prompt and save errors.\n* Fix a possible crash when searching channels.\n\n# 1.0.5\n* Re-add button to check onboarding\n* Fix twemojis\n\n# 1.0.4\n* Add a Show All Channels toggle to the server sheet, synced with Browse Channels.\n* Fix saving Channels & Roles when initial onboarding is incomplete (Discord error 350002).\n\n# 1.0.3\n* Fix a crash when opening Channels & Roles by using Discord's native dialog button styles.\n* Remove the Check Onboarding button. Joining-server onboarding and customization questions remain available.\n\n# 1.0.2\n* Use Discord 126.21's native toolbar, tabs, fonts, and controls.\n* Add channel search and expanded category groups with Follow Category controls.\n* Show channel icons, topics, and recent activity.\n* Fix category controls becoming unresponsive after a failed update.\n\n# 1.0.1\n* Allow disabling channels even if it's a default channel"
   },
   {
     "name": "PlayEmbeds",
     "description": "Plays direct video and audio link embeds in Discord's built-in media player.",
-    "version": "1.0.10",
+    "version": "1.0.13",
     "authors": [
       {
         "name": "yutaplug",
@@ -5292,7 +5292,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/PlayEmbeds.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.10\n* YouTube videos now start almost instantly: they stream while playing instead of downloading first\n* Choose the quality in the YouTube player, and a default quality in the plugin settings\n* New setting to play videos in place of the whole embed card\n* YouTube videos watched to the end replay without loading until the app restarts\n\n# 1.0.9\n* Pause players once they scroll out of view\n* Show a loading popup with progress and time left while a YouTube video loads\n\n# 1.0.8\n* Remove WebViews: YouTube, SoundCloud and Spotify now play in Discord's native player\n* YouTube videos play inside the embed, with a fullscreen button\n* SoundCloud tracks play over their artwork; sets play their first track\n* Spotify plays 30-second previews (full tracks only work in the Spotify app)\n* Links that can't play natively open in their app or browser\n* Stop players when scrolled away\n* Fix previously played videos showing up in other embeds\n\n# 1.0.6\nRefactor and cleanup\n\n# 1.0.5\n* Play signed, extensionless video embeds such as OGInstagram reels using Discord's proxy URL.\n* Keep inline videos playing when message rows refresh.\n* Fall back to Discord's normal click behavior when the inline player cannot be displayed.\n* Keep hosted clicks usable when a preview is unavailable.\n* Load Spotify short links in the embed player after they resolve.\n* Handle YouTube playlists and already embedded SoundCloud widget URLs.\n\n# 1.0.4\n* Play extensionless video URLs using the media type supplied in the embed, without adding service-specific host rules.\n\n# 1.0.3\n* Load YouTube's /embed/{id} endpoint directly instead of wrapping it in a synthetic iframe page.\n* Fix Spotify embeds failing to load the playable player.\n* Keep YouTube playback active when adding reactions refreshes the message.\n* Replace the entire YouTube embed card with the player again.\n* Fix touch handling so GIFs and other embeds can be tapped and opened normally.\n* Avoid Kkinstagram-specific handling and leave Discord-native embeds untouched.\n\n# 1.0.2\n* Keep hosted videos playing when reactions refresh their embed rows.\n* Let Discord handle Kkinstagram embeds without plugin interception.\n* Keep selected YouTube videos inside the inline player after fullscreen.\n\n# 1.0.1\n* Improve YouTube player loading and error reporting.\n* Play hosted media inside the original image area at its default size, preserving the embed layout.\n* Prevent panel swipes from interrupting the inline YouTube seekbar.\n* Fix search-result clicks playing embeds instead of jumping to the message.\n\n# 1.0.0\n* Play direct video and audio link embeds in Discord's built-in media player."
+    "changelog": "# 1.0.13\n* The screen no longer dims or locks while a video or audio is playing\n\n# 1.0.12\n* The quality menu and the download permission prompt no longer stop opening after you open and close another screen, like settings or an image\n\n# 1.0.11\n* Embeds now play in search results too; tapping anything else still jumps to the message\n* Download button in the player saves the video or audio to Downloads\n* New setting to rotate the screen to landscape in fullscreen\n* When YouTube refuses a video, show why instead of opening the YouTube app\n\n# 1.0.10\n* YouTube videos now start almost instantly: they stream while playing instead of downloading first\n* Choose the quality in the YouTube player, and a default quality in the plugin settings\n* New setting to play videos in place of the whole embed card\n* YouTube videos watched to the end replay without loading until the app restarts\n\n# 1.0.9\n* Pause players once they scroll out of view\n* Show a loading popup with progress and time left while a YouTube video loads\n\n# 1.0.8\n* Remove WebViews: YouTube, SoundCloud and Spotify now play in Discord's native player\n* YouTube videos play inside the embed, with a fullscreen button\n* SoundCloud tracks play over their artwork; sets play their first track\n* Spotify plays 30-second previews (full tracks only work in the Spotify app)\n* Links that can't play natively open in their app or browser\n* Stop players when scrolled away\n* Fix previously played videos showing up in other embeds\n\n# 1.0.6\nRefactor and cleanup\n\n# 1.0.5\n* Play signed, extensionless video embeds such as OGInstagram reels using Discord's proxy URL.\n* Keep inline videos playing when message rows refresh.\n* Fall back to Discord's normal click behavior when the inline player cannot be displayed.\n* Keep hosted clicks usable when a preview is unavailable.\n* Load Spotify short links in the embed player after they resolve.\n* Handle YouTube playlists and already embedded SoundCloud widget URLs.\n\n# 1.0.4\n* Play extensionless video URLs using the media type supplied in the embed, without adding service-specific host rules.\n\n# 1.0.3\n* Load YouTube's /embed/{id} endpoint directly instead of wrapping it in a synthetic iframe page.\n* Fix Spotify embeds failing to load the playable player.\n* Keep YouTube playback active when adding reactions refreshes the message.\n* Replace the entire YouTube embed card with the player again.\n* Fix touch handling so GIFs and other embeds can be tapped and opened normally.\n* Avoid Kkinstagram-specific handling and leave Discord-native embeds untouched.\n\n# 1.0.2\n* Keep hosted videos playing when reactions refresh their embed rows.\n* Let Discord handle Kkinstagram embeds without plugin interception.\n* Keep selected YouTube videos inside the inline player after fullscreen.\n\n# 1.0.1\n* Improve YouTube player loading and error reporting.\n* Play hosted media inside the original image area at its default size, preserving the embed layout.\n* Prevent panel swipes from interrupting the inline YouTube seekbar.\n* Fix search-result clicks playing embeds instead of jumping to the message.\n\n# 1.0.0\n* Play direct video and audio link embeds in Discord's built-in media player."
   },
   {
     "name": "ProfileBoard",
@@ -5387,7 +5387,7 @@
   {
     "name": "RecentProfilePictures",
     "description": "Backports Discord desktop's six most recent profile pictures to mobile.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "authors": [
       {
         "name": "yutaplug",
@@ -5397,7 +5397,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/RecentProfilePictures.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.3\n* Show recent avatars directly in the avatar menu\n* Support the captcha Discord asks for when changing avatar\n# 1.0.2\n* Use Aliucord's themed confirmation dialog, fixing hard-to-read text\n# 1.0.1\n* Rewrite in Kotlin"
+    "changelog": "# 1.0.4\n* The confirmation dialog no longer stops opening after you open and close another screen, like settings or an image\n\n# 1.0.3\n* Show recent avatars directly in the avatar menu\n* Support the captcha Discord asks for when changing avatar\n# 1.0.2\n* Use Aliucord's themed confirmation dialog, fixing hard-to-read text\n# 1.0.1\n* Rewrite in Kotlin"
   },
   {
     "name": "ReplaceText",
@@ -5522,7 +5522,7 @@
   {
     "name": "SwipeToReplyAndEdit",
     "description": "Swipe a message from right to left to reply to it, or to edit your own messages.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "authors": [
       {
         "name": "yutaplug",
@@ -5532,7 +5532,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/SwipeToReplyAndEdit.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.3\n* Added a setting for how long you have to hold the swipe to edit your own message\n# 1.0.2\n* Automatically uninstalls SwipeToReply and SwipeActions, which conflict with this plugin\n# 1.0.1\n* Hold the swipe on your own message for a moment to edit it instead of replying\n* Renamed the setting to \"Instantly edit own messages\", which skips the hold and edits right away\n# 1.0.0\n* Initial release"
+    "changelog": "# 1.0.4\n* The keyboard opens after swiping again after you open and close another screen, like settings or an image\n# 1.0.3\n* Added a setting for how long you have to hold the swipe to edit your own message\n# 1.0.2\n* Automatically uninstalls SwipeToReply and SwipeActions, which conflict with this plugin\n# 1.0.1\n* Hold the swipe on your own message for a moment to edit it instead of replying\n* Renamed the setting to \"Instantly edit own messages\", which skips the hold and edits right away\n# 1.0.0\n* Initial release"
   },
   {
     "name": "Themes",
@@ -5567,7 +5567,7 @@
   {
     "name": "TranslateMessages",
     "description": "Translate messages from the message menu, or automatically, into the language you choose.",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "authors": [
       {
         "name": "yutaplug",
@@ -5577,7 +5577,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/TranslateMessages.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.1.2\n* Fixed Google Translate saying some messages, like Traditional Chinese ones, were already in English instead of translating them.\n\n# 1.1.1\n* Copy Text now copies the original message when a translation is shown, and a new Copy Translated Text button copies the translation.\n\n# 1.1.0\n* Option to translate your own messages into a chosen language (English by default) right before they are sent.\n\n# 1.0.3\n* Fixed language names in a /translate message, like German, being changed into codes such as \"de\".\n\n# 1.0.2\n* Added a /translate command that translates a message and sends it.\n* Moved the Translate button to the bottom of the message menu.\n\n# 1.0.1\n* Added DeepL and LibreTranslate as translation services.\n* The language picker now shows each language's code.\n* The translated tag now shows which language a message was translated from and to.\n\n# 1.0.0\n* Initial release."
+    "changelog": "# 1.1.3\n* The service and language menus no longer stop opening after you open and close another screen, like settings or an image.\n\n# 1.1.2\n* Fixed Google Translate saying some messages, like Traditional Chinese ones, were already in English instead of translating them.\n\n# 1.1.1\n* Copy Text now copies the original message when a translation is shown, and a new Copy Translated Text button copies the translation.\n\n# 1.1.0\n* Option to translate your own messages into a chosen language (English by default) right before they are sent.\n\n# 1.0.3\n* Fixed language names in a /translate message, like German, being changed into codes such as \"de\".\n\n# 1.0.2\n* Added a /translate command that translates a message and sends it.\n* Moved the Translate button to the bottom of the message menu.\n\n# 1.0.1\n* Added DeepL and LibreTranslate as translation services.\n* The language picker now shows each language's code.\n* The translated tag now shows which language a message was translated from and to.\n\n# 1.0.0\n* Initial release."
   },
   {
     "name": "TypingNotifications",
