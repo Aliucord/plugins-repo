@@ -4897,7 +4897,7 @@
   {
     "name": "CustomTypingIndicator",
     "description": "Backports Discord's custom typing indicators: see other people's emojis and phrases in the typing bar, and pick your own.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "authors": [
       {
         "name": "yutaplug",
@@ -4907,7 +4907,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/CustomTypingIndicator.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.3\n* Tapping a name in the typing bar opens their profile again after you open and close another screen, like settings or an image\n* The editor's dialogs and emoji picker no longer stop opening after you open and close another screen, like settings or an image\n\n# 1.0.2\n* Show your saved typing indicator when reopening the editor\n* Show Discord's captcha when saving asks for one, then save again\n# 1.0.1\n* Add plugin settings, separate from the typing indicator editor in User Settings\n* Add an option to show avatars next to names in the typing bar\n* Add an option to open profiles by tapping names in the typing bar"
+    "changelog": "# 1.0.4\n* Add an option to turn off other people's custom typing indicators in the typing bar (on by default)\n\n# 1.0.3\n* Tapping a name in the typing bar opens their profile again after you open and close another screen, like settings or an image\n* The editor's dialogs and emoji picker no longer stop opening after you open and close another screen, like settings or an image\n\n# 1.0.2\n* Show your saved typing indicator when reopening the editor\n* Show Discord's captcha when saving asks for one, then save again\n# 1.0.1\n* Add plugin settings, separate from the typing indicator editor in User Settings\n* Add an option to show avatars next to names in the typing bar\n* Add an option to open profiles by tapping names in the typing bar"
   },
   {
     "name": "DMActivities",
@@ -4987,7 +4987,7 @@
   {
     "name": "Fixes",
     "description": "Fixes essential features of Discord 126.21. Each fix can be turned on or off in the plugin settings.",
-    "version": "1.0.4",
+    "version": "1.0.6",
     "authors": [
       {
         "name": "yutaplug",
@@ -5022,7 +5022,7 @@
     ],
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/Fixes.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
-    "changelog": "# 1.0.4\n* Markdown: rewritten from scratch\n* Markdown: code blocks no longer lose their background, also after an edit, and fit inside quotes and lists. One-line ```code``` shows as a box too\n* Markdown: numbered lists now render after a line of text\n* Markdown: each heading can have its own color, set in Markdown appearance\n* Markdown: reply previews show a heading's text instead of a big heading\n* Markdown: the settings explain what each part of the fix does\n\n# 1.0.3\n* Added Plugin menus: menus and popups from plugins no longer stop opening after you open and close another screen, like settings or an image\n* Added Message menu in search: holding a message in search opens its menu instead of jumping to it\n* Added Server long press: the menu from holding a server or folder no longer closes by itself when you let go\n* Markdown: the reset dialog in the settings no longer stops opening after you open and close another screen, like settings or an image\n\n# 1.0.2\n* Markdown: numbered lists (1. 2. 3.) now render, and dashes after a numbered item continue its numbering like on current Discord\n\n# 1.0.1\n* Added Message width (from zt64's MessageWidthFix): embeds and stickers use the full chat width\n* Added Server settings (from pilotbellyt-spec's ServerSettingsFix): the bans list and audit log load again, and invite durations read properly\n* Added Mentioned users (from js6pak's ValidUser): mentions of users that show as invalid-user are fetched\n* Added GIF sticker animation: GIF stickers follow the sticker animation setting\n* Heading 3 is now normal text size by default, like current Discord\n* MessageWidthFix, ServerSettingsFix and ValidUser are uninstalled automatically, since Fixes replaces them\n\n# 1.0.0\n* Initial release"
+    "changelog": "# 1.0.6\n* Screen refresh: new fix for the app reloading and jumping back to the start of the chat or settings after you close an image, a video or a settings page, on some phones\n* Message links: links to a channel, thread or forum post now open in Aliucord instead of the browser\n* Message links: jumping to a message in a forum post or thread that isn't loaded yet, from search, a link or a reminder, now opens it instead of the server's default channel\n\n# 1.0.5\n* Slow uploads and downloads: new fix for uploads and media loading very slowly on networks without IPv6, where the app first waited for IPv6 connections to time out\n\n# 1.0.4\n* Markdown: rewritten from scratch\n* Markdown: code blocks no longer lose their background, also after an edit, and fit inside quotes and lists. One-line ```code``` shows as a box too\n* Markdown: numbered lists now render after a line of text\n* Markdown: each heading can have its own color, set in Markdown appearance\n* Markdown: reply previews show a heading's text instead of a big heading\n* Markdown: the settings explain what each part of the fix does\n\n# 1.0.3\n* Added Plugin menus: menus and popups from plugins no longer stop opening after you open and close another screen, like settings or an image\n* Added Message menu in search: holding a message in search opens its menu instead of jumping to it\n* Added Server long press: the menu from holding a server or folder no longer closes by itself when you let go\n* Markdown: the reset dialog in the settings no longer stops opening after you open and close another screen, like settings or an image\n\n# 1.0.2\n* Markdown: numbered lists (1. 2. 3.) now render, and dashes after a numbered item continue its numbering like on current Discord\n\n# 1.0.1\n* Added Message width (from zt64's MessageWidthFix): embeds and stickers use the full chat width\n* Added Server settings (from pilotbellyt-spec's ServerSettingsFix): the bans list and audit log load again, and invite durations read properly\n* Added Mentioned users (from js6pak's ValidUser): mentions of users that show as invalid-user are fetched\n* Added GIF sticker animation: GIF stickers follow the sticker animation setting\n* Heading 3 is now normal text size by default, like current Discord\n* MessageWidthFix, ServerSettingsFix and ValidUser are uninstalled automatically, since Fixes replaces them\n\n# 1.0.0\n* Initial release"
   },
   {
     "name": "GameMentions",
@@ -5038,6 +5038,21 @@
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/GameMentions.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
     "changelog": null
+  },
+  {
+    "name": "GroupMedia",
+    "description": "Groups several images and videos sent in one message into a grid, and lets you swipe between them in fullscreen.",
+    "version": "1.0.4",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/GroupMedia.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.4\n* The fullscreen viewer now shows a row of thumbnails of the message's images and videos; tap one to switch to it\n* The \"x/x\" counter now also shows on videos\n\n# 1.0.3\n* The play button on videos in the grid now always opens them fullscreen instead of playing in the small tile\n\n# 1.0.2\n* Renamed from GroupImages to GroupMedia; the old GroupImages plugin is uninstalled automatically\n* Tapping a video's play button in the grid now opens it fullscreen\n\n# 1.0.1\n* New setting to hide the arrows in the fullscreen viewer (swiping still works)\n\n# 1.0.0\n* Show images and videos sent together in one message as a grid, like newer Discord\n* Swipe or tap the arrows in fullscreen to switch between them, with an \"x/x\" counter"
   },
   {
     "name": "HideCallButtons",
@@ -5173,6 +5188,21 @@
     "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/LocalMute.zip",
     "repoUrl": "https://github.com/yutaplug/yutaplugins",
     "changelog": null
+  },
+  {
+    "name": "Logcat",
+    "description": "Captures Discord's own logcat (Aliucord, Discord, network, media and crash output), plus how long Discord's connections, uploads and downloads take, so you can copy or save it with private data redacted.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "yutaplug",
+        "id": 1202406828248408134,
+        "hyperlink": true
+      }
+    ],
+    "url": "https://cdn.jsdelivr.net/gh/yutaplug/yutaplugins@refs/heads/builds/Logcat.zip",
+    "repoUrl": "https://github.com/yutaplug/yutaplugins",
+    "changelog": "# 1.0.0\n* Initial release."
   },
   {
     "name": "MessageApps",
