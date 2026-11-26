@@ -3164,292 +3164,247 @@
   {
     "name": "AutoShowSpoilers",
     "description": "Automatically clicks on spoilers for you",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "nyakowint",
         "id": 118437263754395652,
-        "name": "nyakowint"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/AutoShowSpoilers.zip",
+    "url": "https://cdn.jsdelivr.net/gh/nyakowint/AliuPlugins@refs/heads/builds/AutoShowSpoilers.zip",
     "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": null
-  },
-  {
-    "name": "ChannelLocker",
-    "description": "Lets you lock channels so you cant type in them anymore",
-    "version": "1.0.3",
-    "authors": [
-      {
-        "hyperlink": true,
-        "id": 118437263754395652,
-        "name": "nyakowint"
-      }
-    ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/ChannelLocker.zip",
-    "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": null
+    "changelog": "# 1.1.1\n* Now requires Aliucord 2.9.1+"
   },
   {
     "name": "Fart",
     "description": "fart",
-    "version": "1.7.1",
+    "version": "1.7.2",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "nyakowint",
         "id": 118437263754395652,
-        "name": "nyakowint"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/Fart.zip",
+    "url": "https://cdn.jsdelivr.net/gh/nyakowint/AliuPlugins@refs/heads/builds/Fart.zip",
     "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": null
+    "changelog": "# 1.7.2\n* Now requires Aliucord 2.9.1+"
   },
   {
     "name": "HomeIconSwitcher",
     "description": "switch the home icon above guild list also fresco sucks",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "nyakowint",
         "id": 118437263754395652,
-        "name": "nyakowint"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/HomeIconSwitcher.zip",
+    "url": "https://cdn.jsdelivr.net/gh/nyakowint/AliuPlugins@refs/heads/builds/HomeIconSwitcher.zip",
     "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": null
+    "changelog": "# 1.0.4\n* Now requires Aliucord 2.9.1+"
   },
   {
     "name": "HopOnBloonsWhen",
     "description": "hop on bloons when",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "nyakowint",
         "id": 118437263754395652,
-        "name": "nyakowint"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/HopOnBloonsWhen.zip",
+    "url": "https://cdn.jsdelivr.net/gh/nyakowint/AliuPlugins@refs/heads/builds/HopOnBloonsWhen.zip",
     "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": null
+    "changelog": "# 1.1.5\n* Now requires Aliucord 2.9.1+"
   },
   {
     "name": "MoarConfirm",
     "description": "More confirmations on shit.",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "nyakowint",
         "id": 118437263754395652,
-        "name": "nyakowint"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/MoarConfirm.zip",
+    "url": "https://cdn.jsdelivr.net/gh/nyakowint/AliuPlugins@refs/heads/builds/MoarConfirm.zip",
     "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": "## 1.0.4\n- Added confirmation for deleting a role"
+    "changelog": "# 1.0.7\n* Now requires Aliucord 2.9.1+\n\n## 1.0.4\n- Added confirmation for deleting a role"
   },
   {
     "name": "Moyai",
     "description": "vine boom",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "nyakowint",
         "id": 118437263754395652,
-        "name": "nyakowint"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/Moyai.zip",
+    "url": "https://cdn.jsdelivr.net/gh/nyakowint/AliuPlugins@refs/heads/builds/Moyai.zip",
     "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": null
+    "changelog": "# 1.2.3\n* Now requires Aliucord 2.9.1+"
   },
   {
     "name": "PinIcon",
     "description": "Shows a pin icon next to messages that have been pinned",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "nyakowint",
         "id": 118437263754395652,
-        "name": "nyakowint"
+        "hyperlink": true
       },
       {
-        "hyperlink": true,
+        "name": "Tyman",
         "id": 487443883127472129,
-        "name": "Tyman"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/PinIcon.zip",
+    "url": "https://cdn.jsdelivr.net/gh/nyakowint/AliuPlugins@refs/heads/builds/PinIcon.zip",
     "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": null
+    "changelog": "# 1.1.1\n* Now requires Aliucord 2.9.1+"
   },
   {
     "name": "Quoter",
     "description": "Re-adds the famous quote button in the message context menu.",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "nyakowint",
         "id": 118437263754395652,
-        "name": "nyakowint"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/Quoter.zip",
+    "url": "https://cdn.jsdelivr.net/gh/nyakowint/AliuPlugins@refs/heads/builds/Quoter.zip",
     "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": null
+    "changelog": "# 1.2.3\n* Now requires Aliucord 2.9.1+"
   },
   {
     "name": "ReactionNotifier",
     "description": "Sends you in-app notifications when someone reacts to your message",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "nyakowint",
         "id": 118437263754395652,
-        "name": "nyakowint"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/ReactionNotifier.zip",
+    "url": "https://cdn.jsdelivr.net/gh/nyakowint/AliuPlugins@refs/heads/builds/ReactionNotifier.zip",
     "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": null
-  },
-  {
-    "name": "RevoltCord",
-    "description": "WebViewCord but for Revolt",
-    "version": "1.1.2",
-    "authors": [
-      {
-        "hyperlink": true,
-        "id": 118437263754395652,
-        "name": "nyakowint"
-      }
-    ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/RevoltCord.zip",
-    "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": null
+    "changelog": "# 1.0.5\n* Now requires Aliucord 2.9.1+"
   },
   {
     "name": "RoleMembers",
     "description": "Shows members in a specific role with /rolemembers",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "nyakowint",
         "id": 118437263754395652,
-        "name": "nyakowint"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/RoleMembers.zip",
+    "url": "https://cdn.jsdelivr.net/gh/nyakowint/AliuPlugins@refs/heads/builds/RoleMembers.zip",
     "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": null
+    "changelog": "# 1.0.5\n* Now requires Aliucord 2.9.1+"
   },
   {
     "name": "StartupChannel",
     "description": "Go to a certain channel on app startup",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "nyakowint",
         "id": 118437263754395652,
-        "name": "nyakowint"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/StartupChannel.zip",
+    "url": "https://cdn.jsdelivr.net/gh/nyakowint/AliuPlugins@refs/heads/builds/StartupChannel.zip",
     "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": null
+    "changelog": "# 1.0.4\n* Now requires Aliucord 2.9.1+"
   },
   {
     "name": "StatusSheetPlus",
     "description": "A better and more compact status picker",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "nyakowint",
         "id": 118437263754395652,
-        "name": "nyakowint"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/StatusSheetPlus.zip",
+    "url": "https://cdn.jsdelivr.net/gh/nyakowint/AliuPlugins@refs/heads/builds/StatusSheetPlus.zip",
     "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": null
+    "changelog": "# 1.0.1\n* Now requires Aliucord 2.9.1+"
   },
   {
     "name": "ThisWillCrashYourDiscord",
     "description": "This will crash your discord, you fucking idiot.",
-    "version": "69.420.0",
+    "version": "69.420.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "nyakowint",
         "id": 118437263754395652,
-        "name": "nyakowint"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/ThisWillCrashYourDiscord.zip",
+    "url": "https://cdn.jsdelivr.net/gh/nyakowint/AliuPlugins@refs/heads/builds/ThisWillCrashYourDiscord.zip",
     "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": null
+    "changelog": "# 69.420.1\n* Now requires Aliucord 2.9.1+"
   },
   {
     "name": "Timezones",
     "description": "Allows you to set a timezone for a user and view their time",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "nyakowint",
         "id": 118437263754395652,
-        "name": "nyakowint"
+        "hyperlink": true
       },
       {
-        "hyperlink": true,
+        "name": "mantikafasi",
         "id": 287555395151593473,
-        "name": "mantikafasi"
+        "hyperlink": true
       },
       {
-        "hyperlink": true,
+        "name": "Ven",
         "id": 343383572805058560,
-        "name": "Ven"
+        "hyperlink": true
       },
       {
-        "hyperlink": true,
+        "name": "Diamond",
         "id": 295190422244950017,
-        "name": "Diamond"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/Timezones.zip",
+    "url": "https://cdn.jsdelivr.net/gh/nyakowint/AliuPlugins@refs/heads/builds/Timezones.zip",
     "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": "# 1.3.0\nSupport IANA timezones (daylight savings finally real)\n\n# 1.2.3\nShow user's local time at sending time in message headers (#35)\nor something... i dont remember havent plugin dev in years\n\n# 1.2.2\nFix the silly ahh 00:04 PM thing\n\n# 1.2.1\n* Add bulk fetch for user timezones\n    \n# 1.2.0\n* Add caching\n\n# 1.1.9\n* Fix hook for message header\n* Increase max width for message timestamp\n* Cache timeInHeader setting\n* Hide own local time for message header\n\n# 1.1.8\n* move domains guhhh aa will explode\n\n# 1.1.7\n* fix padded zeros and ui thread error\n\n# 1.1.6\n* Make plugin compatible with Android 7 & 8\n* Now detect 24h/12h preference from system\n\n# 1.1.5\n* said option will apply if you turn on after plugin starts\n# 1.1.4\n* Added option for user time in message timestamp (looks bad but works)\n\n# 1.1.0\n* Added TimezoneDB support (by mantikafasi)\n\n# 1.0.7\n* Made settings page look slightly nicer\n\n# Announcement\n* I don't plan on adding new features since the base functionality is already here.\n* Feel free to PR if you want."
-  },
-  {
-    "name": "UnknownConnectionIcons",
-    "description": "(tries to) Add icons for connections unsupported by Discord Kotlin",
-    "version": "1.4.1",
-    "authors": [
-      {
-        "hyperlink": true,
-        "id": 118437263754395652,
-        "name": "nyakowint"
-      }
-    ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/UnknownConnectionIcons.zip",
-    "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": null
+    "changelog": "# 1.3.1\n* Now requires Aliucord 2.9.1+\n\n# 1.3.0\nSupport IANA timezones (daylight savings finally real)\n\n# 1.2.3\nShow user's local time at sending time in message headers (#35)\nor something... i dont remember havent plugin dev in years\n\n# 1.2.2\nFix the silly ahh 00:04 PM thing\n\n# 1.2.1\n* Add bulk fetch for user timezones\n    \n# 1.2.0\n* Add caching\n\n# 1.1.9\n* Fix hook for message header\n* Increase max width for message timestamp\n* Cache timeInHeader setting\n* Hide own local time for message header\n\n# 1.1.8\n* move domains guhhh aa will explode\n\n# 1.1.7\n* fix padded zeros and ui thread error\n\n# 1.1.6\n* Make plugin compatible with Android 7 & 8\n* Now detect 24h/12h preference from system\n\n# 1.1.5\n* said option will apply if you turn on after plugin starts\n# 1.1.4\n* Added option for user time in message timestamp (looks bad but works)\n\n# 1.1.0\n* Added TimezoneDB support (by mantikafasi)\n\n# 1.0.7\n* Made settings page look slightly nicer\n\n# Announcement\n* I don't plan on adding new features since the base functionality is already here.\n* Feel free to PR if you want."
   },
   {
     "name": "xkcd",
     "description": "View comic-like drawings from xkcd.com",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "authors": [
       {
-        "hyperlink": true,
+        "name": "nyakowint",
         "id": 118437263754395652,
-        "name": "nyakowint"
+        "hyperlink": true
       }
     ],
-    "url": "https://raw.githubusercontent.com/nyakowint/AliuPlugins/builds/xkcd.zip",
+    "url": "https://cdn.jsdelivr.net/gh/nyakowint/AliuPlugins@refs/heads/builds/xkcd.zip",
     "repoUrl": "https://github.com/nyakowint/AliuPlugins",
-    "changelog": null
+    "changelog": "# 1.0.5\n* Now requires Aliucord 2.9.1+"
   },
   {
     "name": "FreeNitroEmojis",
